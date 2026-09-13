@@ -1,0 +1,1 @@
+if( and( exist( element of structure), structural_element( element of structure), or( not( supports_only_roof( element of structure)), roof_functions_as_floor( element of structure), essential_for_fire_wall_stability( element of structure)))), then( obligation( as per( element of structure. fire resistance, appendix b table b3)))

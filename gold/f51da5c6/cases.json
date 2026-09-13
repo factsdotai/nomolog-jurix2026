@@ -1,0 +1,47 @@
+{
+  "cases": [
+    {
+      "name": "clear_compliant",
+      "facts": [
+        "building_fabric(b1).",
+        "thermal_bridging_limited(b1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    },
+    {
+      "name": "clear_violation",
+      "facts": [
+        "building_fabric(b1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": true
+      }
+    },
+    {
+      "name": "not_applicable",
+      "facts": [
+        "roof_covering(r1)."
+      ],
+      "expect": {
+        "applies": false,
+        "violation": false
+      }
+    },
+    {
+      "name": "distractor",
+      "facts": [
+        "building_fabric(b1).",
+        "thermal_bridging_limited(b1).",
+        "party_wall(w1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    }
+  ]
+}

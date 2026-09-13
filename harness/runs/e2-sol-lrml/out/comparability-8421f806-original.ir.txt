@@ -1,0 +1,1 @@
+if( and( approach( A), gradient_part( A, P), gradient( P, G), greater than equal( G, 0.05))), then( obligation( ramped_access( P)))

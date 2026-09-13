@@ -1,0 +1,2 @@
+r1: if( and( exist( level_change_feature), part of( level_change_feature, passageway))), then( obligation( clearly_indicated( level_change_feature)))
+r2: if( and( exist( level_change_feature), part of( level_change_feature, passageway))), then( obligation( or( and( lighting( level_change_feature), surface brightness contrast( level_change_feature)), warning sign( level_change_feature))))

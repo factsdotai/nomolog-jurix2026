@@ -1,0 +1,3 @@
+r1: if( and( exist( dwelling), new_dwelling( dwelling))), then( obligation( gigabit_connection( dwelling)))
+r2: if( and( exist( dwelling), new_dwelling( dwelling), or( greater than( dwelling. connection_cost, 2000 gbp), operator_declined( dwelling)))), then( permission( not( gigabit_connection( dwelling))))
+override( r2, r1)

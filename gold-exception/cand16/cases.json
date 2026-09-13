@@ -1,0 +1,64 @@
+{
+  "cases": [
+    {
+      "name": "clear_compliant",
+      "facts": [
+        "non_dwelling_building(b1).",
+        "landing_door(d1, b1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    },
+    {
+      "name": "clear_violation",
+      "facts": [
+        "non_dwelling_building(b1).",
+        "landing_door(d1, b1).",
+        "swings_across_landing(d1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": true
+      }
+    },
+    {
+      "name": "exception_complies_cited_para",
+      "facts": [
+        "non_dwelling_building(b1).",
+        "landing_door(d1, b1).",
+        "swings_across_landing(d1).",
+        "complies_para_1_21c(d1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    },
+    {
+      "name": "not_applicable_dwelling",
+      "facts": [
+        "dwelling(b1).",
+        "landing_door(d1, b1).",
+        "swings_across_landing(d1)."
+      ],
+      "expect": {
+        "applies": false,
+        "violation": false
+      }
+    },
+    {
+      "name": "distractor",
+      "facts": [
+        "non_dwelling_building(b1).",
+        "landing_door(d1, b1).",
+        "corridor_door(d2)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    }
+  ]
+}

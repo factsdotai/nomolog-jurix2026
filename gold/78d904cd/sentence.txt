@@ -1,0 +1,3 @@
+Instead, the dwelling primary energy rate, dwelling emission rate and dwelling fabric energy efficiency rate should be calculated as if the area covered by the pool were replaced with the equivalent area of floor with the same U-value as the pool surround.
+
+provenance: CODE-ACCORD 45f0830 · example_id 78d904cd-b605-43a6-b3a4-34c22f557123 · UK_DocL_V1_ConsrvationOfFuelAndPower

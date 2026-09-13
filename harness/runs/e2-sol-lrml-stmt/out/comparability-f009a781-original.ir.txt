@@ -1,0 +1,1 @@
+if( exist( landing)), then( obligation( and( safe( landing), sufficiently_spacious( landing), suitable_for_purpose( landing))))

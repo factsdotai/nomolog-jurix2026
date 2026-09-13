@@ -1,0 +1,6 @@
+% translated by bracket2waist_v2.py under translation-policy-v2.md
+% ir-sha256: 2069e0bc61ee9063
+% n_statements: 1  n_overrides: 0  dangling: 0
+applies :- landing(Landing).
+obligation_met(Landing) :- landing(Landing), safe(Landing), sufficiently_spacious(Landing), suitable_for_purpose(Landing).
+r1: violation <= landing(Landing), not obligation_met(Landing).

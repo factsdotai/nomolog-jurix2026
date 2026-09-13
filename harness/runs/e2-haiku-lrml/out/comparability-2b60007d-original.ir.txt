@@ -1,0 +1,1 @@
+if( and( exist( masonry wall insulation), masonry_wall_insulation(masonry wall insulation))), then( obligation( and( extends_below_dpc( masonry wall insulation), greater than equal( depth_below_floor_structure( masonry wall insulation), 215 mm), greater than equal( depth_below_floor_structure( masonry wall insulation), floor_insulation_depth( masonry wall insulation)))))

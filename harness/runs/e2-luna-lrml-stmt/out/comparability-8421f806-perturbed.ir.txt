@@ -1,0 +1,1 @@
+if( and( exist( approach), exist( gradient_part), greater than equal( gradient. value, 1:20))), then( obligation( ramped_access( gradient_part)))

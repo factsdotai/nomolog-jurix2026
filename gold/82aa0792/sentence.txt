@@ -1,0 +1,3 @@
+NOTE: All boilers should be used in the calculation, including any that are identical.
+
+provenance: CODE-ACCORD 45f0830 · example_id 82aa0792-8ea3-414a-9952-933b4959b782 · UK_DocM_V2_AccessAndUseOfBuildings

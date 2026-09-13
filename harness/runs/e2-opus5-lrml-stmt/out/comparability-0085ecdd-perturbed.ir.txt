@@ -1,0 +1,1 @@
+if( and( exist( toilet seat), exist( side of toilet seat))), then( obligation( greater than equal( side of toilet seat. free space, 800 mm)))

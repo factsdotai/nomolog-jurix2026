@@ -1,0 +1,11 @@
+% translated by bracket2waist_v2.py under translation-policy-v2.md
+% ir-sha256: aa49515340899085
+% n_statements: 2  n_overrides: 1  dangling: 0
+applies :- compartment_wall(CompartmentWall), compartment_wall_mid_span(CompartmentWall), deflection_allowance(CompartmentWall, allowance).
+obligation_met_r1 :- allowance >= 40.
+r1: violation <= compartment_wall(CompartmentWall), compartment_wall_mid_span(CompartmentWall), deflection_allowance(CompartmentWall, allowance), not obligation_met_r1.
+obligation_met_r2 :- allowance >= justified_value.
+r2: violation <= compartment_wall(CompartmentWall), compartment_wall_mid_span(CompartmentWall), deflection_allowance(CompartmentWall, allowance), justified_deflection_value(CompartmentWall, justified_value), justified_value < 40, not obligation_met_r2.
+r3: exempt_r2 <= compartment_wall(CompartmentWall), compartment_wall_mid_span(CompartmentWall), deflection_allowance(CompartmentWall, allowance), justified_deflection_value(CompartmentWall, justified_value), justified_value < 40.
+#conflict violation, exempt_r2.
+r3 > r1.

@@ -1,0 +1,1 @@
+if( and( exist( building_work), in_kitchen_or_bathroom( building_work), exist( existing_fan))), then( obligation( or( retained( existing_fan), replaced( existing_fan))))

@@ -1,0 +1,1 @@
+if( and( exist( sewer), installed_in_ground( sewer))), then( obligation( and( withstands_soil_load( sewer), withstands_soil_corrosion( sewer), withstands_soil_subsidence( sewer))))

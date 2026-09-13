@@ -1,0 +1,67 @@
+{
+  "cases": [
+    {
+      "name": "clear_compliant",
+      "facts": [
+        "building(b1).",
+        "primarily_one_storey(b1).",
+        "fc_business_area_second_storey(b1, 150).",
+        "nfc_business_area_second_storey(b1, 40)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    },
+    {
+      "name": "violation_fc_over",
+      "facts": [
+        "building(b1).",
+        "primarily_one_storey(b1).",
+        "fc_business_area_second_storey(b1, 250).",
+        "nfc_business_area_second_storey(b1, 40)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": true
+      }
+    },
+    {
+      "name": "violation_nfc_over",
+      "facts": [
+        "building(b1).",
+        "primarily_one_storey(b1).",
+        "fc_business_area_second_storey(b1, 150).",
+        "nfc_business_area_second_storey(b1, 60)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": true
+      }
+    },
+    {
+      "name": "boundary_at_limits",
+      "facts": [
+        "building(b1).",
+        "primarily_one_storey(b1).",
+        "fc_business_area_second_storey(b1, 200).",
+        "nfc_business_area_second_storey(b1, 50)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    },
+    {
+      "name": "not_applicable_multi_storey",
+      "facts": [
+        "building(b1).",
+        "fc_business_area_second_storey(b1, 300)."
+      ],
+      "expect": {
+        "applies": false,
+        "violation": false
+      }
+    }
+  ]
+}

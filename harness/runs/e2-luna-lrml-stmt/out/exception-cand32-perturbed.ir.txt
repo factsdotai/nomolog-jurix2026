@@ -1,0 +1,1 @@
+if( exist( principal_window)), then( obligation( or( and( greater than equal( handle_height, 70 cm), less than equal( handle_height, 100 cm)), and( greater than equal( remote_device_height, 70 cm), less than equal( remote_device_height, 100 cm)))))

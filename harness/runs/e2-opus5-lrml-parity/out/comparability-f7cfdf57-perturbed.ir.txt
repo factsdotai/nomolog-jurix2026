@@ -1,0 +1,1 @@
+if( and( exist( passageway), exist( level change feature), level change feature( level change feature, passageway))), then( obligation( clearly indicated( level change feature)))

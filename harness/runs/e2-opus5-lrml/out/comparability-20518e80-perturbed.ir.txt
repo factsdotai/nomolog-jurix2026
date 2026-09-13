@@ -1,0 +1,1 @@
+if( exist( heat loss calculation)), then( obligation( uses design air leakage value( heat loss calculation)))

@@ -1,0 +1,1 @@
+if( and( exist( mech_vent_duct), greater than( mech_vent_duct. cross_section_area, 0.06 m2))), then( obligation( and( auto_shutoff_dampers( outdoor air duct), auto_shutoff_dampers( exhaust air duct))))

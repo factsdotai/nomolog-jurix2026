@@ -1,0 +1,3 @@
+r1: if( exist( appliance switch)), then( obligation( and( greater than equal( appliance switch. mounting height, 400 mm), less than equal( appliance switch. mounting height, 1200 mm))))
+r2: if( and( exist( appliance switch), higher level needed( appliance switch))), then( permission( exist( appliance switch)))
+override( r2, r1)

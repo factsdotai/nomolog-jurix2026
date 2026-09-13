@@ -1,0 +1,3 @@
+r1: if( and( flat_storey( storey), flat_on_storey( flat, storey), travel_distance( storey, distance), max_travel_distance( storey, limit))), then( obligation( less than equal( distance, limit)))
+r2: if( and( flat_storey( storey), for each( flat_on_storey( flat, storey), independent_alt_escape( flat)))), then( permission( greater than( travel_distance( storey, max_travel_distance( storey, limit)), limit)))
+override( r2, r1)

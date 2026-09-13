@@ -1,0 +1,7 @@
+The handle to at least one window in the principal living area is 700-1000mm above
+floor level, unless the window is fitted with a remote opening device that is within
+this height range.
+
+provenance: CODE-ACCORD 45f0830 raw-text stage · Approved_Document_M_vol_1:3411 · pattern: device-based-exception
+reconstructed from fragmented raw lines; original marker line:
+  unless fitted with a remote opening device that is within this height range.

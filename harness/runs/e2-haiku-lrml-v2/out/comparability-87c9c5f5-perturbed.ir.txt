@@ -1,0 +1,1 @@
+if( and( exist( heating system), exist( air conditioning system))), then( obligation( assessed on final capacity( heating system)))

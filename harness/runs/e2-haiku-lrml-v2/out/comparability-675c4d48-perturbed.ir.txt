@@ -1,0 +1,1 @@
+if( exist( ventilation_equipment)), then( obligation( adequate_access_space( ventilation_equipment)))

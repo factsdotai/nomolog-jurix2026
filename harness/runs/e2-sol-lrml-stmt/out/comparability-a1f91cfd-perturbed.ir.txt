@@ -1,0 +1,1 @@
+if( and( exist( building), multi_dwelling_building( building))), then( permission( or( average_target_rates( building), individual_target_rates( building))))

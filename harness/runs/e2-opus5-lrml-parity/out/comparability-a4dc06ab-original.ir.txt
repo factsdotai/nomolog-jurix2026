@@ -1,0 +1,1 @@
+if( and( exist( protruding element), not( flush facade element( protruding element)))), then( obligation( or( greater than equal( protruding element. free height, 2200 mm), area protected( protruding element))))

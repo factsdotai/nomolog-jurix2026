@@ -1,0 +1,72 @@
+example_id,minutes,date,author,notes
+0085ecdd,,2026-08-05,claude-session,pilot; machine-verified; time not human-comparable
+0219127c,,2026-08-05,claude-session,pilot; machine-verified; time not human-comparable
+09b2a395,,2026-08-05,claude-session,pilot; machine-verified; time not human-comparable
+2b60007d,,2026-08-05,claude-session,batch; machine-verified; time not human-comparable
+2cc3d5b0,,2026-08-05,claude-session,batch; machine-verified; time not human-comparable
+8421f806,,2026-08-05,claude-session,batch; machine-verified; time not human-comparable
+9dd2a0f1,,2026-08-05,claude-session,batch; machine-verified; time not human-comparable
+a4dc06ab,,2026-08-05,claude-session,batch; machine-verified; time not human-comparable
+cc72106e,,2026-08-05,claude-session,batch; machine-verified; time not human-comparable
+1ebce0c9,,2026-08-05,claude-session,batch; machine-verified; time not human-comparable
+80221d2c,,2026-08-05,claude-session,batch; machine-verified; time not human-comparable
+9ff8b8fd,,2026-08-05,claude-session,batch; machine-verified; time not human-comparable
+bb9ec292,,2026-08-05,claude-session,batch; machine-verified; time not human-comparable
+bd1438b0,,2026-08-05,claude-session,batch; machine-verified; time not human-comparable
+87c9c5f5,,2026-08-05,claude-session,batch; machine-verified; time not human-comparable
+82aa0792,,2026-08-05,claude-session,batch; machine-verified; time not human-comparable
+31d635b2,,2026-08-05,claude-session,batch; machine-verified; time not human-comparable
+78d904cd,,2026-08-05,claude-session,batch; machine-verified; time not human-comparable
+20518e80,,2026-08-05,claude-session,batch; machine-verified; time not human-comparable
+12e545d1,,2026-08-05,claude-session,batch; machine-verified; time not human-comparable
+2af8ee5f,,2026-08-05,claude-session,batch; machine-verified; time not human-comparable
+5fe7997a,,2026-08-05,claude-session,batch; machine-verified; time not human-comparable
+6187cad8,,2026-08-05,claude-session,batch; machine-verified; time not human-comparable
+675c4d48,,2026-08-05,claude-session,batch; machine-verified; time not human-comparable
+9a574829,,2026-08-05,claude-session,batch; machine-verified; time not human-comparable
+7db23e3b,,2026-08-05,claude-session,batch; machine-verified; time not human-comparable
+14d1a086,,2026-08-05,claude-session,batch; machine-verified; time not human-comparable
+23db27ac,,2026-08-05,claude-session,batch; machine-verified; time not human-comparable
+aaca648c,,2026-08-05,claude-session,batch; machine-verified; time not human-comparable
+328fb8e7,,2026-08-05,claude-session,batch; machine-verified; time not human-comparable
+8aa4b706,,2026-08-05,claude-session,batch; machine-verified; time not human-comparable
+02f5e3fb,,2026-08-05,claude-session,batch; machine-verified; time not human-comparable
+08efb7a8,,2026-08-05,claude-session,batch; machine-verified; time not human-comparable
+7f49ccb1,,2026-08-05,claude-session,batch; machine-verified; time not human-comparable
+0aaf71f0,,2026-08-05,claude-session,batch; machine-verified; time not human-comparable
+0edb92b7,,2026-08-05,claude-session,batch; machine-verified; time not human-comparable
+526d7a82,,2026-08-05,claude-session,batch; machine-verified; time not human-comparable
+a4fccc69,,2026-08-05,claude-session,batch; machine-verified; time not human-comparable
+b5edf19f,,2026-08-05,claude-session,batch; machine-verified; time not human-comparable
+d3c5b819,,2026-08-05,claude-session,batch; machine-verified; time not human-comparable
+dae0db09,,2026-08-05,claude-session,batch; machine-verified; time not human-comparable
+f009a781,,2026-08-05,claude-session,batch; machine-verified; time not human-comparable
+f41fb8da,,2026-08-05,claude-session,batch; machine-verified; time not human-comparable
+f7cfdf57,,2026-08-05,claude-session,batch; machine-verified; time not human-comparable
+f51da5c6,,2026-08-05,claude-session,batch; machine-verified; time not human-comparable
+c06bb553,,2026-08-05,claude-session,batch; machine-verified; time not human-comparable
+8fec1c4a,,2026-08-05,claude-session,batch; machine-verified; time not human-comparable
+681c4394,,2026-08-05,claude-session,batch; machine-verified; time not human-comparable
+6414854d,,2026-08-05,claude-session,batch; machine-verified; time not human-comparable
+df09194e,,2026-08-05,claude-session,batch; machine-verified; time not human-comparable
+a1f91cfd,,2026-08-05,claude-session,batch; machine-verified; time not human-comparable
+xcand01,,2026-08-05,claude-session,exception slice; machine-verified; time not human-comparable
+xcand02,,2026-08-05,claude-session,exception slice; machine-verified; time not human-comparable
+xcand08,,2026-08-05,claude-session,exception slice; machine-verified; time not human-comparable
+xcand16,,2026-08-05,claude-session,exception slice; machine-verified; time not human-comparable
+xcand18,,2026-08-05,claude-session,exception slice; machine-verified; time not human-comparable
+xcand20,,2026-08-05,claude-session,exception slice; machine-verified; time not human-comparable
+xcand21,,2026-08-05,claude-session,exception slice; machine-verified; time not human-comparable
+xcand27,,2026-08-05,claude-session,exception slice; machine-verified; time not human-comparable
+xcand31,,2026-08-05,claude-session,exception slice; machine-verified; time not human-comparable
+xcand32,,2026-08-05,claude-session,exception slice; machine-verified; time not human-comparable
+xcand37,,2026-08-05,claude-session,exception slice; machine-verified; time not human-comparable
+xcand40,,2026-08-05,claude-session,exception slice; machine-verified; time not human-comparable
+xcand43,,2026-08-05,claude-session,exception slice; machine-verified; time not human-comparable
+xcand52,,2026-08-05,claude-session,exception slice; machine-verified; time not human-comparable
+xcand56,,2026-08-05,claude-session,exception slice; machine-verified; time not human-comparable
+xcand57,,2026-08-05,claude-session,exception slice; machine-verified; time not human-comparable
+xcand65,,2026-08-05,claude-session,exception slice; machine-verified; time not human-comparable
+xcand75,,2026-08-05,claude-session,exception slice; machine-verified; time not human-comparable
+xcand76,,2026-08-05,claude-session,exception slice; machine-verified; time not human-comparable
+xcand77,,2026-08-05,claude-session,exception slice; machine-verified; time not human-comparable

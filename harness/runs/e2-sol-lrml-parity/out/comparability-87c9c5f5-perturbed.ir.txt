@@ -1,0 +1,1 @@
+if( exist( conditioning_system)), then( obligation( assessed_on_final_capacity( conditioning_system)))

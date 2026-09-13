@@ -1,0 +1,77 @@
+{
+  "cases": [
+    {
+      "name": "clear_compliant",
+      "facts": [
+        "phased_evacuation_building(b1).",
+        "storey(s1, b1).",
+        "protected_lobby(s1).",
+        "storey(s2, b1).",
+        "top_storey(s2)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    },
+    {
+      "name": "clear_violation",
+      "facts": [
+        "phased_evacuation_building(b1).",
+        "storey(s1, b1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": true
+      }
+    },
+    {
+      "name": "top_storey_carved_out",
+      "facts": [
+        "phased_evacuation_building(b1).",
+        "storey(s1, b1).",
+        "top_storey(s1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    },
+    {
+      "name": "corridor_alternative_ok",
+      "facts": [
+        "phased_evacuation_building(b1).",
+        "storey(s1, b1).",
+        "protected_corridor(s1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    },
+    {
+      "name": "mixed_one_bad_storey",
+      "facts": [
+        "phased_evacuation_building(b1).",
+        "storey(s1, b1).",
+        "protected_lobby(s1).",
+        "storey(s2, b1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": true
+      }
+    },
+    {
+      "name": "not_applicable_simultaneous_evac",
+      "facts": [
+        "building(b1).",
+        "storey(s1, b1)."
+      ],
+      "expect": {
+        "applies": false,
+        "violation": false
+      }
+    }
+  ]
+}

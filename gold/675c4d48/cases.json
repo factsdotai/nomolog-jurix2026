@@ -1,0 +1,48 @@
+{
+  "cases": [
+    {
+      "name": "clear_compliant",
+      "facts": [
+        "ventilation_equipment(e1).",
+        "adequate_access_space(e1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    },
+    {
+      "name": "clear_violation",
+      "facts": [
+        "ventilation_equipment(e1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": true
+      }
+    },
+    {
+      "name": "not_applicable",
+      "facts": [
+        "heating_equipment(h1)."
+      ],
+      "expect": {
+        "applies": false,
+        "violation": false
+      }
+    },
+    {
+      "name": "distractor",
+      "facts": [
+        "ventilation_equipment(e1).",
+        "adequate_access_space(e1).",
+        "ventilation_equipment(e2).",
+        "adequate_access_space(e2)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    }
+  ]
+}

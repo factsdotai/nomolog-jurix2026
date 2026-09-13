@@ -1,0 +1,3 @@
+The resilient layer should be to the full height of the door and 600mm either side of the doorset.
+
+provenance: CODE-ACCORD 45f0830 · example_id 7f49ccb1-ce2c-47eb-8b22-2c8e806e5d88 · UK_DocQ_Security_Dwellings

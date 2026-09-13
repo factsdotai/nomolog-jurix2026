@@ -1,0 +1,8 @@
+Fire-resisting construction (minimum RE 30) should be provided for any part of the
+building within 1800mm of the escape route from the foot of an external escape stair.
+This does not apply if there are alternative escape routes from the foot of the
+external escape stair.
+
+provenance: CODE-ACCORD 45f0830 raw-text stage · Approved_Document_B_vol_2:1991 · pattern: scoping-alternative-escape
+reconstructed from fragmented raw lines; original marker line:
+  This does not apply if there are alternative escape routes from the foot of the external

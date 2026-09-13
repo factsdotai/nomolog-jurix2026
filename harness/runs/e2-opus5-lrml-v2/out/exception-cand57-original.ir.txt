@@ -1,0 +1,3 @@
+r1: if( and( exist( protected stair), exist( covered car park))), then( prohibition( connects to( protected stair, covered car park)))
+r2: if( and( exist( protected stair), exist( covered car park), open sided( covered car park))), then( permission( connects to( protected stair, covered car park)))
+override( r2, r1)

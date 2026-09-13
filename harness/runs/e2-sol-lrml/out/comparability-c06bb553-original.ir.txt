@@ -1,0 +1,1 @@
+if( and( building( X), major_renovation( X))), then( obligation( alt_systems_feasibility_considered( X)))

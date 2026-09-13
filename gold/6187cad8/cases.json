@@ -1,0 +1,47 @@
+{
+  "cases": [
+    {
+      "name": "clear_compliant",
+      "facts": [
+        "continuous_fan(f1).",
+        "operates_without_intervention(f1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    },
+    {
+      "name": "clear_violation",
+      "facts": [
+        "continuous_fan(f1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": true
+      }
+    },
+    {
+      "name": "permitted_boost_control_still_compliant",
+      "facts": [
+        "continuous_fan(f1).",
+        "operates_without_intervention(f1).",
+        "manual_boost_control(f1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    },
+    {
+      "name": "not_applicable",
+      "facts": [
+        "intermittent_fan(f1)."
+      ],
+      "expect": {
+        "applies": false,
+        "violation": false
+      }
+    }
+  ]
+}

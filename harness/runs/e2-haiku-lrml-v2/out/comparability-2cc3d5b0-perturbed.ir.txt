@@ -1,0 +1,3 @@
+r1: if( exist( occupied space)), then( obligation( greater than equal( occupied space. supply rate per person, 10 litres per second per person)))
+r2: if( and( exist( occupied space), or( excessive_pollutants( occupied space), tobacco smoke( occupied space)))), then( permission( exist( occupied space)))
+override( r2, r1)

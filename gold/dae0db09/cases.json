@@ -1,0 +1,59 @@
+{
+  "cases": [
+    {
+      "name": "clear_compliant",
+      "facts": [
+        "light_permeable_structure(g1).",
+        "withstands_normal_load(g1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    },
+    {
+      "name": "clear_violation",
+      "facts": [
+        "light_permeable_structure(g1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": true
+      }
+    },
+    {
+      "name": "exception_barrier_protected",
+      "facts": [
+        "light_permeable_structure(g1).",
+        "protected_by_collision_barrier(g1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    },
+    {
+      "name": "not_applicable",
+      "facts": [
+        "masonry_wall(m1)."
+      ],
+      "expect": {
+        "applies": false,
+        "violation": false
+      }
+    },
+    {
+      "name": "distractor",
+      "facts": [
+        "light_permeable_structure(g1).",
+        "withstands_normal_load(g1).",
+        "light_permeable_structure(g2).",
+        "protected_by_collision_barrier(g2)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    }
+  ]
+}

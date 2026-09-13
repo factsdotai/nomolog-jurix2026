@@ -1,0 +1,1 @@
+if( and( exist( door), exist( building), landing_door( door, building), non_dwelling_building( building))), then( prohibition( and( swings_across_landing( door), not( complies_para_1_21c( door)))))

@@ -1,0 +1,60 @@
+{
+  "cases": [
+    {
+      "name": "clear_compliant",
+      "facts": [
+        "external_escape_stair(s1).",
+        "element_near_route(e1, s1).",
+        "fire_resisting_re30(e1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    },
+    {
+      "name": "clear_violation",
+      "facts": [
+        "external_escape_stair(s1).",
+        "element_near_route(e1, s1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": true
+      }
+    },
+    {
+      "name": "exception_alternative_routes",
+      "facts": [
+        "external_escape_stair(s1).",
+        "element_near_route(e1, s1).",
+        "alternative_escape_routes_from_foot(s1)."
+      ],
+      "expect": {
+        "applies": false,
+        "violation": false
+      }
+    },
+    {
+      "name": "no_nearby_elements_vacuous",
+      "facts": [
+        "external_escape_stair(s1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    },
+    {
+      "name": "not_applicable",
+      "facts": [
+        "internal_stair(s1).",
+        "element_near_route(e1, s1)."
+      ],
+      "expect": {
+        "applies": false,
+        "violation": false
+      }
+    }
+  ]
+}

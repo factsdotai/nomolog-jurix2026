@@ -1,0 +1,54 @@
+{
+  "cases": [
+    {
+      "name": "clear_compliant",
+      "facts": [
+        "fire_wall(w1).",
+        "separated_part(p1, w1).",
+        "exit_route(e1, p1).",
+        "separated_part(p2, w1).",
+        "exit_route(e2, p2)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    },
+    {
+      "name": "clear_violation",
+      "facts": [
+        "fire_wall(w1).",
+        "separated_part(p1, w1).",
+        "exit_route(e1, p1).",
+        "uses_fire_wall_door(e1, w1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": true
+      }
+    },
+    {
+      "name": "not_applicable",
+      "facts": [
+        "partition_wall(w1)."
+      ],
+      "expect": {
+        "applies": false,
+        "violation": false
+      }
+    },
+    {
+      "name": "door_exists_but_unused_compliant",
+      "facts": [
+        "fire_wall(w1).",
+        "fire_wall_door(d1, w1).",
+        "separated_part(p1, w1).",
+        "exit_route(e1, p1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    }
+  ]
+}

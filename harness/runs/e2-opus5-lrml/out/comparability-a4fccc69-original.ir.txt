@@ -1,0 +1,1 @@
+if( and( exist( fire wall), exist( separated part), separated part of( separated part, fire wall), exist( exit route), exit route of( exit route, separated part))), then( prohibition( uses fire wall door( exit route, fire wall)))

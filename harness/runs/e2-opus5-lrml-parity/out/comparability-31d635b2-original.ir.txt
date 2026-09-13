@@ -1,0 +1,1 @@
+if( and( exist( existing dwelling), exist( heating system), complete new system( heating system, existing dwelling))), then( obligation( whole system performance assessed( heating system)))

@@ -1,0 +1,48 @@
+{
+  "cases": [
+    {
+      "name": "clear_compliant",
+      "facts": [
+        "heat_loss_calculation(c1).",
+        "uses_design_air_leakage_value(c1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    },
+    {
+      "name": "clear_violation",
+      "facts": [
+        "heat_loss_calculation(c1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": true
+      }
+    },
+    {
+      "name": "not_applicable",
+      "facts": [
+        "cooling_load_calculation(c1)."
+      ],
+      "expect": {
+        "applies": false,
+        "violation": false
+      }
+    },
+    {
+      "name": "distractor",
+      "facts": [
+        "heat_loss_calculation(c1).",
+        "uses_design_air_leakage_value(c1).",
+        "heat_loss_calculation(c2).",
+        "uses_design_air_leakage_value(c2)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    }
+  ]
+}

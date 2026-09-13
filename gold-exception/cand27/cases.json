@@ -1,0 +1,71 @@
+{
+  "cases": [
+    {
+      "name": "clear_compliant",
+      "facts": [
+        "structural_element(e1).",
+        "required_fire_resistance(e1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    },
+    {
+      "name": "clear_violation",
+      "facts": [
+        "structural_element(e1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": true
+      }
+    },
+    {
+      "name": "carved_out_roof_only",
+      "facts": [
+        "structural_element(e1).",
+        "supports_only_roof(e1)."
+      ],
+      "expect": {
+        "applies": false,
+        "violation": false
+      }
+    },
+    {
+      "name": "nested_roof_is_floor_back_in_scope",
+      "facts": [
+        "structural_element(e1).",
+        "supports_only_roof(e1).",
+        "roof_functions_as_floor(e1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": true
+      }
+    },
+    {
+      "name": "nested_firewall_stability_back_in_scope",
+      "facts": [
+        "structural_element(e1).",
+        "supports_only_roof(e1).",
+        "essential_for_fire_wall_stability(e1).",
+        "required_fire_resistance(e1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    },
+    {
+      "name": "not_applicable",
+      "facts": [
+        "partition(p1)."
+      ],
+      "expect": {
+        "applies": false,
+        "violation": false
+      }
+    }
+  ]
+}

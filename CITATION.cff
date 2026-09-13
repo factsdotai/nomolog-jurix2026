@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+title: "Nomolog / JURIX 2026 artifact: Does the Target Language Matter?"
+message: "If you use this artifact, please cite the paper."
+authors:
+  - family-names: Tsioutsiouliklis
+    given-names: Kostas
+    affiliation: Facts.ai
+    email: kostas@facts.ai
+year: 2026
+preferred-citation:
+  type: conference-paper
+  title: "Does the Target Language Matter? LLM Compilation of Building Regulations into a Defeasible Rule Language"
+  authors:
+    - family-names: Tsioutsiouliklis
+      given-names: Kostas
+      affiliation: Facts.ai
+  conference:
+    name: "JURIX 2026 (submitted)"
+  year: 2026

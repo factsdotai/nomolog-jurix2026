@@ -1,0 +1,3 @@
+r1: if( and( exist( door), exist( corridor), door_onto( door, corridor), major_route_corridor( corridor))), then( obligation( not( projects_when_open( door))))
+r2: if( and( exist( door), exist( corridor), door_onto( door, corridor), major_route_corridor( corridor), minor_utility_door( door))), then( permission( projects_when_open( door)))
+override( r2, r1)

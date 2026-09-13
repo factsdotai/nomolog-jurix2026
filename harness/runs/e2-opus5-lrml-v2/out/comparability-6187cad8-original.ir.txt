@@ -1,0 +1,2 @@
+r1: if( and( exist( fan), continuous( fan))), then( obligation( operates without intervention( fan)))
+r2: if( and( exist( fan), continuous( fan))), then( permission( manual boost control( fan)))

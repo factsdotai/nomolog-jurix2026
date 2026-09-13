@@ -1,0 +1,4 @@
+slice,example_id,variant,arm,model,k,attempts,cases_passed,cases_total,suite_exact,failure_mode,ir_parses,ir_wellformed,ir_known_deontic,ir_unknown_fns,tags,notes
+comparability,0085ecdd,original,waist,anthropic:claude-opus-5,30,1,6,6,1,,,,,,threshold|necessity,
+comparability,0219127c,original,waist,anthropic:claude-opus-5,30,1,6,6,1,,,,,,necessity,
+comparability,02f5e3fb,original,waist,anthropic:claude-opus-5,30,1,4,4,1,,,,,,necessity,

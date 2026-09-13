@@ -1,0 +1,58 @@
+{
+  "cases": [
+    {
+      "name": "compliant_damper",
+      "facts": [
+        "appliance(a1).",
+        "adjustable_damper(a1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    },
+    {
+      "name": "compliant_thermostat",
+      "facts": [
+        "appliance(a1).",
+        "thermostatic_control(a1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    },
+    {
+      "name": "clear_violation_neither",
+      "facts": [
+        "appliance(a1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": true
+      }
+    },
+    {
+      "name": "not_applicable",
+      "facts": [
+        "flue(f1)."
+      ],
+      "expect": {
+        "applies": false,
+        "violation": false
+      }
+    },
+    {
+      "name": "distractor_both_means",
+      "facts": [
+        "appliance(a1).",
+        "adjustable_damper(a1).",
+        "thermostatic_control(a1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    }
+  ]
+}

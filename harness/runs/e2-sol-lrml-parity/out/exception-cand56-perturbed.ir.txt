@@ -1,0 +1,1 @@
+if( and( exist( door closer), fire_doorset( door closer), fusible_link( door closer))), then( prohibition( and( escape_opening( door closer), not( complies_c7( door closer)))))

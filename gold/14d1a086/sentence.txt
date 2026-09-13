@@ -1,0 +1,3 @@
+Lifting devices should be positioned with the end opposite to the entry point located against a wall at every floor level.
+
+provenance: CODE-ACCORD 45f0830 · example_id 14d1a086-d933-4946-b222-98f707d16c03 · UK_DocM_V1_AccessAndUseOfBuildings

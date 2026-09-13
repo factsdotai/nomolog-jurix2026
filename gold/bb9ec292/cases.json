@@ -1,0 +1,70 @@
+{
+  "cases": [
+    {
+      "name": "clear_compliant",
+      "facts": [
+        "building(b1).",
+        "primary_energy_rate_measured(b1, 90).",
+        "target_primary_energy_rate(b1, 100).",
+        "emission_rate_measured(b1, 18).",
+        "target_emission_rate(b1, 20)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    },
+    {
+      "name": "violation_primary_energy",
+      "facts": [
+        "building(b1).",
+        "primary_energy_rate_measured(b1, 110).",
+        "target_primary_energy_rate(b1, 100).",
+        "emission_rate_measured(b1, 18).",
+        "target_emission_rate(b1, 20)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": true
+      }
+    },
+    {
+      "name": "violation_emission",
+      "facts": [
+        "building(b1).",
+        "primary_energy_rate_measured(b1, 90).",
+        "target_primary_energy_rate(b1, 100).",
+        "emission_rate_measured(b1, 25).",
+        "target_emission_rate(b1, 20)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": true
+      }
+    },
+    {
+      "name": "boundary_both_equal",
+      "facts": [
+        "building(b1).",
+        "primary_energy_rate_measured(b1, 100).",
+        "target_primary_energy_rate(b1, 100).",
+        "emission_rate_measured(b1, 20).",
+        "target_emission_rate(b1, 20)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    },
+    {
+      "name": "not_applicable",
+      "facts": [
+        "site(s1)."
+      ],
+      "expect": {
+        "applies": false,
+        "violation": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+r1: if( exist( structural_element)), then( obligation( as per( structural_element. fire_resistance, appendix b table b3)))
+r2: if( and( exist( structural_element), supports_only_roof( structural_element), not( or( roof_functions_as_floor( structural_element), essential_for_fire_wall_stability( structural_element))))), then( permission( not( exist( structural_element))))
+override( r2, r1)

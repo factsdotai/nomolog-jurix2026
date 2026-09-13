@@ -1,0 +1,1 @@
+if( heat_loss_calculation( building design solution)), then( obligation( uses_design_air_leakage_value( building envelope)))

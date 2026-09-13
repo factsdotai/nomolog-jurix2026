@@ -1,0 +1,3 @@
+r1: if( and( exist( appliance_switch), permanently wired( appliance_switch))), then( obligation( and( greater than equal( appliance_switch. height, 40 cm), less than equal( appliance_switch. height, 120 cm))))
+r2: if( and( exist( appliance_switch), higher_level_needed( appliance_switch))), then( permission( exist( appliance_switch)))
+override( r2, r1)

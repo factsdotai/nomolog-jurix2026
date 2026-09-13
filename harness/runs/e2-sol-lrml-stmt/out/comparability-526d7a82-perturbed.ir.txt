@@ -1,0 +1,1 @@
+if( and( structure_of( structure, room), or( wet_room( room), dry_room( room)))), then( obligation( or( dry_room( room), rigidity_adequate( structure))))

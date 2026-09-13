@@ -1,0 +1,1 @@
+if( and( exist( membrane), exist( penetration), penetration( penetration, membrane))), then( obligation( robust_seal( penetration)))

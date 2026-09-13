@@ -1,0 +1,4 @@
+slice,example_id,variant,arm,model,k,attempts,cases_passed,cases_total,suite_exact,failure_mode,ir_parses,ir_wellformed,ir_known_deontic,ir_unknown_fns,tags,notes
+comparability,0085ecdd,original,lrml,anthropic:claude-opus-5,30,1,1,6,0,verdict_mismatch,True,True,True,1,threshold|necessity,"clear_compliant: got (False,False); clear_violation: got (False,False); boundary_exactly_800: got (False,False); one_of_two_sides_suffices: got (False,False)"
+comparability,0219127c,original,lrml,anthropic:claude-opus-5,30,1,6,6,1,,True,True,True,2,necessity,
+comparability,02f5e3fb,original,lrml,anthropic:claude-opus-5,30,1,1,4,0,verdict_mismatch,True,True,True,2,necessity,"clear_compliant: got (False,False); clear_violation: got (False,False); distractor: got (False,False)"

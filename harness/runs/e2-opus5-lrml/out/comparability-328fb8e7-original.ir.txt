@@ -1,0 +1,1 @@
+if( and( exist( pressure test), include( pressure test, test failure))), then( obligation( reported to bcb( pressure test)))

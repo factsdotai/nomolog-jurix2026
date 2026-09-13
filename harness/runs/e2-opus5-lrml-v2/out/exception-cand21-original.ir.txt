@@ -1,0 +1,3 @@
+r1: if( and( exist( door), corner_door_pair( door))), then( obligation( greater than equal( door. edge_corner_distance, 800 mm)))
+r2: if( and( exist( door), corner_door_pair( door), greater than equal( door. turning_circle_outside, 1500 mm))), then( permission( exist( door)))
+override( r2, r1)

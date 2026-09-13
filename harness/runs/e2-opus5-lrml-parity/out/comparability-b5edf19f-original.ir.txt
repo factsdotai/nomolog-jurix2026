@@ -1,0 +1,1 @@
+if( exist( building)), then( obligation( or( partitioned into compartments( building), not( partitioning necessary( building)))))

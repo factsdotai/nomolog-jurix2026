@@ -1,0 +1,7 @@
+% translated by bracket2waist.py under translation-policy.md v1
+% ir-sha256: f7018e89bc90173e
+applies :- residential_building(ResidentialBuilding), tall_residential_building(ResidentialBuilding), balcony(Balcony), material(Material), part_of(Material, Balcony).
+obligation_met(Material) :- material(Material), class_a1_or_a2(Material).
+obligation_met(Material) :- material(Material), masonry_cavity_tray(Material).
+obligation_met(Material) :- material(Material), firestopping_required(Material).
+r1: violation <= residential_building(ResidentialBuilding), tall_residential_building(ResidentialBuilding), balcony(Balcony), material(Material), part_of(Material, Balcony), not obligation_met(Material).

@@ -1,0 +1,1 @@
+if( and( exist( boiler), exist( output calculation))), then( obligation( used in calculation( boiler, output calculation)))

@@ -1,0 +1,7 @@
+Any wheelchair user does not have to travel more than 40m on the same floor to reach a
+unisex toilet, unless a greater distance can be agreed with the building control body
+on the grounds that the circulation route is unobstructed.
+
+provenance: CODE-ACCORD 45f0830 raw-text stage · Approved_Document M_V2_Content.txt:613 · pattern: threshold-plus-agreement
+reconstructed from fragmented raw lines; original marker line:
+  a. more than 40m on the same floor , unless a greater distance can be agreed with the building control body on the grounds that the circulation route is unobstructed, e.g. by the installation of doors with hold-open devices;

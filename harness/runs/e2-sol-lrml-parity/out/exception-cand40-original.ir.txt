@@ -1,0 +1,1 @@
+if( and( exist( building), major_renovation_residential( building), install_cost_fraction( building, cost fraction))), then( obligation( or( greater than( cost fraction, 0.07), for each( parking_space( parking space, building), cable_route( parking space)))))

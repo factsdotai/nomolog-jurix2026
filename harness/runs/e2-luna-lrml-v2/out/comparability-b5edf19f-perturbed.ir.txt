@@ -1,0 +1,1 @@
+if( and( exist( fire compartments), partitioning_necessary( fire compartments))), then( obligation( partitioned_into_compartments( fire compartments)))

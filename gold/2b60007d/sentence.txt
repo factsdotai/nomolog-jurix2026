@@ -1,0 +1,3 @@
+Masonry construction: external or cavity wall insulation should extend below the damp-proof course (where applicable) and be at least the equivalent of one full block height (215mm) below the underside of the floor structure/slab and beyond the depth of the floor insulation.
+
+provenance: CODE-ACCORD 45f0830 · example_id 2b60007d-59a3-4a18-a184-89e76ee17454 · UK_DocL_V1_ConsrvationOfFuelAndPower

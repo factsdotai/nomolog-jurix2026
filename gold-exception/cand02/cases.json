@@ -1,0 +1,76 @@
+{
+  "cases": [
+    {
+      "name": "clear_compliant",
+      "facts": [
+        "replacement_generation_system(n1, o1).",
+        "capacity(n1, 5).",
+        "capacity(o1, 4)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    },
+    {
+      "name": "clear_violation",
+      "facts": [
+        "replacement_generation_system(n1, o1).",
+        "capacity(n1, 3).",
+        "capacity(o1, 4)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": true
+      }
+    },
+    {
+      "name": "boundary_equal_capacity",
+      "facts": [
+        "replacement_generation_system(n1, o1).",
+        "capacity(n1, 4).",
+        "capacity(o1, 4)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    },
+    {
+      "name": "exception_demonstrated_smaller",
+      "facts": [
+        "replacement_generation_system(n1, o1).",
+        "capacity(n1, 3).",
+        "capacity(o1, 4).",
+        "demonstrated_more_appropriate(n1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    },
+    {
+      "name": "almost_met_claimed_not_demonstrated",
+      "facts": [
+        "replacement_generation_system(n1, o1).",
+        "capacity(n1, 3).",
+        "capacity(o1, 4).",
+        "smaller_claimed(n1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": true
+      }
+    },
+    {
+      "name": "not_applicable_new_install",
+      "facts": [
+        "generation_system(g1)."
+      ],
+      "expect": {
+        "applies": false,
+        "violation": false
+      }
+    }
+  ]
+}

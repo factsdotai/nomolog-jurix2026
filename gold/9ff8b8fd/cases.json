@@ -1,0 +1,65 @@
+{
+  "cases": [
+    {
+      "name": "clear_compliant",
+      "facts": [
+        "dwelling(d1).",
+        "fabric_energy_efficiency_rate(d1, 40).",
+        "target_fabric_energy_efficiency_rate(d1, 45)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    },
+    {
+      "name": "clear_violation",
+      "facts": [
+        "dwelling(d1).",
+        "fabric_energy_efficiency_rate(d1, 50).",
+        "target_fabric_energy_efficiency_rate(d1, 45)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": true
+      }
+    },
+    {
+      "name": "boundary_equal",
+      "facts": [
+        "dwelling(d1).",
+        "fabric_energy_efficiency_rate(d1, 45).",
+        "target_fabric_energy_efficiency_rate(d1, 45)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    },
+    {
+      "name": "not_applicable",
+      "facts": [
+        "office(o1)."
+      ],
+      "expect": {
+        "applies": false,
+        "violation": false
+      }
+    },
+    {
+      "name": "distractor_two_dwellings",
+      "facts": [
+        "dwelling(d1).",
+        "fabric_energy_efficiency_rate(d1, 40).",
+        "target_fabric_energy_efficiency_rate(d1, 45).",
+        "dwelling(d2).",
+        "fabric_energy_efficiency_rate(d2, 30).",
+        "target_fabric_energy_efficiency_rate(d2, 45)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    }
+  ]
+}

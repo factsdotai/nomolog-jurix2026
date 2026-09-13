@@ -1,0 +1,3 @@
+r1: if( and( wheelchair_route( route), travel_distance( route, distance))), then( obligation( less than equal( distance, 40 m)))
+r2: if( and( wheelchair_route( route), travel_distance( route, distance), greater_distance_agreed( route))), then( permission( greater than( distance, 40 m)))
+override( r2, r1)

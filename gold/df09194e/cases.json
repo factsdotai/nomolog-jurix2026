@@ -1,0 +1,47 @@
+{
+  "cases": [
+    {
+      "name": "clear_compliant",
+      "facts": [
+        "approach(a1).",
+        "gradients_as_gentle_as_possible(a1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    },
+    {
+      "name": "clear_violation",
+      "facts": [
+        "approach(a1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": true
+      }
+    },
+    {
+      "name": "not_applicable",
+      "facts": [
+        "corridor(c1)."
+      ],
+      "expect": {
+        "applies": false,
+        "violation": false
+      }
+    },
+    {
+      "name": "distractor",
+      "facts": [
+        "approach(a1).",
+        "gradients_as_gentle_as_possible(a1).",
+        "ramp(r1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    }
+  ]
+}

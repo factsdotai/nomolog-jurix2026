@@ -1,0 +1,1 @@
+if( and( exist( replacement_generation_system), not( demonstrated_more_appropriate( replacement_generation_system)))), then( obligation( greater than equal( capacity( replacement_generation_system), capacity( generation_system))))

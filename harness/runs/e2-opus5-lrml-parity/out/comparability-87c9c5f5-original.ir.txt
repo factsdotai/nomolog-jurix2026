@@ -1,0 +1,1 @@
+if( or( exist( boiler), exist( conditioning system))), then( obligation( assessed on final capacity( system)))

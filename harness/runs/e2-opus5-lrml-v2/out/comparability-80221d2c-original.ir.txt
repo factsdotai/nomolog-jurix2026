@@ -1,0 +1,1 @@
+if( and( exist( floor drain), exist( drainage well), connected( drainage well, floor drain))), then( obligation( and( less than equal( floor drain. connected well count, 2), less than equal( drain_distance( drainage well, floor drain), 3 m))))

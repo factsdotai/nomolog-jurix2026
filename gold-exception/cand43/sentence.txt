@@ -1,0 +1,8 @@
+Any door opening towards a corridor which is a major access route or an escape route
+should be recessed so that, when fully open, it does not project into the corridor
+space, except where the doors are to minor utility facilities such as small store
+rooms and locked duct cupboards.
+
+provenance: CODE-ACCORD 45f0830 raw-text stage · Approved_Document M_V2_Content.txt:330 · pattern: recess-exception
+reconstructed from fragmented raw lines; original marker line:
+  g. any door opening towards a corridor , which is a major access route or an escape route , should be recessed so that, when fully open, it does not project into the corridor space , except where the doors are to minor utility facilities , such as small store rooms and locked duct cupboards;

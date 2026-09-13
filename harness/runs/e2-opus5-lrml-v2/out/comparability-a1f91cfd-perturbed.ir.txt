@@ -1,0 +1,3 @@
+r1: if( exist( dwelling)), then( obligation( individual target rates( dwelling)))
+r2: if( and( exist( building), multi dwelling building( building))), then( permission( average target rates( building)))
+override( r2, r1)

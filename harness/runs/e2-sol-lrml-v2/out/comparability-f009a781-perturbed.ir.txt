@@ -1,0 +1,1 @@
+if( and( exist( landing), or( indoor area( landing), outdoor area( landing)))), then( obligation( and( safe( landing), sufficiently_spacious( landing), suitable_for_purpose( landing))))

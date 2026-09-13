@@ -1,0 +1,1 @@
+if( and( boiler( boiler), output_calculation( output calculation))), then( obligation( used_in_calculation( boiler, output calculation)))

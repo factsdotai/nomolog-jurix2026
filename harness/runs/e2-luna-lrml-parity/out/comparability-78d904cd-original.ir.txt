@@ -1,0 +1,1 @@
+if( and( dwelling( d), has_pool( d))), then( obligation( and( pool_treated_as_equivalent_floor( d), rate_calculation( primary energy rate, d), rate_calculation( emission rate, d), rate_calculation( fabric energy efficiency rate, d))))

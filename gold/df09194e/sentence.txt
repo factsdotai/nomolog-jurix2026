@@ -1,0 +1,3 @@
+Generally, gradients within the approach should be as gentle as possible.
+
+provenance: CODE-ACCORD 45f0830 · example_id df09194e-2fe6-4007-b6c1-1a7383f1baba · UK_DocM_V2_AccessAndUseOfBuildings

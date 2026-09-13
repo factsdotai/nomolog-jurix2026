@@ -1,0 +1,50 @@
+{
+  "cases": [
+    {
+      "name": "clear_compliant",
+      "facts": [
+        "building(b1).",
+        "partitioning_necessary(b1).",
+        "partitioned_into_compartments(b1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    },
+    {
+      "name": "clear_violation",
+      "facts": [
+        "building(b1).",
+        "partitioning_necessary(b1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": true
+      }
+    },
+    {
+      "name": "not_applicable_not_necessary",
+      "facts": [
+        "building(b1)."
+      ],
+      "expect": {
+        "applies": false,
+        "violation": false
+      }
+    },
+    {
+      "name": "distractor",
+      "facts": [
+        "building(b1).",
+        "partitioning_necessary(b1).",
+        "partitioned_into_compartments(b1).",
+        "sprinkler(s1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    }
+  ]
+}

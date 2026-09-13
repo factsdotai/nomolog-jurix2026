@@ -1,0 +1,1 @@
+if( and( exist( extension_to_historic_dwelling), meets_ventilation_standards( extension_to_historic_dwelling))), then( obligation( or( comply with( extension_to_historic_dwelling, ventilation standards), appearance_match_needed( extension_to_historic_dwelling))))

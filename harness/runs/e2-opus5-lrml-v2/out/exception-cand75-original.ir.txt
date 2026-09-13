@@ -1,0 +1,3 @@
+r1: if( and( exist( storey), exist( flat), flat on storey( flat, storey))), then( obligation( less than equal( storey. travel distance, storey. max travel distance)))
+r2: if( and( exist( storey), for each( flat on storey( flat, storey), independent alternative escape( flat)))), then( permission( exist( storey)))
+override( r2, r1)

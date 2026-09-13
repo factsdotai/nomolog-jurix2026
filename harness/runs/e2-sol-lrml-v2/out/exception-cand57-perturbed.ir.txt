@@ -1,0 +1,3 @@
+r1: if( and( protected_stair( stair), covered_car_park( car park))), then( prohibition( connects_to( stair, car park)))
+r2: if( and( protected_stair( stair), covered_car_park( car park), open_sided( car park))), then( permission( connects_to( stair, car park)))
+override( r2, r1)

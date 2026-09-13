@@ -1,0 +1,1 @@
+if( and( exist( lift), fire_in_building( lift))), then( prohibition( lift_used( lift), or( part_of_evacuation_plan( lift), and( appropriately_sited( lift), fire_safety_features( lift)))))

@@ -1,0 +1,2 @@
+r1: if( and( exist( thermal element), or( being_installed( thermal element), renovating( thermal element)))), then( obligation( draught_proofed( thermal element)))
+r2: if( and( exist( thermal element), or( being_installed( thermal element), renovating( thermal element)))), then( obligation( gaps_filled( thermal element)))

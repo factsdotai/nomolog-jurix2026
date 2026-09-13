@@ -1,0 +1,66 @@
+{
+  "cases": [
+    {
+      "name": "clear_compliant",
+      "facts": [
+        "major_renovation_residential(b1).",
+        "parking_space(p1, b1).",
+        "cable_route(p1).",
+        "parking_space(p2, b1).",
+        "cable_route(p2)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    },
+    {
+      "name": "clear_violation",
+      "facts": [
+        "major_renovation_residential(b1).",
+        "parking_space(p1, b1).",
+        "cable_route(p1).",
+        "parking_space(p2, b1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": true
+      }
+    },
+    {
+      "name": "exception_cost_over_7pct",
+      "facts": [
+        "major_renovation_residential(b1).",
+        "parking_space(p1, b1).",
+        "install_cost_fraction(b1, 0.09)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    },
+    {
+      "name": "boundary_exactly_7pct_no_exemption",
+      "facts": [
+        "major_renovation_residential(b1).",
+        "parking_space(p1, b1).",
+        "install_cost_fraction(b1, 0.07)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": true
+      }
+    },
+    {
+      "name": "not_applicable_commercial",
+      "facts": [
+        "major_renovation_commercial(b1).",
+        "parking_space(p1, b1)."
+      ],
+      "expect": {
+        "applies": false,
+        "violation": false
+      }
+    }
+  ]
+}

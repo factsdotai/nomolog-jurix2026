@@ -1,0 +1,61 @@
+{
+  "cases": [
+    {
+      "name": "clear_compliant",
+      "facts": [
+        "rooflight(r1).",
+        "uvalue_calculated(r1).",
+        "uvalue_horizontal_basis(r1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    },
+    {
+      "name": "clear_violation_vertical_basis",
+      "facts": [
+        "rooflight(r1).",
+        "uvalue_calculated(r1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": true
+      }
+    },
+    {
+      "name": "no_calculation_yet_nothing_to_check",
+      "facts": [
+        "rooflight(r1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    },
+    {
+      "name": "not_applicable",
+      "facts": [
+        "window(w1).",
+        "uvalue_calculated(w1)."
+      ],
+      "expect": {
+        "applies": false,
+        "violation": false
+      }
+    },
+    {
+      "name": "distractor_two_rooflights",
+      "facts": [
+        "rooflight(r1).",
+        "uvalue_calculated(r1).",
+        "uvalue_horizontal_basis(r1).",
+        "rooflight(r2)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    }
+  ]
+}

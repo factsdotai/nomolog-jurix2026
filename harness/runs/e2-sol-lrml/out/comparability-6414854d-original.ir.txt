@@ -1,0 +1,1 @@
+if( and( ladder( l), ladder_length( l, length), less than equal( length, 6000))), then( permission( not( special_safety_features( l))))

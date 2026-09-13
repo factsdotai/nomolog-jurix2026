@@ -1,0 +1,1 @@
+if( and( exist( cavity), not( fire_resisting_only_loadbearing( cavity)), not( meets_diagram_9_2( cavity)), not( above_fire_resisting_ceiling( cavity)))), then( obligation( surface_class_ok( cavity)))

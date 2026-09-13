@@ -1,0 +1,1 @@
+if( exist( structural_element)), then( obligation( or( comply with( structural_element, Appendix B Table B3), and( supports_only_roof( structural_element), not( or( roof_functions_as_floor( structural_element), essential_for_fire_wall_stability( structural_element)))))))

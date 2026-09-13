@@ -1,0 +1,1 @@
+if( and( exist( passageway), exist( level change feature))), then( obligation( and( clearly indicated( level change feature), or( lighting( level change feature), surface brightness contrast( level change feature), warning sign( level change feature)))))

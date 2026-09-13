@@ -1,0 +1,47 @@
+{
+  "cases": [
+    {
+      "name": "clear_compliant",
+      "facts": [
+        "building(b1).",
+        "whole_building_rate_met(b1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    },
+    {
+      "name": "clear_violation",
+      "facts": [
+        "building(b1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": true
+      }
+    },
+    {
+      "name": "not_applicable",
+      "facts": [
+        "site(s1)."
+      ],
+      "expect": {
+        "applies": false,
+        "violation": false
+      }
+    },
+    {
+      "name": "distractor",
+      "facts": [
+        "building(b1).",
+        "whole_building_rate_met(b1).",
+        "vent_system(v1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    }
+  ]
+}

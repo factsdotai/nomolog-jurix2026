@@ -1,0 +1,1 @@
+if( and( exist( fire doorset), not( and( escape opening( fire doorset), not( complies with( fire doorset, paragraph c7)))))), then( permission( held open by fusible link( fire doorset)))

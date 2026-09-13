@@ -1,0 +1,1 @@
+if( and( exist( wheelchair route), not( greater distance agreed( wheelchair route)))), then( obligation( less than equal( wheelchair route. travel distance, 40 m)))

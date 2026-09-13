@@ -1,0 +1,6 @@
+% translated by bracket2waist.py under translation-policy.md v1
+% ir-sha256: ffbfd1e6da4cd645
+applies :- major_renovation_residential_building(MajorRenovationResidentialBuilding).
+obligation_met(MajorRenovationResidentialBuilding) :- major_renovation_residential_building(MajorRenovationResidentialBuilding), associated_parking_space(AssociatedParkingSpace), cable_route_installed(AssociatedParkingSpace).
+obligation_met(MajorRenovationResidentialBuilding) :- major_renovation_residential_building(MajorRenovationResidentialBuilding), install_cost_fraction(MajorRenovationResidentialBuilding, MajorRenovationResidentialBuildingInstallCostFraction), MajorRenovationResidentialBuildingInstallCostFraction > 0.07.
+r1: violation <= major_renovation_residential_building(MajorRenovationResidentialBuilding), not obligation_met(MajorRenovationResidentialBuilding).

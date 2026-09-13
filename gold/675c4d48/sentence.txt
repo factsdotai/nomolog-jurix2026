@@ -1,0 +1,3 @@
+Adequate space should be available for access to maintain ventilation equipment.
+
+provenance: CODE-ACCORD 45f0830 · example_id 675c4d48-3eef-463a-8516-edd71ee983e3 · UK_DocF_V1_Ventilation

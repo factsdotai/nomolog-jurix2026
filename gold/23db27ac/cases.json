@@ -1,0 +1,65 @@
+{
+  "cases": [
+    {
+      "name": "clear_compliant",
+      "facts": [
+        "thermal_element(e1).",
+        "being_installed(e1).",
+        "draught_proofed(e1).",
+        "gaps_filled(e1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    },
+    {
+      "name": "violation_not_draught_proofed",
+      "facts": [
+        "thermal_element(e1).",
+        "being_installed(e1).",
+        "gaps_filled(e1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": true
+      }
+    },
+    {
+      "name": "violation_gaps_unfilled",
+      "facts": [
+        "thermal_element(e1).",
+        "being_installed(e1).",
+        "draught_proofed(e1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": true
+      }
+    },
+    {
+      "name": "not_applicable_not_being_installed",
+      "facts": [
+        "thermal_element(e1)."
+      ],
+      "expect": {
+        "applies": false,
+        "violation": false
+      }
+    },
+    {
+      "name": "distractor",
+      "facts": [
+        "thermal_element(e1).",
+        "being_installed(e1).",
+        "draught_proofed(e1).",
+        "gaps_filled(e1).",
+        "thermal_element(e2)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    }
+  ]
+}

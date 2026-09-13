@@ -1,0 +1,3 @@
+The structures of the wet rooms must be rigid enough that the thermal and moisture movements do no damage the wet room waterproofing or surface structures.
+
+provenance: CODE-ACCORD 45f0830 · example_id 526d7a82-6362-4fce-8d58-1ab0b0005235 · Finnish_Health-Humidity

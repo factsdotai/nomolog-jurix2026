@@ -1,0 +1,47 @@
+{
+  "cases": [
+    {
+      "name": "clear_compliant",
+      "facts": [
+        "conditioning_system(s1).",
+        "assessed_on_final_capacity(s1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    },
+    {
+      "name": "clear_violation",
+      "facts": [
+        "conditioning_system(s1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": true
+      }
+    },
+    {
+      "name": "not_applicable",
+      "facts": [
+        "lighting_system(l1)."
+      ],
+      "expect": {
+        "applies": false,
+        "violation": false
+      }
+    },
+    {
+      "name": "distractor",
+      "facts": [
+        "conditioning_system(s1).",
+        "assessed_on_final_capacity(s1).",
+        "boiler(b1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+r1: if( and( appliance_switch( switch), mounting_height( switch, height))), then( obligation( and( greater than equal( height, 400 mm), less than equal( height, 1200 mm))))
+r2: if( and( appliance_switch( switch), higher_level_needed( switch), mounting_height( switch, height))), then( obligation( greater than( height, 1200 mm)))
+override( r2, r1)

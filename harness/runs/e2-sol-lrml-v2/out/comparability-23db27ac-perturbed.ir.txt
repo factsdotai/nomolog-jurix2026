@@ -1,0 +1,1 @@
+if( and( thermal_element( element), being_installed( element))), then( obligation( and( draught_proofed( element), gaps_filled( element))))

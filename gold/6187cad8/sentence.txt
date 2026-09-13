@@ -1,0 +1,3 @@
+Continuously running fans should be set up to operate without occupant intervention but may have manual or automatic controls for selecting the high rate of operation.
+
+provenance: CODE-ACCORD 45f0830 · example_id 6187cad8-0d6d-4154-b98b-7285b36fea8d · UK_DocF_V1_Ventilation

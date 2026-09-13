@@ -1,0 +1,68 @@
+{
+  "cases": [
+    {
+      "name": "clear_compliant",
+      "facts": [
+        "cavity(c1).",
+        "surface_class_ok(c1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    },
+    {
+      "name": "clear_violation",
+      "facts": [
+        "cavity(c1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": true
+      }
+    },
+    {
+      "name": "exempt_loadbearing_only",
+      "facts": [
+        "cavity(c1).",
+        "fire_resisting_only_loadbearing(c1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    },
+    {
+      "name": "exempt_diagram_9_2",
+      "facts": [
+        "cavity(c1).",
+        "meets_diagram_9_2(c1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    },
+    {
+      "name": "exempt_above_fr_ceiling",
+      "facts": [
+        "cavity(c1).",
+        "above_fire_resisting_ceiling(c1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    },
+    {
+      "name": "not_applicable",
+      "facts": [
+        "solid_wall(w1)."
+      ],
+      "expect": {
+        "applies": false,
+        "violation": false
+      }
+    }
+  ]
+}

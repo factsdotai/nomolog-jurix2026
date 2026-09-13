@@ -1,0 +1,1 @@
+if( and( exist( non dwelling building), exist( corridor door))), then( obligation( or( not( swings across landing( corridor door)), complies para 1 21c( corridor door))))

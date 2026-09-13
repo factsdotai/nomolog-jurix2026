@@ -1,0 +1,65 @@
+{
+  "cases": [
+    {
+      "name": "clear_compliant",
+      "facts": [
+        "dwelling(d1).",
+        "has_pool(d1).",
+        "rate_calculation(c1, d1).",
+        "pool_treated_as_equivalent_floor(c1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    },
+    {
+      "name": "clear_violation",
+      "facts": [
+        "dwelling(d1).",
+        "has_pool(d1).",
+        "rate_calculation(c1, d1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": true
+      }
+    },
+    {
+      "name": "not_applicable_no_pool",
+      "facts": [
+        "dwelling(d1).",
+        "rate_calculation(c1, d1)."
+      ],
+      "expect": {
+        "applies": false,
+        "violation": false
+      }
+    },
+    {
+      "name": "no_calculation_yet",
+      "facts": [
+        "dwelling(d1).",
+        "has_pool(d1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    },
+    {
+      "name": "distractor",
+      "facts": [
+        "dwelling(d1).",
+        "has_pool(d1).",
+        "rate_calculation(c1, d1).",
+        "pool_treated_as_equivalent_floor(c1).",
+        "sauna(s1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    }
+  ]
+}

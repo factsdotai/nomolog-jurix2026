@@ -1,0 +1,1 @@
+if( and( exist( dwelling), greater than( dwelling. exposed facades, 1))), then( obligation( for each( dwelling. exposed facade, similar ventilator area( exposed facade))))

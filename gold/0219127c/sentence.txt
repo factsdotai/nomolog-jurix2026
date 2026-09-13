@@ -1,0 +1,3 @@
+A power socket, suitable for powering the lifting device, is provided close to the liftway.
+
+provenance: CODE-ACCORD 45f0830 · example_id 0219127c-2f2d-4b13-aafa-261c1fc39ffc · UK_DocM_V1_AccessAndUseOfBuildings

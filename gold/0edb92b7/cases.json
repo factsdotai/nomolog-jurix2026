@@ -1,0 +1,59 @@
+{
+  "cases": [
+    {
+      "name": "clear_compliant",
+      "facts": [
+        "foundation_drainage(d1, p1).",
+        "flows_away_from_property(d1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    },
+    {
+      "name": "violation_no_flow_away",
+      "facts": [
+        "foundation_drainage(d1, p1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": true
+      }
+    },
+    {
+      "name": "violation_causes_problems",
+      "facts": [
+        "foundation_drainage(d1, p1).",
+        "flows_away_from_property(d1).",
+        "causes_problems_to_sewer_systems(d1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": true
+      }
+    },
+    {
+      "name": "not_applicable",
+      "facts": [
+        "roof_drainage(r1)."
+      ],
+      "expect": {
+        "applies": false,
+        "violation": false
+      }
+    },
+    {
+      "name": "distractor",
+      "facts": [
+        "foundation_drainage(d1, p1).",
+        "flows_away_from_property(d1).",
+        "storm_drain(s1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    }
+  ]
+}

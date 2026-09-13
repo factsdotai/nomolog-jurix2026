@@ -1,0 +1,1 @@
+if( and( exist( non dwelling building), exist( landing door), not( complies with paragraph 1.21c( landing door)))), then( obligation( not( swings across landing( landing door))))

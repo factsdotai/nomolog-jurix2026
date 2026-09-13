@@ -1,0 +1,8 @@
+% range requirement on handle height, with remote-device exception as superior defeasible rule
+applies :- principal_window(W).
+r1: violation <= principal_window(W), handle_height(W, H), H < 700.
+r2: violation <= principal_window(W), handle_height(W, H), H > 1000.
+r3: exempt <= principal_window(W), remote_device_height(W, D), D >= 700, D <= 1000.
+#conflict violation, exempt.
+r3 > r1.
+r3 > r2.

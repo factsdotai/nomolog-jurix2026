@@ -1,0 +1,1 @@
+if( and( exist( fire wall), separated part( building part, fire wall), exit route( exit, building part))), then( obligation( and( separately constructed( exit), not( uses fire wall door( exit, fire wall)))))

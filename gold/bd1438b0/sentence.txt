@@ -1,0 +1,3 @@
+For roof-lights, U-values should be calculated based on a horizontal position.
+
+provenance: CODE-ACCORD 45f0830 · example_id bd1438b0-ce84-4908-8d01-6c0884aa4650 · UK_DocL_V1_ConsrvationOfFuelAndPower

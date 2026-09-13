@@ -1,0 +1,1 @@
+if( and( exist( building), tall_residential_building( building), exist( balcony), balcony( balcony, building), exist( material), material_of( material, balcony), not( masonry_cavity_tray( material)), not( firestopping_required( material)))), then( obligation( class_a1_or_a2( material)))

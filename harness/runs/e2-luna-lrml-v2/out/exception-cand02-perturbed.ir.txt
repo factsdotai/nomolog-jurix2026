@@ -1,0 +1,3 @@
+r1: if( and( exist( generation system), exist( replacement generation system), replacement_generation_system( generation system, replacement generation system))), then( obligation( greater than equal( replacement generation system. capacity, generation system. capacity)))
+r2: if( and( exist( generation system), exist( replacement generation system), replacement_generation_system( generation system, replacement generation system), smaller_claimed( replacement generation system), demonstrated_more_appropriate( replacement generation system))), then( permission( exist( replacement generation system)))
+override( r2, r1)

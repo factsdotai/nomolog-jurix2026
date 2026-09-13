@@ -1,0 +1,1 @@
+if( compartment_wall_mid_span(wall)), then( obligation( and( or( deflection_allowance(wall, 40 mm), justified_deflection_value(wall, deflection allowance)), accommodate( wall, deflection allowance))))

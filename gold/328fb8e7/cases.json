@@ -1,0 +1,60 @@
+{
+  "cases": [
+    {
+      "name": "clear_compliant",
+      "facts": [
+        "pressure_test(t1).",
+        "reported_to_bcb(t1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    },
+    {
+      "name": "clear_violation",
+      "facts": [
+        "pressure_test(t1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": true
+      }
+    },
+    {
+      "name": "failed_test_reported_compliant",
+      "facts": [
+        "pressure_test(t1).",
+        "test_failed(t1).",
+        "reported_to_bcb(t1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    },
+    {
+      "name": "violation_failed_test_unreported",
+      "facts": [
+        "pressure_test(t1).",
+        "reported_to_bcb(t1).",
+        "pressure_test(t2).",
+        "test_failed(t2)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": true
+      }
+    },
+    {
+      "name": "not_applicable",
+      "facts": [
+        "sound_test(t1)."
+      ],
+      "expect": {
+        "applies": false,
+        "violation": false
+      }
+    }
+  ]
+}

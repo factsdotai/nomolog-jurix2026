@@ -1,0 +1,2 @@
+r1: if( and( exist( building), multi_dwelling_building( building))), then( permission( average_target_rates( building)))
+r2: if( and( exist( building), multi_dwelling_building( building))), then( permission( individual_target_rates( building)))

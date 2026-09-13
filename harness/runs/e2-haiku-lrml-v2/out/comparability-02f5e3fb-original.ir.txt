@@ -1,0 +1,1 @@
+r1: if( and( exist( building), new_residential_building( building))), then( obligation( overheating_info_given_to_owner( building)))

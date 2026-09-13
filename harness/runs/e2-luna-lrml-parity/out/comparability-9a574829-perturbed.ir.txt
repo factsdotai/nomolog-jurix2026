@@ -1,0 +1,1 @@
+if( exist( building)), then( obligation( whole building ventilation rate met( building)))

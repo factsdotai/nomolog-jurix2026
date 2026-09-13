@@ -1,0 +1,3 @@
+r1: if( and( fire_doorset(x), fusible_link(x))), then( permission( held open by( x, fusible link)))
+r2: if( and( fire_doorset(x), fusible_link(x), escape_opening(x), not( complies_c7(x)))), then( prohibition( held open by( x, fusible link)))
+override( r2, r1)

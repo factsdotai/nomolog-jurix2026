@@ -1,0 +1,1 @@
+if( and( exist( heat_loss_calculation), exist( building envelope))), then( obligation( uses_design_air_leakage_value( heat_loss_calculation)))

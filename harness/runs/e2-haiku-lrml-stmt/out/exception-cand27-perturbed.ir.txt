@@ -1,0 +1,1 @@
+if( and( exist( structural element), not( and( supports only roof( structural element), not( or( roof functions as floor( structural element), essential for fire wall stability( structural element))))))), then( obligation( fire resistance as per( structural element, table B3)))

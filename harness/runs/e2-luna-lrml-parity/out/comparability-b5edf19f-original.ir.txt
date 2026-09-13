@@ -1,0 +1,1 @@
+if( and( exist( building), partitioning_necessary( building))), then( obligation( partitioned_into_compartments( building)))

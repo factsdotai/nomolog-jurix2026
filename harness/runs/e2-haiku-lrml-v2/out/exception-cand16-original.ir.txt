@@ -1,0 +1,3 @@
+r1: if( and( exist( door), non_dwelling_building( door))), then( obligation( not( swings_across_landing( door))))
+r2: if( and( exist( door), non_dwelling_building( door), complies_para_1_21c( door))), then( permission( swings_across_landing( door)))
+override( r2, r1)

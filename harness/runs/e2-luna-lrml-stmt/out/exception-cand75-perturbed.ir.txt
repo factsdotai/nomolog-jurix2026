@@ -1,0 +1,1 @@
+if( exist( flat on storey)), then( obligation( or( less than equal( travel distance, max travel distance), for each( flat on storey, independent alternative escape))))

@@ -1,0 +1,3 @@
+A sewer installed in the ground shall withstand the load imposed by soil, soil corrosion as well as subsidence of soil.
+
+provenance: CODE-ACCORD 45f0830 · example_id d3c5b819-2fd9-461f-b0cc-ac1dd14b45dc · Finnish_Health-WaterAndSewerage

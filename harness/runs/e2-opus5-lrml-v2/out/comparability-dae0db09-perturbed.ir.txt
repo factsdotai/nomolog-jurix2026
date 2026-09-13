@@ -1,0 +1,3 @@
+r1: if( exist( light permeable structure)), then( obligation( withstands normal load( light permeable structure)))
+r2: if( and( exist( light permeable structure), protected by collision barrier( light permeable structure))), then( permission( exist( light permeable structure)))
+override( r2, r1)

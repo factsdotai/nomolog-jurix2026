@@ -1,0 +1,7 @@
+A fire doorset may be held open by a fusible link, but not if the doorset is in an
+opening provided as a means of escape, unless it complies with paragraph C7 (two fire
+doorsets in the same opening, each capable of closing it).
+
+provenance: CODE-ACCORD 45f0830 raw-text stage · Approved_Document_B_vol_2:11407 · pattern: nested-exception
+reconstructed from fragmented raw lines; original marker line:
+  A fusible link, but not if the doorset is in an opening provided as a means of escape unless it

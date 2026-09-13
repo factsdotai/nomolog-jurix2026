@@ -1,0 +1,1 @@
+if( and( principal_window(window), not( and( remote_device_height(window, height), greater than equal( height, 700 mm), less than equal( height, 1000 mm))))), then( obligation( and( greater than equal( handle_height(window), 700 mm), less than equal( handle_height(window), 1000 mm))))

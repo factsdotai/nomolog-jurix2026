@@ -1,0 +1,1 @@
+if( exist( ladder)), then( obligation( or( special_safety_features( ladder), less than equal( ladder. length, 6000 mm))))

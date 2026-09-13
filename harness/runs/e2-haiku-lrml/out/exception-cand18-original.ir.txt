@@ -1,0 +1,1 @@
+if( and( exist( residential_building), exist( balcony), greater than equal( balcony. storey height, 11 m))), then( obligation( or( class_a1_or_a2( balcony. material), masonry_cavity_tray( balcony. material), firestopping_required( balcony. material))))

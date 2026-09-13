@@ -1,0 +1,1 @@
+if( and( exist( separated_part), exist( fire_wall), part of( separated_part, fire_wall))), then( obligation( and( separate exit route( separated_part), not( uses_fire_wall_door( separated_part, fire_wall)))))

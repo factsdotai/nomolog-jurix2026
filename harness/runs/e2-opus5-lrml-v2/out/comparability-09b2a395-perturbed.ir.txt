@@ -1,0 +1,1 @@
+if( and( exist( door entry control), exist( projecting corner))), then( obligation( and( greater than equal( door entry control. mounting height, 900 mm), less than equal( door entry control. mounting height, 1000 mm), greater than equal( door entry control. corner distance, 300 mm))))

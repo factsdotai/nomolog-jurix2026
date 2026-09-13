@@ -1,0 +1,74 @@
+{
+  "cases": [
+    {
+      "name": "clear_compliant",
+      "facts": [
+        "doorset(d1).",
+        "resilient_layer(l1, d1).",
+        "layer_height(l1, 2100).",
+        "door_height(d1, 2100).",
+        "side_extension_left(l1, 650).",
+        "side_extension_right(l1, 700)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    },
+    {
+      "name": "violation_short_height",
+      "facts": [
+        "doorset(d1).",
+        "resilient_layer(l1, d1).",
+        "layer_height(l1, 1800).",
+        "door_height(d1, 2100).",
+        "side_extension_left(l1, 650).",
+        "side_extension_right(l1, 700)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": true
+      }
+    },
+    {
+      "name": "violation_left_side_short",
+      "facts": [
+        "doorset(d1).",
+        "resilient_layer(l1, d1).",
+        "layer_height(l1, 2100).",
+        "door_height(d1, 2100).",
+        "side_extension_left(l1, 500).",
+        "side_extension_right(l1, 700)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": true
+      }
+    },
+    {
+      "name": "boundary_exact",
+      "facts": [
+        "doorset(d1).",
+        "resilient_layer(l1, d1).",
+        "layer_height(l1, 2100).",
+        "door_height(d1, 2100).",
+        "side_extension_left(l1, 600).",
+        "side_extension_right(l1, 600)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    },
+    {
+      "name": "not_applicable_no_layer",
+      "facts": [
+        "doorset(d1)."
+      ],
+      "expect": {
+        "applies": false,
+        "violation": false
+      }
+    }
+  ]
+}

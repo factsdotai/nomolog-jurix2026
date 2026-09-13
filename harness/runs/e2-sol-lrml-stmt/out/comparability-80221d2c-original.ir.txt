@@ -1,0 +1,1 @@
+if( exist( floor drain)), then( obligation( and( less than equal( floor drain. connected sink count, 2), for each( sink, connected( sink, floor drain), less than equal( drain_distance( sink, floor drain), 3 m)))))

@@ -1,0 +1,1 @@
+if( and( exist( wheelchair_route), not( service_corridor( wheelchair_route)))), then( obligation( or( less than equal( wheelchair_route. travel_distance, 40 m), greater_distance_agreed( wheelchair_route))))

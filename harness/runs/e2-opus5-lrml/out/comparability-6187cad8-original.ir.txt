@@ -1,0 +1,1 @@
+if( and( exist( fan), continuous fan( fan))), then( obligation( operates without intervention( fan)))

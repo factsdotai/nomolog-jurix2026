@@ -1,0 +1,2 @@
+if( and( exist( wall insulation), masonry construction( wall insulation))), then( obligation( and( greater than equal( wall insulation. depth below floor structure, 215 mm), greater than( wall insulation. depth below floor structure, wall insulation. floor insulation depth))))
+if( and( exist( wall insulation), masonry construction( wall insulation), exist( damp proof course))), then( obligation( extends below( wall insulation, damp proof course)))

@@ -1,0 +1,3 @@
+All three parts of the compliance checklist should be completed.
+
+provenance: CODE-ACCORD 45f0830 · example_id 8aa4b706-1659-4e30-a4fe-e7f33efe3241 · UK_DocO_Overheating

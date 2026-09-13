@@ -1,0 +1,26 @@
+{
+  "cases": [
+    { "name": "clear_compliant",
+      "facts": ["liftway(lw1).", "power_socket(p1).",
+                "suitable_for_powering(p1, lifting_device).", "close_to(p1, lw1)."],
+      "expect": { "applies": true, "violation": false } },
+    { "name": "clear_violation_no_socket",
+      "facts": ["liftway(lw1)."],
+      "expect": { "applies": true, "violation": true } },
+    { "name": "socket_present_but_unsuitable",
+      "facts": ["liftway(lw1).", "power_socket(p1).", "close_to(p1, lw1)."],
+      "expect": { "applies": true, "violation": true } },
+    { "name": "suitable_socket_but_far",
+      "facts": ["liftway(lw1).", "power_socket(p1).",
+                "suitable_for_powering(p1, lifting_device)."],
+      "expect": { "applies": true, "violation": true } },
+    { "name": "not_applicable_no_liftway",
+      "facts": ["power_socket(p1).", "suitable_for_powering(p1, lifting_device)."],
+      "expect": { "applies": false, "violation": false } },
+    { "name": "distractor_second_socket",
+      "facts": ["liftway(lw1).", "power_socket(p1).",
+                "suitable_for_powering(p1, lifting_device).", "close_to(p1, lw1).",
+                "power_socket(p2)."],
+      "expect": { "applies": true, "violation": false } }
+  ]
+}

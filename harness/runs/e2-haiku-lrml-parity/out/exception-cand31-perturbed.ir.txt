@@ -1,0 +1,1 @@
+if( and( exist( external escape stair), element near route( element, external escape stair), within( element, 180 cm, external escape stair), not( alternative escape routes from foot( external escape stair)))), then( obligation( fire resisting re30( element)))

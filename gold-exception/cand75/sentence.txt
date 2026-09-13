@@ -1,0 +1,6 @@
+The maximum travel distance limit for flats on a storey does not apply if all flats on
+the storey have independent alternative means of escape.
+
+provenance: CODE-ACCORD 45f0830 raw-text stage · Approved_Document_B_vol_1:1379 · pattern: scoping-alternative-escape
+reconstructed from fragmented raw lines; original marker line:
+  Does not apply if all flats on a storey have independent alternative means of escape.

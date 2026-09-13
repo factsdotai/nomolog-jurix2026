@@ -1,0 +1,3 @@
+The building fabric should be constructed so that thermal bridging, including at the party wall, is reasonably limited.
+
+provenance: CODE-ACCORD 45f0830 · example_id f51da5c6-7614-4719-8150-e22851e4aa12 · UK_DocL_V1_ConsrvationOfFuelAndPower

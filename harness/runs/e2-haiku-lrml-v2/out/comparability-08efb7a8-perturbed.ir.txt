@@ -1,0 +1,1 @@
+if( and( exist( major renovation), exist( electric vehicle charge point infrastructure))), then( obligation( consistent_methodology( cost_comparison)))

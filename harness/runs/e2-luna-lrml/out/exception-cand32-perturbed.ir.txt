@@ -1,0 +1,1 @@
+if( exist( principal window)), then( obligation( or( and( greater than equal( window. handle height, 700 mm), less than equal( window. handle height, 1000 mm)), and( exist( remote opening device), greater than equal( remote opening device. height, 700 mm), less than equal( remote opening device. height, 1000 mm)))))

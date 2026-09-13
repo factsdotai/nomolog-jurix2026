@@ -1,0 +1,84 @@
+{
+  "cases": [
+    {
+      "name": "clear_compliant",
+      "facts": [
+        "flat_storey(s1).",
+        "flat_on_storey(f1, s1).",
+        "travel_distance(s1, 25000).",
+        "max_travel_distance(s1, 30000)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    },
+    {
+      "name": "clear_violation",
+      "facts": [
+        "flat_storey(s1).",
+        "flat_on_storey(f1, s1).",
+        "travel_distance(s1, 35000).",
+        "max_travel_distance(s1, 30000)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": true
+      }
+    },
+    {
+      "name": "carved_out_all_flats_have_alt",
+      "facts": [
+        "flat_storey(s1).",
+        "flat_on_storey(f1, s1).",
+        "independent_alt_escape(f1).",
+        "flat_on_storey(f2, s1).",
+        "independent_alt_escape(f2).",
+        "travel_distance(s1, 35000).",
+        "max_travel_distance(s1, 30000)."
+      ],
+      "expect": {
+        "applies": false,
+        "violation": false
+      }
+    },
+    {
+      "name": "one_flat_lacks_alt_still_in_scope",
+      "facts": [
+        "flat_storey(s1).",
+        "flat_on_storey(f1, s1).",
+        "independent_alt_escape(f1).",
+        "flat_on_storey(f2, s1).",
+        "travel_distance(s1, 35000).",
+        "max_travel_distance(s1, 30000)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": true
+      }
+    },
+    {
+      "name": "boundary_at_limit",
+      "facts": [
+        "flat_storey(s1).",
+        "flat_on_storey(f1, s1).",
+        "travel_distance(s1, 30000).",
+        "max_travel_distance(s1, 30000)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    },
+    {
+      "name": "not_applicable",
+      "facts": [
+        "office_storey(s1)."
+      ],
+      "expect": {
+        "applies": false,
+        "violation": false
+      }
+    }
+  ]
+}

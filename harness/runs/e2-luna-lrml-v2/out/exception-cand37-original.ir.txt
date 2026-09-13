@@ -1,0 +1,3 @@
+r1: if( compartment_wall_mid_span( compartment wall)), then( obligation( and( deflection_allowance( compartment wall, 40 mm), accommodates assumed deflection( compartment wall))))
+r2: if( and( compartment_wall_mid_span( compartment wall), justified_deflection_value( compartment wall, smaller value))), then( obligation( and( deflection_allowance( compartment wall, smaller value), accommodates assumed deflection( compartment wall))))
+override( r2, r1)

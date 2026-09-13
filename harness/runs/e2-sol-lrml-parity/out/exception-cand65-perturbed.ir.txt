@@ -1,0 +1,1 @@
+if( wheelchair_route( route)), then( obligation( or( less than equal( travel_distance( route), 40 m), greater_distance_agreed( route))))

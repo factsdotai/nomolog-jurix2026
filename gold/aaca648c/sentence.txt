@@ -1,0 +1,3 @@
+The use of visually and acoustically reflective wall surfaces should be minimised within the lifting platform to prevent discomfort for people with visual and hearing impairment.
+
+provenance: CODE-ACCORD 45f0830 · example_id aaca648c-5f60-4300-a30f-887da252ebd0 · UK_DocM_V2_AccessAndUseOfBuildings

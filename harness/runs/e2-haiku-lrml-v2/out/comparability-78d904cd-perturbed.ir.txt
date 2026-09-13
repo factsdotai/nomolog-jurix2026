@@ -1,0 +1,1 @@
+if( and( exist( dwelling), has_pool( dwelling))), then( obligation( and( calculate as if( dwelling. primary energy rate, pool treated as equivalent floor( dwelling)), calculate as if( dwelling. emission rate, pool treated as equivalent floor( dwelling)), calculate as if( dwelling. fabric energy efficiency rate, pool treated as equivalent floor( dwelling)))))

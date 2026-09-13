@@ -1,0 +1,72 @@
+{
+  "cases": [
+    {
+      "name": "clear_compliant_default",
+      "facts": [
+        "compartment_wall_mid_span(w1).",
+        "deflection_allowance(w1, 45)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    },
+    {
+      "name": "clear_violation_default",
+      "facts": [
+        "compartment_wall_mid_span(w1).",
+        "deflection_allowance(w1, 30)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": true
+      }
+    },
+    {
+      "name": "boundary_default_exactly_40",
+      "facts": [
+        "compartment_wall_mid_span(w1).",
+        "deflection_allowance(w1, 40)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    },
+    {
+      "name": "exception_justified_smaller_ok",
+      "facts": [
+        "compartment_wall_mid_span(w1).",
+        "justified_deflection_value(w1, 25).",
+        "deflection_allowance(w1, 30)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    },
+    {
+      "name": "justified_value_still_violated",
+      "facts": [
+        "compartment_wall_mid_span(w1).",
+        "justified_deflection_value(w1, 25).",
+        "deflection_allowance(w1, 20)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": true
+      }
+    },
+    {
+      "name": "not_applicable_near_supports",
+      "facts": [
+        "compartment_wall_near_support(w1).",
+        "deflection_allowance(w1, 10)."
+      ],
+      "expect": {
+        "applies": false,
+        "violation": false
+      }
+    }
+  ]
+}

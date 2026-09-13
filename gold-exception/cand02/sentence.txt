@@ -1,0 +1,8 @@
+When replacing an existing on-site electricity generation system, the installed
+generation capacity of the new system should be no less than that of the existing
+system, except where a smaller system can be demonstrated to be more appropriate or
+effective.
+
+provenance: CODE-ACCORD 45f0830 raw-text stage · Approved_Document_L_Volume_1_Content.txt:3562 · pattern: default-plus-demonstration
+reconstructed from fragmented raw lines; original marker line:
+  no less than that of the existing system, except where a smaller system can be demonstrated to be

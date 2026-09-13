@@ -1,0 +1,1 @@
+if( and( replacement_generation_system( n1, o1), not( and( smaller_claimed( n1), demonstrated_more_appropriate( n1))))), then( obligation( greater than equal( capacity( n1), capacity( o1))))

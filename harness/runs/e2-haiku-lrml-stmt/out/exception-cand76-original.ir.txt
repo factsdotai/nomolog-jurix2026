@@ -1,0 +1,1 @@
+if( and( exist( new dwelling), not( or( greater than( connection cost, 2000 gbp), operator declined( new dwelling))))), then( obligation( gigabit connection provided( new dwelling)))

@@ -1,0 +1,1 @@
+if( exist( wheelchair route)), then( obligation( or( less than equal( travel distance( wheelchair route), 40 m), and( greater distance agreed( wheelchair route), service corridor( wheelchair route)))))

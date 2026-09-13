@@ -1,0 +1,1 @@
+if( and( exist( doorset), exist( resilient layer))), then( obligation( and( greater than equal( resilient layer. height, doorset. height), greater than equal( resilient layer. side extension left, 600 mm), greater than equal( resilient layer. side extension right, 600 mm))))

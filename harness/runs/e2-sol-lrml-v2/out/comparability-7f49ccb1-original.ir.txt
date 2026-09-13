@@ -1,0 +1,1 @@
+if( and( doorset( door), resilient_layer( layer, door), door_height( door, door height), layer_height( layer, layer height), side_extension_left( layer, left extension), side_extension_right( layer, right extension))), then( obligation( and( equal( layer height, door height), greater than equal( left extension, 600 mm), greater than equal( right extension, 600 mm))))

@@ -1,0 +1,78 @@
+{
+  "cases": [
+    {
+      "name": "clear_compliant_gentle",
+      "facts": [
+        "approach(a1).",
+        "gradient_part(a1, p1).",
+        "gradient(p1, 0.04)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    },
+    {
+      "name": "clear_violation_steep_unramped",
+      "facts": [
+        "approach(a1).",
+        "gradient_part(a1, p1).",
+        "gradient(p1, 0.08)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": true
+      }
+    },
+    {
+      "name": "boundary_exactly_1_in_20",
+      "facts": [
+        "approach(a1).",
+        "gradient_part(a1, p1).",
+        "gradient(p1, 0.05)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": true
+      }
+    },
+    {
+      "name": "compliant_steep_but_ramped",
+      "facts": [
+        "approach(a1).",
+        "gradient_part(a1, p1).",
+        "gradient(p1, 0.08).",
+        "ramped_access(p1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    },
+    {
+      "name": "not_applicable",
+      "facts": [
+        "corridor(c1)."
+      ],
+      "expect": {
+        "applies": false,
+        "violation": false
+      }
+    },
+    {
+      "name": "distractor_mixed_parts",
+      "facts": [
+        "approach(a1).",
+        "gradient_part(a1, p1).",
+        "gradient(p1, 0.03).",
+        "gradient_part(a1, p2).",
+        "gradient(p2, 0.06).",
+        "ramped_access(p2)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    }
+  ]
+}

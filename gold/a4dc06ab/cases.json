@@ -1,0 +1,73 @@
+{
+  "cases": [
+    {
+      "name": "clear_compliant",
+      "facts": [
+        "protruding_element(e1).",
+        "free_height(e1, 2400)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    },
+    {
+      "name": "clear_violation",
+      "facts": [
+        "protruding_element(e1).",
+        "free_height(e1, 2000)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": true
+      }
+    },
+    {
+      "name": "boundary_exactly_2200",
+      "facts": [
+        "protruding_element(e1).",
+        "free_height(e1, 2200)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    },
+    {
+      "name": "exception_area_protected",
+      "facts": [
+        "protruding_element(e1).",
+        "free_height(e1, 2000).",
+        "area_protected(e1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    },
+    {
+      "name": "not_applicable",
+      "facts": [
+        "flush_facade_element(e1)."
+      ],
+      "expect": {
+        "applies": false,
+        "violation": false
+      }
+    },
+    {
+      "name": "distractor_two_elements",
+      "facts": [
+        "protruding_element(e1).",
+        "free_height(e1, 2400).",
+        "protruding_element(e2).",
+        "free_height(e2, 2000).",
+        "area_protected(e2)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    }
+  ]
+}

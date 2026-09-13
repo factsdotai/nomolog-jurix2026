@@ -1,0 +1,1 @@
+Target: if( and( exist( cavity), not( or( fire resisting only loadbearing( cavity), meets diagram 9 2( cavity), above fire resisting ceiling( cavity))))), then( obligation( surface class ok( cavity)))

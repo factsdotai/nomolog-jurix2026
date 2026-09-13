@@ -1,0 +1,5 @@
+r1: if( and( exist( residential_building), exist( balcony), greater than equal( balcony. storey height, 11 m))), then( obligation( class_a1_or_a2( balcony)))
+r2: if( and( exist( balcony), masonry_cavity_tray( balcony))), then( permission( exist( balcony)))
+r3: if( and( exist( balcony), firestopping_required( balcony))), then( permission( exist( balcony)))
+override( r2, r1)
+override( r3, r1)

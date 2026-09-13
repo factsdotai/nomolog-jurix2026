@@ -1,0 +1,3 @@
+If the total flow rate cannot be achieved through all the terminals, then the fan speed should be increased.
+
+provenance: CODE-ACCORD 45f0830 · example_id 5fe7997a-7e99-485c-89b3-7912d7c8d44d · UK_DocF_V1_Ventilation

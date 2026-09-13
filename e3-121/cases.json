@@ -1,0 +1,108 @@
+{
+ "cases": [
+  {
+   "name": "catala_test1_own4y_use4y",
+   "facts": [
+    "property_sale(s1).",
+    "exclusion_claimed(s1).",
+    "ownership_days_window(s1, 1461).",
+    "use_days_window(s1, 1461)."
+   ],
+   "expect": {
+    "applies": true,
+    "violation": false
+   }
+  },
+  {
+   "name": "catala_test2_use_only_1y",
+   "facts": [
+    "property_sale(s1).",
+    "exclusion_claimed(s1).",
+    "ownership_days_window(s1, 1461).",
+    "use_days_window(s1, 365)."
+   ],
+   "expect": {
+    "applies": true,
+    "violation": true
+   }
+  },
+  {
+   "name": "catala_test3_use_clipped_367",
+   "facts": [
+    "property_sale(s1).",
+    "exclusion_claimed(s1).",
+    "ownership_days_window(s1, 1461).",
+    "use_days_window(s1, 367)."
+   ],
+   "expect": {
+    "applies": true,
+    "violation": true
+   }
+  },
+  {
+   "name": "catala_test4_use_aggregated_732",
+   "facts": [
+    "property_sale(s1).",
+    "exclusion_claimed(s1).",
+    "ownership_days_window(s1, 1461).",
+    "use_days_window(s1, 732)."
+   ],
+   "expect": {
+    "applies": true,
+    "violation": false
+   }
+  },
+  {
+   "name": "catala_test5_person1_requirements",
+   "facts": [
+    "property_sale(s1).",
+    "exclusion_claimed(s1).",
+    "ownership_days_window(s1, 1461).",
+    "use_days_window(s1, 1461)."
+   ],
+   "expect": {
+    "applies": true,
+    "violation": false
+   }
+  },
+  {
+   "name": "catala_test6_person2_requirements",
+   "facts": [
+    "property_sale(s1).",
+    "exclusion_claimed(s1).",
+    "ownership_days_window(s1, 1461).",
+    "use_days_window(s1, 732)."
+   ],
+   "expect": {
+    "applies": true,
+    "violation": false
+   }
+  },
+  {
+   "name": "supplementary_lookback_blocks",
+   "facts": [
+    "property_sale(s1).",
+    "exclusion_claimed(s1).",
+    "ownership_days_window(s1, 1461).",
+    "use_days_window(s1, 1461).",
+    "prior_121_sale_in_lookback(s1)."
+   ],
+   "expect": {
+    "applies": true,
+    "violation": true
+   }
+  },
+  {
+   "name": "supplementary_no_claim_vacuous",
+   "facts": [
+    "property_sale(s1).",
+    "ownership_days_window(s1, 100).",
+    "use_days_window(s1, 100)."
+   ],
+   "expect": {
+    "applies": false,
+    "violation": false
+   }
+  }
+ ]
+}

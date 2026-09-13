@@ -1,0 +1,71 @@
+{
+  "cases": [
+    {
+      "name": "clear_compliant",
+      "facts": [
+        "dwelling(d1).",
+        "exposed_facade(f1, d1).",
+        "exposed_facade(f2, d1).",
+        "similar_ventilator_area(f1, f2)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    },
+    {
+      "name": "clear_violation",
+      "facts": [
+        "dwelling(d1).",
+        "exposed_facade(f1, d1).",
+        "exposed_facade(f2, d1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": true
+      }
+    },
+    {
+      "name": "not_applicable_single_facade",
+      "facts": [
+        "dwelling(d1).",
+        "exposed_facade(f1, d1)."
+      ],
+      "expect": {
+        "applies": false,
+        "violation": false
+      }
+    },
+    {
+      "name": "violation_one_pair_of_three",
+      "facts": [
+        "dwelling(d1).",
+        "exposed_facade(f1, d1).",
+        "exposed_facade(f2, d1).",
+        "exposed_facade(f3, d1).",
+        "similar_ventilator_area(f1, f2).",
+        "similar_ventilator_area(f2, f3)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": true
+      }
+    },
+    {
+      "name": "compliant_three_facades_all_pairs",
+      "facts": [
+        "dwelling(d1).",
+        "exposed_facade(f1, d1).",
+        "exposed_facade(f2, d1).",
+        "exposed_facade(f3, d1).",
+        "similar_ventilator_area(f1, f2).",
+        "similar_ventilator_area(f2, f3).",
+        "similar_ventilator_area(f1, f3)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    }
+  ]
+}

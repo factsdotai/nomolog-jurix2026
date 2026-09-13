@@ -1,0 +1,1 @@
+if( and( exist( mech_vent_duct), greater than( cross_section_area( mech_vent_duct), 0.06 m2))), then( obligation( auto_shutoff_dampers( mech_vent_duct)))

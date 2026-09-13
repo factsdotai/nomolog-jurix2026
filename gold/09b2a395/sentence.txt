@@ -1,0 +1,3 @@
+Door entry controls, where provided, are mounted 900-1000mm above finished ground level, and at least 300mm away from any projecting corner.
+
+provenance: CODE-ACCORD 45f0830 · example_id 09b2a395-5293-4b7d-82d4-5312482d59e9 · UK_DocM_V1_AccessAndUseOfBuildings

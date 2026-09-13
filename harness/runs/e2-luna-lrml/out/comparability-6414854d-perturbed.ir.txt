@@ -1,0 +1,1 @@
+if( and( exist( ladder), less than equal( ladder. length, 6 m))), then( prohibition( special safety features( ladder)))

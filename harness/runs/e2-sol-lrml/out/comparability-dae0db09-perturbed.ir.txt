@@ -1,0 +1,1 @@
+if( and( light_permeable_structure( structure), not( protected_by_collision_barrier( structure)))), then( obligation( withstands_normal_load( structure)))

@@ -1,0 +1,1 @@
+if( and( door_entry_control(c), projecting_corner(k))), then( obligation( and( greater than equal( mounting_height(c, h), 900 mm), less than equal( mounting_height(c, h), 1000 mm), greater than equal( corner_distance(c, k, d), 300 mm))))

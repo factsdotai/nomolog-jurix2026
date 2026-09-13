@@ -1,0 +1,3 @@
+The effective rated output should be assessed based on the final installed capacity of the heating or air-conditioning system.
+
+provenance: CODE-ACCORD 45f0830 · example_id 87c9c5f5-18dc-4107-b4af-b44dfb2b9627 · UK_DocM_V2_AccessAndUseOfBuildings

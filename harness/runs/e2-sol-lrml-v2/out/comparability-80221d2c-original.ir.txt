@@ -1,0 +1,1 @@
+if( and( floor_drain( f), sink( s), connected( s, f), drain_distance( s, f, d))), then( obligation( and( less than equal( f. connected sink count, 2), less than equal( d, 3000 mm))))

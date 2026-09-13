@@ -1,0 +1,1 @@
+if( and( exist( building), major renovation residential( building), exist( parking space), part of( parking space, building), not( greater than( building. install cost fraction, 0.07)))), then( obligation( cable route installed( parking space)))

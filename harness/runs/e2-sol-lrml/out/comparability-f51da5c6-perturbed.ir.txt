@@ -1,0 +1,1 @@
+if( building_fabric( building)), then( obligation( thermal_bridging_limited( building)))

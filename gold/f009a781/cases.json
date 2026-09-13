@@ -1,0 +1,53 @@
+{
+  "cases": [
+    {
+      "name": "clear_compliant",
+      "facts": [
+        "landing(l1).",
+        "safe(l1).",
+        "sufficiently_spacious(l1).",
+        "suitable_for_purpose(l1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    },
+    {
+      "name": "violation_cramped",
+      "facts": [
+        "landing(l1).",
+        "safe(l1).",
+        "suitable_for_purpose(l1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": true
+      }
+    },
+    {
+      "name": "not_applicable",
+      "facts": [
+        "corridor(c1)."
+      ],
+      "expect": {
+        "applies": false,
+        "violation": false
+      }
+    },
+    {
+      "name": "distractor",
+      "facts": [
+        "landing(l1).",
+        "safe(l1).",
+        "sufficiently_spacious(l1).",
+        "suitable_for_purpose(l1).",
+        "stair(s1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    }
+  ]
+}

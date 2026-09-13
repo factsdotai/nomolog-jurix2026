@@ -1,0 +1,1 @@
+if( exist( foundation_drainage)), then( obligation( and( flows_away_from_property( foundation_drainage), not( causes_problems_to_sewer_systems( foundation_drainage)))))

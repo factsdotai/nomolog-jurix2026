@@ -1,0 +1,62 @@
+{
+  "cases": [
+    {
+      "name": "clear_compliant",
+      "facts": [
+        "compliance_checklist(c1).",
+        "checklist_part(p1, c1).",
+        "completed(p1).",
+        "checklist_part(p2, c1).",
+        "completed(p2).",
+        "checklist_part(p3, c1).",
+        "completed(p3)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    },
+    {
+      "name": "clear_violation_one_part",
+      "facts": [
+        "compliance_checklist(c1).",
+        "checklist_part(p1, c1).",
+        "completed(p1).",
+        "checklist_part(p2, c1).",
+        "completed(p2).",
+        "checklist_part(p3, c1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": true
+      }
+    },
+    {
+      "name": "not_applicable",
+      "facts": [
+        "design_note(n1)."
+      ],
+      "expect": {
+        "applies": false,
+        "violation": false
+      }
+    },
+    {
+      "name": "distractor",
+      "facts": [
+        "compliance_checklist(c1).",
+        "checklist_part(p1, c1).",
+        "completed(p1).",
+        "checklist_part(p2, c1).",
+        "completed(p2).",
+        "checklist_part(p3, c1).",
+        "completed(p3).",
+        "appendix(a1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+When calculating the heat loss for a buildings design solution, the design value shall be used as the value of the air leakage rate figure for the building envelope.
+
+provenance: CODE-ACCORD 45f0830 · example_id 20518e80-6f7e-457f-8c5a-59fa4c0eb324 · Finnish_EnergyEfficiency

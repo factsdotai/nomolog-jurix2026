@@ -1,0 +1,61 @@
+{
+  "cases": [
+    {
+      "name": "clear_compliant",
+      "facts": [
+        "existing_dwelling(d1).",
+        "complete_new_system(s1, d1).",
+        "whole_system_performance_assessed(s1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    },
+    {
+      "name": "clear_violation",
+      "facts": [
+        "existing_dwelling(d1).",
+        "complete_new_system(s1, d1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": true
+      }
+    },
+    {
+      "name": "not_applicable_component_swap_only",
+      "facts": [
+        "existing_dwelling(d1)."
+      ],
+      "expect": {
+        "applies": false,
+        "violation": false
+      }
+    },
+    {
+      "name": "not_applicable_new_dwelling",
+      "facts": [
+        "new_dwelling(d1).",
+        "complete_new_system(s1, d1)."
+      ],
+      "expect": {
+        "applies": false,
+        "violation": false
+      }
+    },
+    {
+      "name": "distractor",
+      "facts": [
+        "existing_dwelling(d1).",
+        "complete_new_system(s1, d1).",
+        "whole_system_performance_assessed(s1).",
+        "radiator(r1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+if( and( building( b), phased_evacuation_building( b), storey( s, b), not( top_storey( s)))), then( obligation( or( protected_lobby( s), protected_corridor( s))))

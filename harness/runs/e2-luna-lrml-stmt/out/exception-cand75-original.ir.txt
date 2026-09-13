@@ -1,0 +1,1 @@
+if( exist( flat_on_storey)), then( prohibition( and( max travel distance limit applies( flat_on_storey), for each( flat_on_storey, independent_alt_escape))))

@@ -1,0 +1,3 @@
+r1: if( and( exist( window), principal window( window))), then( obligation( and( greater than equal( window. handle height, 700 mm), less than equal( window. handle height, 1000 mm))))
+r2: if( and( exist( window), principal window( window), exist( remote opening device))), then( obligation( and( greater than equal( window. remote device height, 700 mm), less than equal( window. remote device height, 1000 mm))))
+override( r2, r1)

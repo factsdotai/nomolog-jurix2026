@@ -1,0 +1,1 @@
+if( and( pressure_test( test), sound_test( test))), then( obligation( or( reported_to_bcb( test), not( test_failed( test)))))

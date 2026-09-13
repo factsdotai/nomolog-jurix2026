@@ -1,0 +1,3 @@
+r1: if( protruding_element(E)), then( obligation( greater than equal( free_height(E), 2.2 metres)))
+r2: if( and( protruding_element(E), area_protected(E))), then( permission( protruding_element(E)))
+override( r2, r1)

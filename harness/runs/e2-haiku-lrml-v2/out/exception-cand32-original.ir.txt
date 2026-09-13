@@ -1,0 +1,3 @@
+r1: if( and( exist( principal living area window), exist( handle))), then( obligation( and( greater than equal( handle. height, 700 mm), less than equal( handle. height, 1000 mm))))
+r2: if( and( exist( principal living area window), exist( remote opening device), within( remote_device_height, 700 mm, 1000 mm))), then( permission( exist( principal living area window)))
+override( r2, r1)

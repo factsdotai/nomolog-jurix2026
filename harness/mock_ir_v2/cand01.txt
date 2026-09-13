@@ -1,0 +1,7 @@
+base: if( exist( cavity)), then( obligation( surface class ok( cavity)))
+a: if( and( exist( cavity), fire resisting only loadbearing( cavity))), then( permission( exist( cavity)))
+b: if( and( exist( cavity), meets diagram 9 2( cavity))), then( permission( exist( cavity)))
+c: if( and( exist( cavity), above fire resisting ceiling( cavity))), then( permission( exist( cavity)))
+override( a, base)
+override( b, base)
+override( c, base)

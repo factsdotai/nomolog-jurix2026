@@ -1,0 +1,68 @@
+{
+  "cases": [
+    {
+      "name": "clear_compliant",
+      "facts": [
+        "new_dwelling(d1).",
+        "gigabit_connection(d1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    },
+    {
+      "name": "clear_violation",
+      "facts": [
+        "new_dwelling(d1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": true
+      }
+    },
+    {
+      "name": "exception_cost_over_cap",
+      "facts": [
+        "new_dwelling(d1).",
+        "connection_cost(d1, 2500)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    },
+    {
+      "name": "exception_operator_declined",
+      "facts": [
+        "new_dwelling(d1).",
+        "operator_declined(d1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    },
+    {
+      "name": "boundary_cost_exactly_cap",
+      "facts": [
+        "new_dwelling(d1).",
+        "connection_cost(d1, 2000)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": true
+      }
+    },
+    {
+      "name": "not_applicable_existing_dwelling",
+      "facts": [
+        "existing_dwelling(d1)."
+      ],
+      "expect": {
+        "applies": false,
+        "violation": false
+      }
+    }
+  ]
+}

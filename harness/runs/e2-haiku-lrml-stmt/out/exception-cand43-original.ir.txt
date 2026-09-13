@@ -1,0 +1,1 @@
+if( and( exist( door), door_onto( door, corridor), or( major_route_corridor( corridor), escape_route( corridor)), not( minor_utility_door( door)))), then( obligation( recessed so not projects( door)))

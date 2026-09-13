@@ -1,0 +1,3 @@
+r1: if( and( principal_window( window), handle_height( window, height))), then( obligation( and( greater than equal( height, 700 mm), less than equal( height, 1000 mm))))
+r2: if( and( principal_window( window), remote_device_height( window, height), greater than equal( height, 700 mm), less than equal( height, 1000 mm))), then( permission( exist( window)))
+override( r2, r1)

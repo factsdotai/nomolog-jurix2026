@@ -1,0 +1,1 @@
+if( corner_door_pair(door)), then( obligation( or( edge_corner_distance(door, 800 mm), turning_circle_outside(door, 1500 mm))))

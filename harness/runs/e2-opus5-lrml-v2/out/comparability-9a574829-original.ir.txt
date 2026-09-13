@@ -1,0 +1,1 @@
+if( and( exist( building), exist( vent system))), then( obligation( whole building rate met( building)))

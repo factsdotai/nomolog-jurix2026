@@ -1,0 +1,3 @@
+r1: if( and( exist( building), greater than( building. dwelling count, 1))), then( permission( calculate( building. average target rates)))
+r2: if( and( exist( building), greater than( building. dwelling count, 1))), then( permission( calculate( building. individual target rates)))
+override( r2, r1)

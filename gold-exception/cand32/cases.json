@@ -1,0 +1,85 @@
+{
+  "cases": [
+    {
+      "name": "clear_compliant",
+      "facts": [
+        "principal_window(w1).",
+        "handle_height(w1, 850)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    },
+    {
+      "name": "violation_too_high",
+      "facts": [
+        "principal_window(w1).",
+        "handle_height(w1, 1200)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": true
+      }
+    },
+    {
+      "name": "violation_too_low",
+      "facts": [
+        "principal_window(w1).",
+        "handle_height(w1, 600)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": true
+      }
+    },
+    {
+      "name": "boundary_700_and_1000",
+      "facts": [
+        "principal_window(w1).",
+        "handle_height(w1, 700).",
+        "principal_window(w2).",
+        "handle_height(w2, 1000)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    },
+    {
+      "name": "exception_remote_device_in_range",
+      "facts": [
+        "principal_window(w1).",
+        "handle_height(w1, 1400).",
+        "remote_device_height(w1, 900)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    },
+    {
+      "name": "almost_met_device_out_of_range",
+      "facts": [
+        "principal_window(w1).",
+        "handle_height(w1, 1400).",
+        "remote_device_height(w1, 1100)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": true
+      }
+    },
+    {
+      "name": "not_applicable",
+      "facts": [
+        "bathroom_window(w1).",
+        "handle_height(w1, 1400)."
+      ],
+      "expect": {
+        "applies": false,
+        "violation": false
+      }
+    }
+  ]
+}

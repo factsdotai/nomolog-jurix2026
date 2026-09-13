@@ -1,0 +1,3 @@
+When a new residential building is erected, information about the building must be given to the owner of the building to allow them to use the overheating mitigation strategy effectively.
+
+provenance: CODE-ACCORD 45f0830 · example_id 02f5e3fb-7a8b-4a88-a6e5-337cc0835284 · UK_DocO_Overheating

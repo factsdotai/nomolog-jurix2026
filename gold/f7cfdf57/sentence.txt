@@ -1,0 +1,3 @@
+Ramps, steps, thresholds and differences in levels in passageways must be clearly indicated using lighting and surface brightness contrasts or warning signs.
+
+provenance: CODE-ACCORD 45f0830 · example_id f7cfdf57-28f3-4d23-90bf-ec2268e14bac · Finnish_SafetyOfUse

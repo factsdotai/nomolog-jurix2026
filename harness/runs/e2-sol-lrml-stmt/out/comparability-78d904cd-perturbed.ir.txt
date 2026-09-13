@@ -1,0 +1,1 @@
+if( and( dwelling( dwelling), has_pool( dwelling), rate_calculation( rate calculation, dwelling))), then( obligation( pool_treated_as_equivalent_floor( rate calculation)))

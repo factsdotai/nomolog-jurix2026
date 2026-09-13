@@ -1,0 +1,3 @@
+The whole building ventilation rate should be met.
+
+provenance: CODE-ACCORD 45f0830 · example_id 9a574829-3211-4b4f-8c0c-c7a7ab9cfd54 · UK_DocF_V2_Ventilation

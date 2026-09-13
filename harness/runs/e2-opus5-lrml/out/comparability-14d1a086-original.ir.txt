@@ -1,0 +1,1 @@
+if( and( exist( lifting device), serves floor( lifting device, floor))), then( obligation( opposite end against wall( lifting device, floor)))

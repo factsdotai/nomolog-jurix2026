@@ -1,0 +1,2 @@
+r1: if( and( exist( building), primarily_one_storey( building))), then( obligation( less than equal( building. fc_business_area_second_storey, 200 square metres)))
+r2: if( and( exist( building), primarily_one_storey( building))), then( obligation( less than equal( building. nfc_business_area_second_storey, 50 square metres)))

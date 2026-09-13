@@ -1,0 +1,75 @@
+{
+  "cases": [
+    {
+      "name": "clear_compliant_no_lift_use",
+      "facts": [
+        "fire_in_building(b1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    },
+    {
+      "name": "clear_violation",
+      "facts": [
+        "fire_in_building(b1).",
+        "lift_used(l1, b1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": true
+      }
+    },
+    {
+      "name": "exception_evacuation_lift",
+      "facts": [
+        "fire_in_building(b1).",
+        "lift_used(l1, b1).",
+        "part_of_evacuation_plan(l1).",
+        "appropriately_sited(l1).",
+        "fire_safety_features(l1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    },
+    {
+      "name": "almost_met_no_safety_features",
+      "facts": [
+        "fire_in_building(b1).",
+        "lift_used(l1, b1).",
+        "part_of_evacuation_plan(l1).",
+        "appropriately_sited(l1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": true
+      }
+    },
+    {
+      "name": "almost_met_plan_only",
+      "facts": [
+        "fire_in_building(b1).",
+        "lift_used(l1, b1).",
+        "part_of_evacuation_plan(l1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": true
+      }
+    },
+    {
+      "name": "not_applicable_no_fire",
+      "facts": [
+        "building(b1).",
+        "lift_used(l1, b1)."
+      ],
+      "expect": {
+        "applies": false,
+        "violation": false
+      }
+    }
+  ]
+}

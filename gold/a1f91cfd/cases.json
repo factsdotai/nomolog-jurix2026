@@ -1,0 +1,59 @@
+{
+  "cases": [
+    {
+      "name": "compliant_individual_rates",
+      "facts": [
+        "multi_dwelling_building(b1).",
+        "individual_target_rates(b1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    },
+    {
+      "name": "compliant_average_alternative",
+      "facts": [
+        "multi_dwelling_building(b1).",
+        "average_target_rates(b1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    },
+    {
+      "name": "violation_neither_form",
+      "facts": [
+        "multi_dwelling_building(b1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": true
+      }
+    },
+    {
+      "name": "not_applicable_single_dwelling",
+      "facts": [
+        "dwelling(d1).",
+        "individual_target_rates(d1)."
+      ],
+      "expect": {
+        "applies": false,
+        "violation": false
+      }
+    },
+    {
+      "name": "distractor_both_forms",
+      "facts": [
+        "multi_dwelling_building(b1).",
+        "individual_target_rates(b1).",
+        "average_target_rates(b1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "cases": [
+    {
+      "name": "clear_compliant",
+      "facts": [
+        "vent_system(s1).",
+        "total_flow_unachievable(s1).",
+        "fan_speed_increased(s1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    },
+    {
+      "name": "clear_violation",
+      "facts": [
+        "vent_system(s1).",
+        "total_flow_unachievable(s1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": true
+      }
+    },
+    {
+      "name": "not_applicable_flow_achieved",
+      "facts": [
+        "vent_system(s1)."
+      ],
+      "expect": {
+        "applies": false,
+        "violation": false
+      }
+    },
+    {
+      "name": "distractor",
+      "facts": [
+        "vent_system(s1).",
+        "total_flow_unachievable(s1).",
+        "fan_speed_increased(s1).",
+        "vent_system(s2)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    }
+  ]
+}

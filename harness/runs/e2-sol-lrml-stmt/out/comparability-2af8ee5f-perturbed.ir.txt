@@ -1,0 +1,1 @@
+if( and( exist( building_work), in_kitchen_or_bathroom( building_work))), then( obligation( and( for each( existing_fan, or( retained( existing_fan), replaced( existing_fan))), for each( cooker_hood, or( not( extracts_outside( cooker_hood)), retained( cooker_hood), replaced( cooker_hood))))))

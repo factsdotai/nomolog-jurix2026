@@ -1,0 +1,60 @@
+{
+  "cases": [
+    {
+      "name": "clear_compliant",
+      "facts": [
+        "wheelchair_route(r1).",
+        "travel_distance(r1, 35000)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    },
+    {
+      "name": "clear_violation",
+      "facts": [
+        "wheelchair_route(r1).",
+        "travel_distance(r1, 45000)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": true
+      }
+    },
+    {
+      "name": "boundary_exactly_40m",
+      "facts": [
+        "wheelchair_route(r1).",
+        "travel_distance(r1, 40000)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    },
+    {
+      "name": "exception_bcb_agreement",
+      "facts": [
+        "wheelchair_route(r1).",
+        "travel_distance(r1, 45000).",
+        "greater_distance_agreed(r1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    },
+    {
+      "name": "not_applicable",
+      "facts": [
+        "service_corridor(c1).",
+        "travel_distance(c1, 45000)."
+      ],
+      "expect": {
+        "applies": false,
+        "violation": false
+      }
+    }
+  ]
+}

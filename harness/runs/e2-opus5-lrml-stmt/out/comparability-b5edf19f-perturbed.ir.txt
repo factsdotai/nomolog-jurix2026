@@ -1,0 +1,1 @@
+if( and( exist( building), partitioning necessary( building))), then( obligation( or( partitioned into compartments( building), exist( sprinkler))))

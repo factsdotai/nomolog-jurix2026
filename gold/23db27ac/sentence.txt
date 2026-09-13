@@ -1,0 +1,3 @@
+When installing or renovating thermal elements, the element being installed should be draught-proofed and airleakage gaps should be filled.
+
+provenance: CODE-ACCORD 45f0830 · example_id 23db27ac-b594-4b26-883d-922d713d382a · UK_DocM_V2_AccessAndUseOfBuildings

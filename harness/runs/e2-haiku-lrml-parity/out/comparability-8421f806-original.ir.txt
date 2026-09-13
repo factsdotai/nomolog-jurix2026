@@ -1,0 +1,1 @@
+if( and( exist( approach), or( gradient( approach, greater than equal( 1, 20)), exist( gradient_part( approach)), gradient_part( approach, greater than equal( 1, 20))))), then( obligation( ramped_access( approach)))

@@ -1,0 +1,3 @@
+Exits of parts of the building separated by a fire wall must be constructed separately so that in the event of a fire there is no need to use any door that may be in the fire wall.
+
+provenance: CODE-ACCORD 45f0830 · example_id a4fccc69-c508-4405-92aa-2cfe36bfca39 · Finnish_FireSafety

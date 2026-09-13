@@ -1,0 +1,1 @@
+if( and( exist( wheelchair user), exist( unisex toilet), not( greater_distance_agreed( wheelchair user)))), then( obligation( less than equal( travel_distance( wheelchair user, unisex toilet), 40 m)))

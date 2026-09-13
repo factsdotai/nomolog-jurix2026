@@ -1,0 +1,3 @@
+r1: if( and( exist( wheelchair route), exist( unisex toilet))), then( obligation( less than equal( wheelchair route. travel distance, 40 m)))
+r2: if( and( exist( wheelchair route), greater distance agreed( wheelchair route))), then( permission( greater than( wheelchair route. travel distance, 40 m)))
+override( r2, r1)

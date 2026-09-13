@@ -1,0 +1,3 @@
+r1: if( exist( new dwelling)), then( obligation( for each( new dwelling, gigabit capable public electronic communications network connection)))
+r2: if( and( exist( new dwelling), or( greater than( connection cost, 2000 GBP per dwelling), operator declined( new dwelling)))), then( permission( exist( gigabit capable public electronic communications network connection)))
+override( r2, r1)

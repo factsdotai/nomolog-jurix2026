@@ -1,0 +1,64 @@
+{
+  "cases": [
+    {
+      "name": "clear_compliant",
+      "facts": [
+        "wet_room(r1).",
+        "structure_of(s1, r1).",
+        "rigidity_adequate(s1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    },
+    {
+      "name": "clear_violation",
+      "facts": [
+        "wet_room(r1).",
+        "structure_of(s1, r1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": true
+      }
+    },
+    {
+      "name": "violation_one_of_two",
+      "facts": [
+        "wet_room(r1).",
+        "structure_of(s1, r1).",
+        "rigidity_adequate(s1).",
+        "structure_of(s2, r1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": true
+      }
+    },
+    {
+      "name": "not_applicable",
+      "facts": [
+        "dry_room(r1).",
+        "structure_of(s1, r1)."
+      ],
+      "expect": {
+        "applies": false,
+        "violation": false
+      }
+    },
+    {
+      "name": "distractor",
+      "facts": [
+        "wet_room(r1).",
+        "structure_of(s1, r1).",
+        "rigidity_adequate(s1).",
+        "tile(t1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    }
+  ]
+}

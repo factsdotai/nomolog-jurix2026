@@ -1,0 +1,48 @@
+{
+  "cases": [
+    {
+      "name": "clear_compliant",
+      "facts": [
+        "new_residential_building(b1).",
+        "overheating_info_given_to_owner(b1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    },
+    {
+      "name": "clear_violation",
+      "facts": [
+        "new_residential_building(b1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": true
+      }
+    },
+    {
+      "name": "not_applicable_commercial",
+      "facts": [
+        "new_office_building(b1)."
+      ],
+      "expect": {
+        "applies": false,
+        "violation": false
+      }
+    },
+    {
+      "name": "distractor",
+      "facts": [
+        "new_residential_building(b1).",
+        "overheating_info_given_to_owner(b1).",
+        "new_residential_building(b2).",
+        "overheating_info_given_to_owner(b2)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    }
+  ]
+}

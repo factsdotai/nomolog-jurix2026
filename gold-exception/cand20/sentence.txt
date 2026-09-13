@@ -1,0 +1,7 @@
+New extensions to historic and traditional dwellings should comply with all ventilation
+standards in this approved document unless there is a need to match the external
+appearance or character of the extension to that of the host building.
+
+provenance: CODE-ACCORD 45f0830 raw-text stage · Approved_Document_F_V1:101 · pattern: historic-appearance-exception
+reconstructed from fragmented raw lines; original marker line:
+  in this approved document unless there is a need to match the external appearance or character of

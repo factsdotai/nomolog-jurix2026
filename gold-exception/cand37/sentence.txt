@@ -1,0 +1,7 @@
+Where compartment walls are located within the middle half of a floor between vertical
+supports, the deflection may be assumed to be 40mm unless a smaller value can be
+justified by assessment; the wall design must accommodate the assumed deflection.
+
+provenance: CODE-ACCORD 45f0830 raw-text stage · Approved_Document_B_vol_1:3584 · pattern: rebuttable-default-value
+reconstructed from fragmented raw lines; original marker line:
+  the deflection may be assumed to be 40mm unless a smaller value can be justified by assessment.

@@ -1,0 +1,77 @@
+{
+  "cases": [
+    {
+      "name": "clear_compliant",
+      "facts": [
+        "mech_vent_duct(d1).",
+        "cross_section_area(d1, 0.08).",
+        "auto_shutoff_dampers(d1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    },
+    {
+      "name": "clear_violation",
+      "facts": [
+        "mech_vent_duct(d1).",
+        "cross_section_area(d1, 0.08)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": true
+      }
+    },
+    {
+      "name": "boundary_exactly_006_not_applicable",
+      "facts": [
+        "mech_vent_duct(d1).",
+        "cross_section_area(d1, 0.06)."
+      ],
+      "expect": {
+        "applies": false,
+        "violation": false
+      }
+    },
+    {
+      "name": "not_applicable_small_duct",
+      "facts": [
+        "mech_vent_duct(d1).",
+        "cross_section_area(d1, 0.04)."
+      ],
+      "expect": {
+        "applies": false,
+        "violation": false
+      }
+    },
+    {
+      "name": "distractor_small_duct_beside_large",
+      "facts": [
+        "mech_vent_duct(d1).",
+        "cross_section_area(d1, 0.08).",
+        "auto_shutoff_dampers(d1).",
+        "mech_vent_duct(d2).",
+        "cross_section_area(d2, 0.03)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    },
+    {
+      "name": "violation_one_of_two_large",
+      "facts": [
+        "mech_vent_duct(d1).",
+        "cross_section_area(d1, 0.08).",
+        "auto_shutoff_dampers(d1).",
+        "mech_vent_duct(d2).",
+        "cross_section_area(d2, 0.09)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": true
+      }
+    }
+  ]
+}

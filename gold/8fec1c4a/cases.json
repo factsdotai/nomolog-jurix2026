@@ -1,0 +1,50 @@
+{
+  "cases": [
+    {
+      "name": "clear_compliant",
+      "facts": [
+        "membrane(m1).",
+        "penetration(p1, m1).",
+        "robust_seal(p1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    },
+    {
+      "name": "clear_violation_one_of_two",
+      "facts": [
+        "membrane(m1).",
+        "penetration(p1, m1).",
+        "robust_seal(p1).",
+        "penetration(p2, m1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": true
+      }
+    },
+    {
+      "name": "no_penetrations_vacuous",
+      "facts": [
+        "membrane(m1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    },
+    {
+      "name": "not_applicable",
+      "facts": [
+        "cladding(c1).",
+        "penetration(p1, c1)."
+      ],
+      "expect": {
+        "applies": false,
+        "violation": false
+      }
+    }
+  ]
+}

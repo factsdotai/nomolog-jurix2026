@@ -1,0 +1,1 @@
+if( and( exist( ventilation system), natural vent system( ventilation system), exist( vent valve), part of( vent valve, ventilation system))), then( obligation( easy to close( vent valve)))

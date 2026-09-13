@@ -1,0 +1,1 @@
+if( and( protruding_element( structural element), not( area_protected( structural element)))), then( obligation( greater than equal( structural element. free_height, 2.2 metres)))

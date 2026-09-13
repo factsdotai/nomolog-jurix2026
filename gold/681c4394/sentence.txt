@@ -1,0 +1,3 @@
+The rate of heat release from the appliance should be adjustable, using an adjustable damper or other thermostatically controlled method.
+
+provenance: CODE-ACCORD 45f0830 · example_id 681c4394-9435-408b-9a9b-d1f3d0729d38 · UK_DocL_V1_ConsrvationOfFuelAndPower

@@ -1,0 +1,6 @@
+Switches for permanently wired appliances are located between 400mm and 1200mm above
+the floor, unless needed at a higher level for particular appliances.
+
+provenance: CODE-ACCORD 45f0830 raw-text stage · Approved_Document M_V2_Content.txt:526 · pattern: threshold-plus-exception
+reconstructed from fragmented raw lines; original marker line:
+  b. switches for permanently wired appliances are located between 400mm and 1200mm above the floor , unless needed at a higher level for particular appliances ;

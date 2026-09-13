@@ -1,0 +1,1 @@
+if( and( exist( external escape stair), exist( building part), element near route( building part, external escape stair))), then( obligation( or( fire resisting re30( building part), alternative escape routes from foot( external escape stair))))

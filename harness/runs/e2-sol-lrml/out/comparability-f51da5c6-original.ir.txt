@@ -1,0 +1,1 @@
+if( and( exist( building_fabric), exist( party_wall))), then( obligation( thermal_bridging_limited( building_fabric)))

@@ -1,0 +1,52 @@
+{
+  "cases": [
+    {
+      "name": "clear_compliant",
+      "facts": [
+        "output_calculation(c1).",
+        "boiler(b1).",
+        "used_in_calculation(b1, c1).",
+        "boiler(b2).",
+        "used_in_calculation(b2, c1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    },
+    {
+      "name": "clear_violation_identical_omitted",
+      "facts": [
+        "output_calculation(c1).",
+        "boiler(b1).",
+        "used_in_calculation(b1, c1).",
+        "boiler(b2)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": true
+      }
+    },
+    {
+      "name": "not_applicable",
+      "facts": [
+        "boiler(b1)."
+      ],
+      "expect": {
+        "applies": false,
+        "violation": false
+      }
+    },
+    {
+      "name": "distractor_no_boilers",
+      "facts": [
+        "output_calculation(c1).",
+        "radiator(r1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    }
+  ]
+}

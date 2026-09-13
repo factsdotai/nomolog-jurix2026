@@ -1,0 +1,7 @@
+Developers should provide a gigabit-capable public electronic communications network
+connection for each new dwelling erected, unless the cost exceeds the cost cap of 2000
+GBP per dwelling or the network operator declines to provide a connection.
+
+provenance: CODE-ACCORD 45f0830 raw-text stage · Approved_Document_R_vol_1:979 · pattern: cost-threshold-exception
+reconstructed from fragmented raw lines; original marker line:
+  communications network connection for each new dwelling erected unless the cost exceeds the

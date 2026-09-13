@@ -1,0 +1,1 @@
+if( and( exist( wet_room), exist( structure), structure_of( structure, wet_room))), then( obligation( rigidity_adequate( structure)))

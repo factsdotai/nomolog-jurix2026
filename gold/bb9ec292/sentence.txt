@@ -1,0 +1,3 @@
+The building primary energy rate and building emission rate calculated using the measured air permeability must not be higher than the target primary energy rate and target emission rate, respectively.
+
+provenance: CODE-ACCORD 45f0830 · example_id bb9ec292-062b-43c3-8590-856dd5f6b890 · UK_DocM_V2_AccessAndUseOfBuildings

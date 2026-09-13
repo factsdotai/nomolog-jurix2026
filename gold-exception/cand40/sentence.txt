@@ -1,0 +1,7 @@
+On major renovation of a residential building, cable routes for electric vehicle charge
+points must be installed in all associated parking spaces, except where the cost of
+that installation exceeds 7% of the total cost of the major renovation.
+
+provenance: CODE-ACCORD 45f0830 raw-text stage · Approved_Document_S:777 · pattern: cost-threshold-exception
+reconstructed from fragmented raw lines; original marker line:
+  except where the cost of that installation exceeds 7 of the total cost of the major renovation.

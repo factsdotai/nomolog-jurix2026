@@ -1,0 +1,3 @@
+The foundation drainage water shall flow away from the property in such a way that it does not cause problems to the waste water and storm water systems.
+
+provenance: CODE-ACCORD 45f0830 · example_id 0edb92b7-a2e1-480f-b708-e7e6c9951a79 · Finnish_Health-WaterAndSewerage

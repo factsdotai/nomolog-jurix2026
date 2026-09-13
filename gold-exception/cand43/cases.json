@@ -1,0 +1,67 @@
+{
+  "cases": [
+    {
+      "name": "clear_compliant",
+      "facts": [
+        "major_route_corridor(c1).",
+        "door_onto(d1, c1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    },
+    {
+      "name": "clear_violation",
+      "facts": [
+        "major_route_corridor(c1).",
+        "door_onto(d1, c1).",
+        "projects_when_open(d1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": true
+      }
+    },
+    {
+      "name": "excepted_utility_door",
+      "facts": [
+        "major_route_corridor(c1).",
+        "door_onto(d1, c1).",
+        "projects_when_open(d1).",
+        "minor_utility_door(d1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    },
+    {
+      "name": "mixed_utility_and_office_door",
+      "facts": [
+        "major_route_corridor(c1).",
+        "door_onto(d1, c1).",
+        "projects_when_open(d1).",
+        "minor_utility_door(d1).",
+        "door_onto(d2, c1).",
+        "projects_when_open(d2)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": true
+      }
+    },
+    {
+      "name": "not_applicable_minor_corridor",
+      "facts": [
+        "minor_corridor(c1).",
+        "door_onto(d1, c1).",
+        "projects_when_open(d1)."
+      ],
+      "expect": {
+        "applies": false,
+        "violation": false
+      }
+    }
+  ]
+}

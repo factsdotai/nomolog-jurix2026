@@ -1,0 +1,3 @@
+r1: if( and( exist( external escape stair), exist( element of building), element near route( element of building, external escape stair), less than equal( element of building. distance to escape route, 180 cm))), then( obligation( fire resisting re30( element of building)))
+r2: if( and( exist( external escape stair), alternative escape routes from foot( external escape stair))), then( permission( exist( element of building)))
+override( r2, r1)

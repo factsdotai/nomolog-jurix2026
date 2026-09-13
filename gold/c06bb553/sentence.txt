@@ -1,0 +1,3 @@
+When a building undergoes a major renovation, the technical, environmental and economic feasibility of installing high-efficiency alternative systems should be considered.
+
+provenance: CODE-ACCORD 45f0830 · example_id c06bb553-d8f1-47f5-ab33-cfdebb6bca52 · UK_DocM_V2_AccessAndUseOfBuildings

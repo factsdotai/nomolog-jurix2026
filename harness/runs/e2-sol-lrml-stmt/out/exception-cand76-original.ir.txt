@@ -1,0 +1,1 @@
+if( new_dwelling( dwelling)), then( obligation( or( gigabit_connection( dwelling), greater than( connection_cost( dwelling), 2000 GBP), operator_declined( dwelling))))

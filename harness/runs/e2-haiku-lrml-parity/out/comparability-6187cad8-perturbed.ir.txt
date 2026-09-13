@@ -1,0 +1,1 @@
+if( and( exist( continuous_fan), operates_without_intervention( continuous_fan))), then( obligation( or( manual_boost_control( continuous_fan), automatic_boost_control( continuous_fan))))

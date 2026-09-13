@@ -1,0 +1,85 @@
+{
+  "cases": [
+    {
+      "name": "clear_compliant",
+      "facts": [
+        "appliance_switch(s1).",
+        "mounting_height(s1, 900)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    },
+    {
+      "name": "violation_too_high",
+      "facts": [
+        "appliance_switch(s1).",
+        "mounting_height(s1, 1400)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": true
+      }
+    },
+    {
+      "name": "violation_too_low",
+      "facts": [
+        "appliance_switch(s1).",
+        "mounting_height(s1, 300)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": true
+      }
+    },
+    {
+      "name": "boundary_400_and_1200",
+      "facts": [
+        "appliance_switch(s1).",
+        "mounting_height(s1, 400).",
+        "appliance_switch(s2).",
+        "mounting_height(s2, 1200)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    },
+    {
+      "name": "exception_high_needed",
+      "facts": [
+        "appliance_switch(s1).",
+        "mounting_height(s1, 1400).",
+        "higher_level_needed(s1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    },
+    {
+      "name": "exception_does_not_excuse_low",
+      "facts": [
+        "appliance_switch(s1).",
+        "mounting_height(s1, 300).",
+        "higher_level_needed(s1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": true
+      }
+    },
+    {
+      "name": "not_applicable",
+      "facts": [
+        "light_switch(s1).",
+        "mounting_height(s1, 1400)."
+      ],
+      "expect": {
+        "applies": false,
+        "violation": false
+      }
+    }
+  ]
+}

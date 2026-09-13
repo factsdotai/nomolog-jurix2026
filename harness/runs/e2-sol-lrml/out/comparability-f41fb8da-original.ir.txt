@@ -1,0 +1,1 @@
+if( and( glass_surface( g1), collision_danger( g1))), then( obligation( marked_noticeably( g1)))

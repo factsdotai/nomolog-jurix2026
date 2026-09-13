@@ -1,0 +1,7 @@
+r1: if( exist( cavity)), then( obligation( as per( cavity. surface class, table 9.1)))
+r2: if( and( exist( cavity), fire_resisting_only_loadbearing( cavity))), then( permission( exist( cavity)))
+r3: if( and( exist( cavity), meets_diagram_9_2( cavity))), then( permission( exist( cavity)))
+r4: if( and( exist( cavity), above_fire_resisting_ceiling( cavity))), then( permission( exist( cavity)))
+override( r2, r1)
+override( r3, r1)
+override( r4, r1)

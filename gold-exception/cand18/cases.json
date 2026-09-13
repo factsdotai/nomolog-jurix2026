@@ -1,0 +1,81 @@
+{
+  "cases": [
+    {
+      "name": "clear_compliant",
+      "facts": [
+        "tall_residential_building(b1).",
+        "balcony(l1, b1).",
+        "material_of(m1, l1).",
+        "class_a1_or_a2(m1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    },
+    {
+      "name": "clear_violation",
+      "facts": [
+        "tall_residential_building(b1).",
+        "balcony(l1, b1).",
+        "material_of(m1, l1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": true
+      }
+    },
+    {
+      "name": "excepted_cavity_tray",
+      "facts": [
+        "tall_residential_building(b1).",
+        "balcony(l1, b1).",
+        "material_of(m1, l1).",
+        "masonry_cavity_tray(m1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    },
+    {
+      "name": "excepted_firestopping",
+      "facts": [
+        "tall_residential_building(b1).",
+        "balcony(l1, b1).",
+        "material_of(m1, l1).",
+        "firestopping_required(m1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    },
+    {
+      "name": "mixed_one_excepted_one_not",
+      "facts": [
+        "tall_residential_building(b1).",
+        "balcony(l1, b1).",
+        "material_of(m1, l1).",
+        "masonry_cavity_tray(m1).",
+        "material_of(m2, l1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": true
+      }
+    },
+    {
+      "name": "not_applicable_low_building",
+      "facts": [
+        "residential_building(b1).",
+        "balcony(l1, b1).",
+        "material_of(m1, l1)."
+      ],
+      "expect": {
+        "applies": false,
+        "violation": false
+      }
+    }
+  ]
+}

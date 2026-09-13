@@ -1,0 +1,3 @@
+r1: if( and( exist( dwelling), greater than( dwelling. exposed facade count, 1))), then( obligation( similar ventilator area( dwelling)))
+r2: if( and( exist( dwelling), equal( dwelling. exposed facade count, 1))), then( permission( exist( dwelling)))
+override( r2, r1)

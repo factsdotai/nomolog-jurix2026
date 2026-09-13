@@ -1,0 +1,1 @@
+if( and( exist( flat storey), exist( flat), flat on storey( flat, flat storey))), then( obligation( or( less than equal( flat storey. travel distance, flat storey. max travel distance), independent alt escape( flat))))

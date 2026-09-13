@@ -1,0 +1,7 @@
+In residential buildings with a storey 11m or more in height, balconies should only
+contain materials achieving class A1 or A2-s1,d0, except for cavity trays used between
+two leaves of masonry and intumescent/firestopping materials necessary to meet Part B.
+
+provenance: CODE-ACCORD 45f0830 raw-text stage · Approved_Document_B_vol_2:5931 · pattern: material-class-list-exception
+reconstructed from fragmented raw lines; original marker line:
+  Only contain materials achieving class A1 or A2s1, d0, except for any of the following.

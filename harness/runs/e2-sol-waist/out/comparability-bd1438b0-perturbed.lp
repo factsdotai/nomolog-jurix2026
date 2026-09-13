@@ -1,0 +1,3 @@
+applies :- rooflight(R).
+r1: violation <= rooflight(R), not uvalue_calculated(R).
+r2: violation <= rooflight(R), uvalue_calculated(R), not uvalue_horizontal_basis(R).

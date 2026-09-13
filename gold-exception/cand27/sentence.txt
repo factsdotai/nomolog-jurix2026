@@ -1,0 +1,8 @@
+Elements of structure must have the fire resistance given in Appendix B, Table B3. A
+structure that supports only a roof is excluded from the definition of element of
+structure, unless the roof performs the function of a floor or the structure is
+essential for the stability of a fire-resisting external wall.
+
+provenance: CODE-ACCORD 45f0830 raw-text stage · Approved_Document_B_vol_1:2941 · pattern: exemption-with-disjunction
+reconstructed from fragmented raw lines; original marker line:
+  A structure that supports only a roof, unless either of the following applies.

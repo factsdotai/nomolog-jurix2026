@@ -1,0 +1,3 @@
+Where building work is carried out in a kitchen or bathroom, any existing fans (including cooker hoods, where they extract to the outside) should be retained or replaced.
+
+provenance: CODE-ACCORD 45f0830 · example_id 2af8ee5f-9d05-4023-9365-d093ebdfba1f · UK_DocF_V1_Ventilation

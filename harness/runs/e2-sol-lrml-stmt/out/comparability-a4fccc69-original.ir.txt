@@ -1,0 +1,1 @@
+if( and( exit_route( e1, p1), fire_wall( w1), separated_part( p1, w1))), then( prohibition( uses_fire_wall_door( e1, w1)))

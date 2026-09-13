@@ -1,0 +1,3 @@
+r1: if( and( exist( residential building), major renovation residential( residential building), exist( parking space), parking space( parking space, residential building))), then( obligation( for each( parking space, cable route installed( parking space))))
+r2: if( and( exist( residential building), major renovation residential( residential building), greater than( install cost fraction( residential building), 7%))), then( permission( exist( residential building)))
+override( r2, r1)

@@ -1,0 +1,63 @@
+{
+  "cases": [
+    {
+      "name": "base_permission_no_escape_opening",
+      "facts": [
+        "fire_doorset(d1).",
+        "fusible_link(d1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    },
+    {
+      "name": "prohibited_on_escape_opening",
+      "facts": [
+        "fire_doorset(d1).",
+        "fusible_link(d1).",
+        "escape_opening(d1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": true
+      }
+    },
+    {
+      "name": "counter_exception_c7",
+      "facts": [
+        "fire_doorset(d1).",
+        "fusible_link(d1).",
+        "escape_opening(d1).",
+        "complies_c7(d1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    },
+    {
+      "name": "not_applicable_no_fusible_link",
+      "facts": [
+        "fire_doorset(d1).",
+        "escape_opening(d1)."
+      ],
+      "expect": {
+        "applies": false,
+        "violation": false
+      }
+    },
+    {
+      "name": "distractor",
+      "facts": [
+        "fire_doorset(d1).",
+        "fusible_link(d1).",
+        "door_closer(x1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    }
+  ]
+}

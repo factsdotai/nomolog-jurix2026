@@ -1,0 +1,1 @@
+if( and( exist( dwelling), new dwelling( dwelling))), then( obligation( or( gigabit connection( dwelling), greater than( dwelling. connection cost, 2000 gbp), operator declined( dwelling))))

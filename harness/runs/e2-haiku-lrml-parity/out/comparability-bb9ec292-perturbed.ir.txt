@@ -1,0 +1,1 @@
+if( and( exist( building), emission_rate_measured( building, _ ), primary_energy_rate_measured( building, _ ))), then( obligation( and( less than equal( primary_energy_rate_measured( building, _ ), target_primary_energy_rate( building, _ )), less than equal( emission_rate_measured( building, _ ), target_emission_rate( building, _ )))))

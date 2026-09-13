@@ -1,0 +1,83 @@
+{
+  "cases": [
+    {
+      "name": "clear_compliant_two_wells",
+      "facts": [
+        "floor_drain(f1).",
+        "connected(w1, f1).",
+        "drain_distance(w1, f1, 2000).",
+        "connected(w2, f1).",
+        "drain_distance(w2, f1, 2500)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    },
+    {
+      "name": "clear_violation_three_wells",
+      "facts": [
+        "floor_drain(f1).",
+        "connected(w1, f1).",
+        "drain_distance(w1, f1, 1000).",
+        "connected(w2, f1).",
+        "drain_distance(w2, f1, 1500).",
+        "connected(w3, f1).",
+        "drain_distance(w3, f1, 2000)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": true
+      }
+    },
+    {
+      "name": "violation_too_far",
+      "facts": [
+        "floor_drain(f1).",
+        "connected(w1, f1).",
+        "drain_distance(w1, f1, 3500)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": true
+      }
+    },
+    {
+      "name": "boundary_exactly_3000",
+      "facts": [
+        "floor_drain(f1).",
+        "connected(w1, f1).",
+        "drain_distance(w1, f1, 3000)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    },
+    {
+      "name": "not_applicable",
+      "facts": [
+        "sink(s1)."
+      ],
+      "expect": {
+        "applies": false,
+        "violation": false
+      }
+    },
+    {
+      "name": "distractor_two_drains",
+      "facts": [
+        "floor_drain(f1).",
+        "connected(w1, f1).",
+        "drain_distance(w1, f1, 2000).",
+        "floor_drain(f2).",
+        "connected(w2, f2).",
+        "drain_distance(w2, f2, 1000)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+if( exist( fire_doorset)), then( permission( and( fusible_link( fire_doorset), or( not( escape_opening( fire_doorset)), complies_c7( fire_doorset)))))

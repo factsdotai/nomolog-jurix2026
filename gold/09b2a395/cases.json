@@ -1,0 +1,30 @@
+{
+  "cases": [
+    { "name": "clear_compliant",
+      "facts": ["door_entry_control(c1).", "mounting_height(c1, 950).",
+                "projecting_corner(k1).", "corner_distance(c1, k1, 400)."],
+      "expect": { "applies": true, "violation": false } },
+    { "name": "clear_violation_too_high",
+      "facts": ["door_entry_control(c1).", "mounting_height(c1, 1100)."],
+      "expect": { "applies": true, "violation": true } },
+    { "name": "boundary_height_900_and_1000",
+      "facts": ["door_entry_control(c1).", "mounting_height(c1, 900).",
+                "door_entry_control(c2).", "mounting_height(c2, 1000)."],
+      "expect": { "applies": true, "violation": false } },
+    { "name": "boundary_corner_exactly_300",
+      "facts": ["door_entry_control(c1).", "mounting_height(c1, 950).",
+                "projecting_corner(k1).", "corner_distance(c1, k1, 300)."],
+      "expect": { "applies": true, "violation": false } },
+    { "name": "violation_corner_too_close",
+      "facts": ["door_entry_control(c1).", "mounting_height(c1, 950).",
+                "projecting_corner(k1).", "corner_distance(c1, k1, 250)."],
+      "expect": { "applies": true, "violation": true } },
+    { "name": "not_applicable_none_provided",
+      "facts": ["projecting_corner(k1)."],
+      "expect": { "applies": false, "violation": false } },
+    { "name": "one_bad_control_among_good",
+      "facts": ["door_entry_control(c1).", "mounting_height(c1, 950).",
+                "door_entry_control(c2).", "mounting_height(c2, 850)."],
+      "expect": { "applies": true, "violation": true } }
+  ]
+}

@@ -1,0 +1,1 @@
+if( or( exist( boiler), exist( conditioning_system))), then( obligation( and( for each( boiler, assessed_on_final_capacity( boiler)), for each( conditioning_system, assessed_on_final_capacity( conditioning_system)))))

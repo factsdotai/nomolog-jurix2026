@@ -1,0 +1,1 @@
+if( exist( protruding_element)), then( obligation( or( greater than equal( protruding_element. free_height, 2.2 metres), area_protected( protruding_element))))

@@ -1,0 +1,72 @@
+{
+  "cases": [
+    {
+      "name": "clear_compliant",
+      "facts": [
+        "occupied_space(s1).",
+        "supply_rate_per_person(s1, 12)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    },
+    {
+      "name": "clear_violation",
+      "facts": [
+        "occupied_space(s1).",
+        "supply_rate_per_person(s1, 8)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": true
+      }
+    },
+    {
+      "name": "boundary_exactly_10",
+      "facts": [
+        "occupied_space(s1).",
+        "supply_rate_per_person(s1, 10)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    },
+    {
+      "name": "guard_pollutants_present_no_claim",
+      "facts": [
+        "occupied_space(s1).",
+        "supply_rate_per_person(s1, 8).",
+        "excessive_pollutants(s1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    },
+    {
+      "name": "not_applicable",
+      "facts": [
+        "storage_room(r1)."
+      ],
+      "expect": {
+        "applies": false,
+        "violation": false
+      }
+    },
+    {
+      "name": "distractor_second_space_ok",
+      "facts": [
+        "occupied_space(s1).",
+        "supply_rate_per_person(s1, 12).",
+        "occupied_space(s2).",
+        "supply_rate_per_person(s2, 15)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+if( and( natural_vent_system( ventilation system), vent_valve( ventilation valve, ventilation system))), then( obligation( easy_to_close( ventilation valve)))

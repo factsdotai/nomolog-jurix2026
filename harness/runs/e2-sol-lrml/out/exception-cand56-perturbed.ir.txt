@@ -1,0 +1,1 @@
+if( and( fire_doorset( x), fusible_link( x), or( not( escape_opening( x)), complies_c7( x)))), then( permission( held open by fusible link( x)))

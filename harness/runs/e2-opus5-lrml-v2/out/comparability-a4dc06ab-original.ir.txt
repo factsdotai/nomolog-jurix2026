@@ -1,0 +1,3 @@
+r1: if( and( exist( element), protruding element( element))), then( obligation( greater than equal( element. free height, 2.2 m)))
+r2: if( and( exist( element), protruding element( element), area protected( element))), then( permission( exist( element)))
+override( r2, r1)

@@ -1,0 +1,1 @@
+if( and( vent_system(X), total_flow_unachievable(X))), then( obligation( fan_speed_increased(X)))

@@ -1,0 +1,1 @@
+if( exist( sanitary_room)), then( obligation( for each( enclosure_element, greater than equal( enclosure_element. load_capacity, 1.5 kN/m2))))

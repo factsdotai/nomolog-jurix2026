@@ -1,0 +1,3 @@
+The results of all pressure tests on buildings, including any test failures, should be reported to the building control body.
+
+provenance: CODE-ACCORD 45f0830 · example_id 328fb8e7-cae4-4465-b7a7-24f0d066d65a · UK_DocM_V2_AccessAndUseOfBuildings

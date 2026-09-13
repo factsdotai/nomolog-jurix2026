@@ -1,0 +1,1 @@
+if( and( exist( stair), exist( car park), covered_car_park( car park), connects_to( stair, car park), not( open_sided( car park)))), then( prohibition( connects_to( stair, car park)))

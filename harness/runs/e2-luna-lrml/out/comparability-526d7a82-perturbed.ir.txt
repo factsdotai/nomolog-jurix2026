@@ -1,0 +1,1 @@
+if( and( exist( wet room), exist( structure), structure of( structure, wet room))), then( obligation( and( rigidity adequate( structure), no damage( thermal and moisture movements, wet room waterproofing), no damage( thermal and moisture movements, surface structures))))

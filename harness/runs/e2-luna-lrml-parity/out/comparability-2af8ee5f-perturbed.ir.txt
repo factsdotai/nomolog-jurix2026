@@ -1,0 +1,1 @@
+if( and( exist( building work), in kitchen or bathroom( building work))), then( obligation( for each( existing fan, or( retained( existing fan), replaced( existing fan)))))

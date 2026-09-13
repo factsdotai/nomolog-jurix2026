@@ -1,0 +1,1 @@
+if( exist( flat on storey)), then( permission( not( and( max travel distance limit applies( flat on storey), for each( flat on storey, independent alternative escape( flat on storey))))))

@@ -1,0 +1,1 @@
+if( and( exist( power socket), suitable for powering( power socket, lifting device), exist( liftway))), then( obligation( close to( power socket, liftway)))

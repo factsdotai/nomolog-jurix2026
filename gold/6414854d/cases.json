@@ -1,0 +1,59 @@
+{
+  "cases": [
+    {
+      "name": "compliant_short_no_features",
+      "facts": [
+        "ladder(l1).",
+        "ladder_length(l1, 5000)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    },
+    {
+      "name": "violation_long_no_features",
+      "facts": [
+        "ladder(l1).",
+        "ladder_length(l1, 7000)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": true
+      }
+    },
+    {
+      "name": "boundary_exactly_6m",
+      "facts": [
+        "ladder(l1).",
+        "ladder_length(l1, 6000)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    },
+    {
+      "name": "compliant_long_with_features",
+      "facts": [
+        "ladder(l1).",
+        "ladder_length(l1, 7000).",
+        "special_safety_features(l1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    },
+    {
+      "name": "not_applicable",
+      "facts": [
+        "stair(s1)."
+      ],
+      "expect": {
+        "applies": false,
+        "violation": false
+      }
+    }
+  ]
+}

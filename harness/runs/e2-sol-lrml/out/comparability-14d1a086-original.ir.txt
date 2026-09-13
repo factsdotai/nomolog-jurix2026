@@ -1,0 +1,1 @@
+if( and( lifting_device( d), serves_floor( d, f))), then( obligation( opposite_end_against_wall( d, f)))

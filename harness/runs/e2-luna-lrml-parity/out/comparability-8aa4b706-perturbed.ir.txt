@@ -1,0 +1,1 @@
+if( exist( compliance checklist)), then( obligation( for each( checklist part( compliance checklist), completed( checklist part))))

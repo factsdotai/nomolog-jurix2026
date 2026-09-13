@@ -1,0 +1,1 @@
+if( exist( occupied_space)), then( obligation( or( equal( supply_rate_per_person, 10 litres per second per person), excessive_pollutants)))

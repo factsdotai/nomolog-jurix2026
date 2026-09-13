@@ -1,0 +1,8 @@
+Where an outward opening door is located close to a corner (another door on the return
+wall within 800mm of that corner), the leading edge of the outward opening door is a
+minimum of 800mm from the corner, unless a 1500mm turning circle is provided
+immediately outside the door.
+
+provenance: CODE-ACCORD 45f0830 raw-text stage · Approved_Document_M_vol_1:2102 · pattern: threshold-plus-alternative
+reconstructed from fragmented raw lines; original marker line:
+  a minimum of 800mm from the corner, as shown in Diagram 3.5, unless a 1500mm turning circle

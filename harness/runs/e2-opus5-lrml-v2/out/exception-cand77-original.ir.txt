@@ -1,0 +1,3 @@
+r1: if( and( exist( building), phased evacuation building( building), exist( storey), part of( storey, building))), then( obligation( or( exist( storey. protected lobby), exist( storey. protected corridor))))
+r2: if( and( exist( building), phased evacuation building( building), exist( storey), part of( storey, building), top storey( storey))), then( permission( exist( storey)))
+override( r2, r1)

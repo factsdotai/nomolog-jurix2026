@@ -1,0 +1,3 @@
+r1: if( and( exist( residential building), tall residential building( residential building), balcony( residential building, balcony), material of( material, balcony))), then( obligation( class a1 or a2( material)))
+r2: if( and( exist( material), or( masonry cavity tray( material), firestopping required( material)))), then( permission( exist( material)))
+override( r2, r1)

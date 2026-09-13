@@ -1,0 +1,1 @@
+if( and( exist( ventilation equipment), exist( adequate access space))), then( obligation( available for maintenance access( adequate access space, ventilation equipment)))

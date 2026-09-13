@@ -1,0 +1,1 @@
+if( toilet_seat( TS)), then( obligation( exist( FS, and( free_space( FS, W), side_of( FS, TS), greater than equal( W, 80 cm)))))

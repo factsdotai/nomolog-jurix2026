@@ -1,0 +1,3 @@
+r1: if( and( generation_system(N), generation_system(O), replacement_generation_system(N, O), capacity(N, NC), capacity(O, OC))), then( obligation( greater than equal(NC, OC)))
+r2: if( and( generation_system(N), generation_system(O), replacement_generation_system(N, O), capacity(N, NC), capacity(O, OC), smaller_claimed(N), demonstrated_more_appropriate(N))), then( permission( less than(NC, OC)))
+override( r2, r1)

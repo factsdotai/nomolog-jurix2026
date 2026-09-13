@@ -1,0 +1,25 @@
+{
+  "cases": [
+    { "name": "clear_compliant",
+      "facts": ["toilet_seat(ts1).", "side_of(s1, ts1).", "free_space(s1, 850)."],
+      "expect": { "applies": true, "violation": false } },
+    { "name": "clear_violation",
+      "facts": ["toilet_seat(ts1).", "side_of(s1, ts1).", "free_space(s1, 750).",
+                "side_of(s2, ts1).", "free_space(s2, 600)."],
+      "expect": { "applies": true, "violation": true } },
+    { "name": "boundary_exactly_800",
+      "facts": ["toilet_seat(ts1).", "side_of(s1, ts1).", "free_space(s1, 800)."],
+      "expect": { "applies": true, "violation": false } },
+    { "name": "not_applicable_no_seat",
+      "facts": ["washbasin(w1).", "side_of(s1, w1).", "free_space(s1, 200)."],
+      "expect": { "applies": false, "violation": false } },
+    { "name": "one_of_two_sides_suffices",
+      "facts": ["toilet_seat(ts1).", "side_of(s1, ts1).", "free_space(s1, 400).",
+                "side_of(s2, ts1).", "free_space(s2, 900)."],
+      "expect": { "applies": true, "violation": false } },
+    { "name": "distractor_facts",
+      "facts": ["toilet_seat(ts1).", "side_of(s1, ts1).", "free_space(s1, 850).",
+                "washbasin(w1).", "part_of(ts1, room1)."],
+      "expect": { "applies": true, "violation": false } }
+  ]
+}

@@ -1,0 +1,1 @@
+if( and( exist( building work), in kitchen or bathroom( building work), exist( existing fan), or( not( cooker hood( existing fan)), extracts outside( existing fan)))), then( obligation( or( retained( existing fan), replaced( existing fan))))

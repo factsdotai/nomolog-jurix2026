@@ -1,0 +1,1 @@
+if( exist( appliance_switch)), then( obligation( or( and( greater than equal( appliance_switch. mounting height, 400 mm), less than equal( appliance_switch. mounting height, 1200 mm)), higher level needed( appliance_switch))))

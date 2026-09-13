@@ -1,0 +1,54 @@
+{
+  "cases": [
+    {
+      "name": "clear_compliant",
+      "facts": [
+        "lifting_device(d1).",
+        "serves_floor(d1, f0).",
+        "opposite_end_against_wall(d1, f0).",
+        "serves_floor(d1, f1).",
+        "opposite_end_against_wall(d1, f1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    },
+    {
+      "name": "clear_violation_one_floor",
+      "facts": [
+        "lifting_device(d1).",
+        "serves_floor(d1, f0).",
+        "opposite_end_against_wall(d1, f0).",
+        "serves_floor(d1, f1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": true
+      }
+    },
+    {
+      "name": "not_applicable",
+      "facts": [
+        "stair(s1)."
+      ],
+      "expect": {
+        "applies": false,
+        "violation": false
+      }
+    },
+    {
+      "name": "distractor",
+      "facts": [
+        "lifting_device(d1).",
+        "serves_floor(d1, f0).",
+        "opposite_end_against_wall(d1, f0).",
+        "handrail(h1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    }
+  ]
+}

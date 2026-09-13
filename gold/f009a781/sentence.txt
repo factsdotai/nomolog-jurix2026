@@ -1,0 +1,3 @@
+The landings in the indoor and outdoor areas of a building must be safe, sufficiently spacious and suitable for their purpose.
+
+provenance: CODE-ACCORD 45f0830 · example_id f009a781-0ced-408d-b3d1-6ae7a848012e · Finnish_SafetyOfUse

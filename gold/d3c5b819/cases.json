@@ -1,0 +1,56 @@
+{
+  "cases": [
+    {
+      "name": "clear_compliant",
+      "facts": [
+        "sewer(s1).",
+        "installed_in_ground(s1).",
+        "withstands_soil_load(s1).",
+        "withstands_soil_corrosion(s1).",
+        "withstands_soil_subsidence(s1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    },
+    {
+      "name": "violation_corrosion",
+      "facts": [
+        "sewer(s1).",
+        "installed_in_ground(s1).",
+        "withstands_soil_load(s1).",
+        "withstands_soil_subsidence(s1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": true
+      }
+    },
+    {
+      "name": "not_applicable_above_ground",
+      "facts": [
+        "sewer(s1)."
+      ],
+      "expect": {
+        "applies": false,
+        "violation": false
+      }
+    },
+    {
+      "name": "distractor",
+      "facts": [
+        "sewer(s1).",
+        "installed_in_ground(s1).",
+        "withstands_soil_load(s1).",
+        "withstands_soil_corrosion(s1).",
+        "withstands_soil_subsidence(s1).",
+        "manhole(m1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    }
+  ]
+}

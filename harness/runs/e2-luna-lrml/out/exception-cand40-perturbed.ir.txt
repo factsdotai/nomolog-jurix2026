@@ -1,0 +1,1 @@
+if( and( major_renovation_residential( building), install_cost_fraction( building, cost fraction), less than equal( cost fraction, 0.07), parking_space( parking space, building))), then( obligation( cable_route( parking space)))

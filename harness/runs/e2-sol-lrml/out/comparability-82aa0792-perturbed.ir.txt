@@ -1,0 +1,1 @@
+if( exist( output_calculation)), then( obligation( for each( boiler, used_in_calculation( boiler, output_calculation))))

@@ -1,0 +1,3 @@
+There should be a supply rate, in the absence of tobacco smoke or other excessive pollutants, of 10 litres per second per person.
+
+provenance: CODE-ACCORD 45f0830 · example_id 2cc3d5b0-d3b4-45f2-a00d-838fd3f9abbb · UK_DocF_V2_Ventilation

@@ -1,0 +1,1 @@
+if( and( fire_doorset( doorset), or( not( escape_opening( doorset)), complies_c7( doorset)))), then( permission( fusible_link( doorset)))

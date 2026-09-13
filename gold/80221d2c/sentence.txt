@@ -1,0 +1,3 @@
+No more than two drainage wells may be connected to a floor drain and they may be located at a maximum distance of three meters from the floor drain.
+
+provenance: CODE-ACCORD 45f0830 · example_id 80221d2c-8ba8-4700-b219-c35fde50f35e · Finnish_Health-WaterAndSewerage

@@ -1,0 +1,1 @@
+if( and( exist( door), exist( corridor), door onto( door, corridor), major route corridor( corridor))), then( obligation( or( not( projects when open( door)), minor utility door( door))))

@@ -1,0 +1,1 @@
+r1: if( and( exist( approach), or( gradient( approach, 1:20), gradient part steeper( approach)))), then( obligation( ramped access( approach)))

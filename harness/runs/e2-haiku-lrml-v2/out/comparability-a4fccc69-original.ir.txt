@@ -1,0 +1,2 @@
+r1: if( for each( separated_part), exist( exit_route)), then( obligation( and( constructed separately( separated_part), not( uses_fire_wall_door( separated_part)))))
+r2: if( and( exist( separated_part), exist( fire_wall_door))), then( obligation( not( uses_fire_wall_door( separated_part))))

@@ -1,0 +1,1 @@
+if( and( dwelling( d), exposed_facade( f1, d), exposed_facade( f2, d), not( equal( f1, f2)))), then( obligation( similar_ventilator_area( f1, f2)))

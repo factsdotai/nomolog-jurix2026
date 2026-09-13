@@ -1,0 +1,3 @@
+r1: if( and( exist( door), door_onto( door, corridor), or( major_route_corridor( corridor), escape_route( corridor)))), then( obligation( recessed( door)))
+r2: if( and( exist( door), minor_utility_door( door))), then( permission( exist( door)))
+override( r2, r1)

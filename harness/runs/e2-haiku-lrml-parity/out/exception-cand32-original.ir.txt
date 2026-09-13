@@ -1,0 +1,1 @@
+if( and( exist( principal_window), principal living area( principal_window))), then( obligation( or( and( greater than equal( principal_window. handle_height, 700 mm), less than equal( principal_window. handle_height, 1000 mm)), within height range( principal_window. remote_device_height, 700 mm, 1000 mm))))

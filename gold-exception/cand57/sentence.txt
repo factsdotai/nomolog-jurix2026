@@ -1,0 +1,6 @@
+The stair does not connect to a covered car park, unless the car park is open-sided
+(as defined in Section 11 of Approved Document B Volume 2).
+
+provenance: CODE-ACCORD 45f0830 raw-text stage · Approved_Document_B_vol_1:1500 · pattern: scoping-plus-definition
+reconstructed from fragmented raw lines; original marker line:
+  c.  The stair does not connect to a covered car park, unless the car park is open sided (as defined

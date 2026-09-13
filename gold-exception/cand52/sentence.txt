@@ -1,0 +1,8 @@
+Generally, lifts should not be used when there is a fire in the building, unless their
+use forms part of a management plan for evacuating people and the lifts are
+appropriately sited and protected and contain safety features to ensure they remain
+usable during a fire.
+
+provenance: CODE-ACCORD 45f0830 raw-text stage · Approved_Document_B_vol_2:2742 · pattern: prohibition-plus-exception
+reconstructed from fragmented raw lines; original marker line:
+  5.32  Generally, lifts should not be used when there is a fire in the building, unless their use forms part

@@ -1,0 +1,143 @@
+slice,example_id,variant,arm,model,k,attempts,cases_passed,cases_total,suite_exact,failure_mode,ir_parses,ir_wellformed,ir_known_deontic,ir_unknown_fns,tags,notes
+comparability,0085ecdd,original,waist,openai:gpt-5.6-sol,30,1,6,6,1,,,,,,threshold|necessity,
+comparability,0085ecdd,perturbed,waist,openai:gpt-5.6-sol,30,1,6,6,1,,,,,,threshold|necessity,
+comparability,0219127c,original,waist,openai:gpt-5.6-sol,30,1,6,6,1,,,,,,necessity,
+comparability,0219127c,perturbed,waist,openai:gpt-5.6-sol,30,1,6,6,1,,,,,,necessity,
+comparability,02f5e3fb,original,waist,openai:gpt-5.6-sol,30,1,4,4,1,,,,,,necessity,
+comparability,02f5e3fb,perturbed,waist,openai:gpt-5.6-sol,30,1,4,4,1,,,,,,necessity,
+comparability,08efb7a8,original,waist,openai:gpt-5.6-sol,30,1,4,4,1,,,,,,necessity,
+comparability,08efb7a8,perturbed,waist,openai:gpt-5.6-sol,30,1,4,4,1,,,,,,necessity,
+comparability,09b2a395,original,waist,openai:gpt-5.6-sol,30,1,7,7,1,,,,,,threshold,
+comparability,09b2a395,perturbed,waist,openai:gpt-5.6-sol,30,1,7,7,1,,,,,,threshold,
+comparability,0aaf71f0,original,waist,openai:gpt-5.6-sol,30,1,5,5,1,,,,,,threshold|necessity,
+comparability,0aaf71f0,perturbed,waist,openai:gpt-5.6-sol,30,1,5,5,1,,,,,,threshold|necessity,
+comparability,0edb92b7,original,waist,openai:gpt-5.6-sol,30,1,5,5,1,,,,,,necessity,
+comparability,0edb92b7,perturbed,waist,openai:gpt-5.6-sol,30,1,5,5,1,,,,,,necessity,
+comparability,12e545d1,original,waist,openai:gpt-5.6-sol,30,1,3,5,0,verdict_mismatch,,,,,threshold|necessity,"clear_compliant: got (True,True); compliant_three_facades_all_pairs: got (True,True)"
+comparability,12e545d1,perturbed,waist,openai:gpt-5.6-sol,30,1,3,5,0,verdict_mismatch,,,,,threshold|necessity,"clear_compliant: got (True,True); compliant_three_facades_all_pairs: got (True,True)"
+comparability,14d1a086,original,waist,openai:gpt-5.6-sol,30,1,4,4,1,,,,,,necessity,
+comparability,14d1a086,perturbed,waist,openai:gpt-5.6-sol,30,1,4,4,1,,,,,,necessity,
+comparability,1ebce0c9,original,waist,openai:gpt-5.6-sol,30,1,5,5,1,,,,,,necessity,
+comparability,1ebce0c9,perturbed,waist,openai:gpt-5.6-sol,30,1,5,5,1,,,,,,necessity,
+comparability,20518e80,original,waist,openai:gpt-5.6-sol,30,1,4,4,1,,,,,,threshold,
+comparability,20518e80,perturbed,waist,openai:gpt-5.6-sol,30,1,4,4,1,,,,,,threshold,
+comparability,23db27ac,original,waist,openai:gpt-5.6-sol,30,1,5,5,1,,,,,,necessity,
+comparability,23db27ac,perturbed,waist,openai:gpt-5.6-sol,30,1,5,5,1,,,,,,necessity,
+comparability,2af8ee5f,original,waist,openai:gpt-5.6-sol,30,1,6,6,1,,,,,,necessity,
+comparability,2af8ee5f,perturbed,waist,openai:gpt-5.6-sol,30,1,5,6,0,verdict_mismatch,,,,,necessity,"hood_not_extracting_outside_exempt: got (False,False)"
+comparability,2b60007d,original,waist,openai:gpt-5.6-sol,30,1,6,7,0,verdict_mismatch,,,,,necessity,"boundary_215_and_equal_floor_depth: got (True,True)"
+comparability,2b60007d,perturbed,waist,openai:gpt-5.6-sol,30,1,6,7,0,verdict_mismatch,,,,,necessity,"boundary_215_and_equal_floor_depth: got (True,True)"
+comparability,2cc3d5b0,original,waist,openai:gpt-5.6-sol,30,1,5,6,0,verdict_mismatch,,,,,threshold|necessity,"guard_pollutants_present_no_claim: got (False,False)"
+comparability,2cc3d5b0,perturbed,waist,openai:gpt-5.6-sol,30,1,5,6,0,verdict_mismatch,,,,,threshold|necessity,"guard_pollutants_present_no_claim: got (False,False)"
+comparability,31d635b2,original,waist,openai:gpt-5.6-sol,30,1,5,5,1,,,,,,necessity,
+comparability,31d635b2,perturbed,waist,openai:gpt-5.6-sol,30,1,5,5,1,,,,,,necessity,
+comparability,328fb8e7,original,waist,openai:gpt-5.6-sol,30,1,5,5,1,,,,,,necessity,
+comparability,328fb8e7,perturbed,waist,openai:gpt-5.6-sol,30,1,5,5,1,,,,,,necessity,
+comparability,526d7a82,original,waist,openai:gpt-5.6-sol,30,1,5,5,1,,,,,,necessity,
+comparability,526d7a82,perturbed,waist,openai:gpt-5.6-sol,30,1,5,5,1,,,,,,necessity,
+comparability,5fe7997a,original,waist,openai:gpt-5.6-sol,30,1,4,4,1,,,,,,necessity,
+comparability,5fe7997a,perturbed,waist,openai:gpt-5.6-sol,30,1,4,4,1,,,,,,necessity,
+comparability,6187cad8,original,waist,openai:gpt-5.6-sol,30,1,4,4,1,,,,,,necessity,
+comparability,6187cad8,perturbed,waist,openai:gpt-5.6-sol,30,1,4,4,1,,,,,,necessity,
+comparability,6414854d,original,waist,openai:gpt-5.6-sol,30,1,5,5,1,,,,,,threshold,
+comparability,6414854d,perturbed,waist,openai:gpt-5.6-sol,30,1,5,5,1,,,,,,threshold,
+comparability,675c4d48,original,waist,openai:gpt-5.6-sol,30,1,4,4,1,,,,,,necessity,
+comparability,675c4d48,perturbed,waist,openai:gpt-5.6-sol,30,1,4,4,1,,,,,,necessity,
+comparability,681c4394,original,waist,openai:gpt-5.6-sol,30,1,5,5,1,,,,,,necessity,
+comparability,681c4394,perturbed,waist,openai:gpt-5.6-sol,30,1,5,5,1,,,,,,necessity,
+comparability,78d904cd,original,waist,openai:gpt-5.6-sol,30,1,4,5,0,verdict_mismatch,,,,,necessity,"no_calculation_yet: got (False,False)"
+comparability,78d904cd,perturbed,waist,openai:gpt-5.6-sol,30,1,5,5,1,,,,,,necessity,
+comparability,7db23e3b,original,waist,openai:gpt-5.6-sol,30,1,4,5,0,verdict_mismatch,,,,,necessity,"no_valves_vacuous: got (False,False)"
+comparability,7db23e3b,perturbed,waist,openai:gpt-5.6-sol,30,1,5,5,1,,,,,,necessity,
+comparability,7f49ccb1,original,waist,openai:gpt-5.6-sol,30,1,4,5,0,verdict_mismatch,,,,,threshold|necessity,"not_applicable_no_layer: got (True,True)"
+comparability,7f49ccb1,perturbed,waist,openai:gpt-5.6-sol,30,1,5,5,1,,,,,,threshold|necessity,
+comparability,80221d2c,original,waist,openai:gpt-5.6-sol,30,1,4,6,0,verdict_mismatch,,,,,threshold|necessity,"clear_violation_three_wells: got (True,False); violation_too_far: got (True,False)"
+comparability,80221d2c,perturbed,waist,openai:gpt-5.6-sol,30,1,4,6,0,verdict_mismatch,,,,,threshold|necessity,"clear_violation_three_wells: got (True,False); violation_too_far: got (True,False)"
+comparability,82aa0792,original,waist,openai:gpt-5.6-sol,30,1,4,4,1,,,,,,,
+comparability,82aa0792,perturbed,waist,openai:gpt-5.6-sol,30,1,4,4,1,,,,,,,
+comparability,8421f806,original,waist,openai:gpt-5.6-sol,30,1,5,6,0,verdict_mismatch,,,,,threshold|necessity,"clear_compliant_gentle: got (False,False)"
+comparability,8421f806,perturbed,waist,openai:gpt-5.6-sol,30,1,5,6,0,verdict_mismatch,,,,,threshold|necessity,"clear_compliant_gentle: got (False,False)"
+comparability,87c9c5f5,original,waist,openai:gpt-5.6-sol,30,1,3,4,0,verdict_mismatch,,,,,necessity,"distractor: got (True,True)"
+comparability,87c9c5f5,perturbed,waist,openai:gpt-5.6-sol,30,1,4,4,1,,,,,,necessity,
+comparability,8aa4b706,original,waist,openai:gpt-5.6-sol,30,1,4,4,1,,,,,,threshold|necessity,
+comparability,8aa4b706,perturbed,waist,openai:gpt-5.6-sol,30,1,4,4,1,,,,,,threshold|necessity,
+comparability,8fec1c4a,original,waist,openai:gpt-5.6-sol,30,1,3,4,0,verdict_mismatch,,,,,necessity,"no_penetrations_vacuous: got (False,False)"
+comparability,8fec1c4a,perturbed,waist,openai:gpt-5.6-sol,30,1,3,4,0,verdict_mismatch,,,,,necessity,"no_penetrations_vacuous: got (False,False)"
+comparability,9a574829,original,waist,openai:gpt-5.6-sol,30,1,2,4,0,verdict_mismatch,,,,,necessity,"clear_compliant: got (False,False); clear_violation: got (False,False)"
+comparability,9a574829,perturbed,waist,openai:gpt-5.6-sol,30,1,2,4,0,verdict_mismatch,,,,,necessity,"clear_compliant: got (False,False); clear_violation: got (False,False)"
+comparability,9dd2a0f1,original,waist,openai:gpt-5.6-sol,30,1,6,6,1,,,,,,threshold|necessity,
+comparability,9dd2a0f1,perturbed,waist,openai:gpt-5.6-sol,30,1,6,6,1,,,,,,threshold|necessity,
+comparability,9ff8b8fd,original,waist,openai:gpt-5.6-sol,30,1,5,5,1,,,,,,threshold,
+comparability,9ff8b8fd,perturbed,waist,openai:gpt-5.6-sol,30,1,5,5,1,,,,,,threshold,
+comparability,a1f91cfd,original,waist,openai:gpt-5.6-sol,30,1,5,5,1,,,,,,threshold|necessity,
+comparability,a1f91cfd,perturbed,waist,openai:gpt-5.6-sol,30,1,5,5,1,,,,,,threshold|necessity,
+comparability,a4dc06ab,original,waist,openai:gpt-5.6-sol,30,1,6,6,1,,,,,,threshold,
+comparability,a4dc06ab,perturbed,waist,openai:gpt-5.6-sol,30,1,6,6,1,,,,,,threshold,
+comparability,a4fccc69,original,waist,openai:gpt-5.6-sol,30,1,4,4,1,,,,,,necessity,
+comparability,a4fccc69,perturbed,waist,openai:gpt-5.6-sol,30,1,4,4,1,,,,,,necessity,
+comparability,aaca648c,original,waist,openai:gpt-5.6-sol,30,1,4,4,1,,,,,,necessity,
+comparability,aaca648c,perturbed,waist,openai:gpt-5.6-sol,30,1,4,4,1,,,,,,necessity,
+comparability,b5edf19f,original,waist,openai:gpt-5.6-sol,30,1,4,4,1,,,,,,necessity,
+comparability,b5edf19f,perturbed,waist,openai:gpt-5.6-sol,30,1,4,4,1,,,,,,necessity,
+comparability,bb9ec292,original,waist,openai:gpt-5.6-sol,30,1,5,5,1,,,,,,threshold,
+comparability,bb9ec292,perturbed,waist,openai:gpt-5.6-sol,30,1,5,5,1,,,,,,threshold,
+comparability,bd1438b0,original,waist,openai:gpt-5.6-sol,30,1,3,5,0,verdict_mismatch,,,,,necessity,"no_calculation_yet_nothing_to_check: got (True,True); distractor_two_rooflights: got (True,True)"
+comparability,bd1438b0,perturbed,waist,openai:gpt-5.6-sol,30,1,3,5,0,verdict_mismatch,,,,,necessity,"no_calculation_yet_nothing_to_check: got (True,True); distractor_two_rooflights: got (True,True)"
+comparability,c06bb553,original,waist,openai:gpt-5.6-sol,30,1,4,4,1,,,,,,necessity,
+comparability,c06bb553,perturbed,waist,openai:gpt-5.6-sol,30,1,4,4,1,,,,,,necessity,
+comparability,cc72106e,original,waist,openai:gpt-5.6-sol,30,1,6,6,1,,,,,,threshold,
+comparability,cc72106e,perturbed,waist,openai:gpt-5.6-sol,30,1,6,6,1,,,,,,threshold,
+comparability,d3c5b819,original,waist,openai:gpt-5.6-sol,30,1,4,4,1,,,,,,necessity,
+comparability,d3c5b819,perturbed,waist,openai:gpt-5.6-sol,30,1,4,4,1,,,,,,necessity,
+comparability,dae0db09,original,waist,openai:gpt-5.6-sol,30,1,5,5,1,,,,,,necessity,
+comparability,dae0db09,perturbed,waist,openai:gpt-5.6-sol,30,1,5,5,1,,,,,,necessity,
+comparability,df09194e,original,waist,openai:gpt-5.6-sol,30,1,4,4,1,,,,,,necessity,
+comparability,df09194e,perturbed,waist,openai:gpt-5.6-sol,30,1,4,4,1,,,,,,necessity,
+comparability,f009a781,original,waist,openai:gpt-5.6-sol,30,1,4,4,1,,,,,,necessity,
+comparability,f009a781,perturbed,waist,openai:gpt-5.6-sol,30,1,4,4,1,,,,,,necessity,
+comparability,f41fb8da,original,waist,openai:gpt-5.6-sol,30,1,4,4,1,,,,,,necessity,
+comparability,f41fb8da,perturbed,waist,openai:gpt-5.6-sol,30,1,4,4,1,,,,,,necessity,
+comparability,f51da5c6,original,waist,openai:gpt-5.6-sol,30,1,4,4,1,,,,,,necessity,
+comparability,f51da5c6,perturbed,waist,openai:gpt-5.6-sol,30,1,3,4,0,verdict_mismatch,,,,,necessity,"distractor: got (True,True)"
+comparability,f7cfdf57,original,waist,openai:gpt-5.6-sol,30,1,4,5,0,verdict_mismatch,,,,,necessity,"no_level_changes_vacuous: got (False,False)"
+comparability,f7cfdf57,perturbed,waist,openai:gpt-5.6-sol,30,1,4,5,0,verdict_mismatch,,,,,necessity,"no_level_changes_vacuous: got (False,False)"
+exception,cand01,original,waist,openai:gpt-5.6-sol,30,1,6,6,1,,,,,,exception|priority,
+exception,cand01,perturbed,waist,openai:gpt-5.6-sol,30,1,6,6,1,,,,,,exception|priority,
+exception,cand02,original,waist,openai:gpt-5.6-sol,30,1,1,6,0,verdict_mismatch,,,,,exception|priority,"clear_compliant: got (False,False); clear_violation: got (False,False); boundary_equal_capacity: got (False,False); exception_demonstrated_smaller: got (False,False)"
+exception,cand02,perturbed,waist,openai:gpt-5.6-sol,30,1,1,6,0,verdict_mismatch,,,,,exception|priority,"clear_compliant: got (False,False); clear_violation: got (False,False); boundary_equal_capacity: got (False,False); exception_demonstrated_smaller: got (False,False)"
+exception,cand08,original,waist,openai:gpt-5.6-sol,30,1,7,7,1,,,,,,exception|priority,
+exception,cand08,perturbed,waist,openai:gpt-5.6-sol,30,1,7,7,1,,,,,,exception|priority,
+exception,cand16,original,waist,openai:gpt-5.6-sol,30,1,5,5,1,,,,,,exception|priority,
+exception,cand16,perturbed,waist,openai:gpt-5.6-sol,30,1,1,5,0,verdict_mismatch,,,,,exception|priority,"clear_compliant: got (False,False); clear_violation: got (False,False); exception_complies_cited_para: got (False,False); distractor: got (False,False)"
+exception,cand18,original,waist,openai:gpt-5.6-sol,30,1,1,6,0,verdict_mismatch,,,,,exception|priority,"clear_compliant: got (False,False); clear_violation: got (False,False); excepted_cavity_tray: got (False,False); excepted_firestopping: got (False,False)"
+exception,cand18,perturbed,waist,openai:gpt-5.6-sol,30,1,1,6,0,verdict_mismatch,,,,,exception|priority,"clear_compliant: got (False,False); clear_violation: got (False,False); excepted_cavity_tray: got (False,False); excepted_firestopping: got (False,False)"
+exception,cand20,original,waist,openai:gpt-5.6-sol,30,1,5,5,1,,,,,,exception|priority,
+exception,cand20,perturbed,waist,openai:gpt-5.6-sol,30,1,5,5,1,,,,,,exception|priority,
+exception,cand21,original,waist,openai:gpt-5.6-sol,30,1,6,6,1,,,,,,exception|priority,
+exception,cand21,perturbed,waist,openai:gpt-5.6-sol,30,1,6,6,1,,,,,,exception|priority,
+exception,cand27,original,waist,openai:gpt-5.6-sol,30,1,6,6,1,,,,,,exception|priority,
+exception,cand27,perturbed,waist,openai:gpt-5.6-sol,30,1,6,6,1,,,,,,exception|priority,
+exception,cand31,original,waist,openai:gpt-5.6-sol,30,1,3,5,0,verdict_mismatch,,,,,exception|priority,"exception_alternative_routes: got (True,False); no_nearby_elements_vacuous: got (False,False)"
+exception,cand31,perturbed,waist,openai:gpt-5.6-sol,30,1,3,5,0,verdict_mismatch,,,,,exception|priority,"exception_alternative_routes: got (True,False); no_nearby_elements_vacuous: got (False,False)"
+exception,cand32,original,waist,openai:gpt-5.6-sol,30,1,7,7,1,,,,,,exception|priority,
+exception,cand32,perturbed,waist,openai:gpt-5.6-sol,30,1,7,7,1,,,,,,exception|priority,
+exception,cand37,original,waist,openai:gpt-5.6-sol,30,1,6,6,1,,,,,,exception|priority,
+exception,cand37,perturbed,waist,openai:gpt-5.6-sol,30,1,6,6,1,,,,,,exception|priority,
+exception,cand40,original,waist,openai:gpt-5.6-sol,30,1,5,5,1,,,,,,exception|priority,
+exception,cand40,perturbed,waist,openai:gpt-5.6-sol,30,1,5,5,1,,,,,,exception|priority,
+exception,cand43,original,waist,openai:gpt-5.6-sol,30,1,4,5,0,verdict_mismatch,,,,,exception|priority,"mixed_utility_and_office_door: got (True,False)"
+exception,cand43,perturbed,waist,openai:gpt-5.6-sol,30,1,4,5,0,verdict_mismatch,,,,,exception|priority,"mixed_utility_and_office_door: got (True,False)"
+exception,cand52,original,waist,openai:gpt-5.6-sol,30,1,1,6,0,verdict_mismatch,,,,,exception|priority,"clear_compliant_no_lift_use: got (False,False); clear_violation: got (False,False); exception_evacuation_lift: got (False,False); almost_met_no_safety_features: got (False,False)"
+exception,cand52,perturbed,waist,openai:gpt-5.6-sol,30,1,1,6,0,verdict_mismatch,,,,,exception|priority,"clear_compliant_no_lift_use: got (False,False); clear_violation: got (False,False); exception_evacuation_lift: got (False,False); almost_met_no_safety_features: got (False,False)"
+exception,cand56,original,waist,openai:gpt-5.6-sol,30,1,5,5,1,,,,,,exception|priority,
+exception,cand56,perturbed,waist,openai:gpt-5.6-sol,30,1,4,5,0,verdict_mismatch,,,,,exception|priority,"not_applicable_no_fusible_link: got (True,False)"
+exception,cand57,original,waist,openai:gpt-5.6-sol,30,1,5,5,1,,,,,,exception|priority,
+exception,cand57,perturbed,waist,openai:gpt-5.6-sol,30,1,5,5,1,,,,,,exception|priority,
+exception,cand65,original,waist,openai:gpt-5.6-sol,30,1,5,5,1,,,,,,exception|priority,
+exception,cand65,perturbed,waist,openai:gpt-5.6-sol,30,1,4,5,0,verdict_mismatch,,,,,exception|priority,"exception_bcb_agreement: got (True,True)"
+exception,cand75,original,waist,openai:gpt-5.6-sol,30,1,5,6,0,verdict_mismatch,,,,,exception|priority,"carved_out_all_flats_have_alt: got (True,False)"
+exception,cand75,perturbed,waist,openai:gpt-5.6-sol,30,1,5,6,0,verdict_mismatch,,,,,exception|priority,"carved_out_all_flats_have_alt: got (True,False)"
+exception,cand76,original,waist,openai:gpt-5.6-sol,30,1,6,6,1,,,,,,exception|priority,
+exception,cand76,perturbed,waist,openai:gpt-5.6-sol,30,1,6,6,1,,,,,,exception|priority,
+exception,cand77,original,waist,openai:gpt-5.6-sol,30,1,1,6,0,verdict_mismatch,,,,,exception|priority,"clear_compliant: got (False,False); clear_violation: got (False,False); top_storey_carved_out: got (False,False); corridor_alternative_ok: got (False,False)"
+exception,cand77,perturbed,waist,openai:gpt-5.6-sol,30,1,1,6,0,verdict_mismatch,,,,,exception|priority,"clear_compliant: got (False,False); clear_violation: got (False,False); top_storey_carved_out: got (False,False); corridor_alternative_ok: got (False,False)"

@@ -1,0 +1,1 @@
+if( and( exist( building), new building( building), exist( crawl space), part of( crawl space, building))), then( obligation( greater than equal( crawl space. average height, 0.8 m)))

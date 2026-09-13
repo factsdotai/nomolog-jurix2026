@@ -1,0 +1,1 @@
+if( and( sanitary_room( sanitary room), enclosure_element( enclosure element, sanitary room))), then( obligation( greater than equal( enclosure element. load capacity, 1.5 kN/m2)))

@@ -1,0 +1,3 @@
+r1: if( and( exist( structure), light_permeable_structure( structure))), then( obligation( and( withstands_normal_load( structure), withstands_normal_load( structure. mountings))))
+r2: if( and( exist( structure), light_permeable_structure( structure), protected_by_collision_barrier( structure))), then( permission( exist( structure)))
+override( r2, r1)

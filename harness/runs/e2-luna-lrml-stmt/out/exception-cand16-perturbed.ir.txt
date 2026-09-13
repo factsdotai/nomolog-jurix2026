@@ -1,0 +1,1 @@
+if( exist( non_dwelling_building)), then( obligation( for each( landing_door), or( not( swings_across_landing(landing_door)), complies_para_1_21c(landing_door))))

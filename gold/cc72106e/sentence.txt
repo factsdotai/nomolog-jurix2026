@@ -1,0 +1,3 @@
+In a new building, the crawl space height must be 0.8 metres on average at the minimum.
+
+provenance: CODE-ACCORD 45f0830 · example_id cc72106e-9e7f-47cf-8a95-0173a8305dad · Finnish_Health-Humidity

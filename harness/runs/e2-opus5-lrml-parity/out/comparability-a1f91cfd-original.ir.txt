@@ -1,0 +1,1 @@
+if( and( exist( multi dwelling building), greater than( multi dwelling building. dwellings, 1))), then( permission( or( average target rates( multi dwelling building), individual target rates( multi dwelling building))))

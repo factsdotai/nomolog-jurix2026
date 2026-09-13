@@ -1,0 +1,4 @@
+low: if( appliance switch( switch)), then( prohibition( less than( switch. mounting height, 400 mm)))
+high: if( appliance switch( switch)), then( prohibition( greater than( switch. mounting height, 1200 mm)))
+exc: if( and( appliance switch( switch), higher level needed( switch))), then( permission( exist( switch)))
+override( exc, high)

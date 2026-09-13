@@ -1,0 +1,2 @@
+r1: if( and( masonry_wall_insulation(i), dpc_present(i))), then( obligation( extends_below_dpc(i)))
+r2: if( masonry_wall_insulation(i)), then( obligation( and( greater than equal( depth_below_floor_structure(i), 215 mm), greater than( depth_below_floor_structure(i), floor_insulation_depth(i)))))

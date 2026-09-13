@@ -1,0 +1,1 @@
+if( flat_storey( storey)), then( obligation( or( for each( flat_on_storey( flat, storey), independent_alt_escape( flat)), and( travel_distance( storey, distance), max_travel_distance( storey, limit), less than equal( distance, limit)))))

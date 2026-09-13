@@ -1,0 +1,1 @@
+if( and( exist( lift used), exist( fire in building))), then( prohibition( and( lift used, not( and( part of evacuation plan, appropriately sited, fire safety features)))))

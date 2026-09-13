@@ -1,0 +1,3 @@
+For existing dwellings, when installing a complete new or replacement system (e.g. replacing a heating system including the heating appliance, pipework and heat emitters), the energy performance of the whole system should be assessed.
+
+provenance: CODE-ACCORD 45f0830 · example_id 31d635b2-1d32-49dd-a848-5b5acaf50128 · UK_DocL_V1_ConsrvationOfFuelAndPower

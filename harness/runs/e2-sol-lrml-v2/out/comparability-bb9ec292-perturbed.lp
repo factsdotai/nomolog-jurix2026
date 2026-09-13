@@ -1,0 +1,6 @@
+% translated by bracket2waist_v2.py under translation-policy-v2.md
+% ir-sha256: 47bc6d4235982db2
+% n_statements: 1  n_overrides: 0  dangling: 0
+applies :- building(Building), primary_energy_rate(Building, BuildingPrimaryEnergyRate), primary_energy_rate_measured(Building, BuildingPrimaryEnergyRate), emission_rate(Building, BuildingEmissionRate), emission_rate_measured(Building, BuildingEmissionRate), target_primary_energy_rate(Building, BuildingTargetPrimaryEnergyRate), target_emission_rate(Building, BuildingTargetEmissionRate).
+obligation_met(Building) :- primary_energy_rate(Building, BuildingPrimaryEnergyRate), target_primary_energy_rate(Building, BuildingTargetPrimaryEnergyRate), BuildingPrimaryEnergyRate <= BuildingTargetPrimaryEnergyRate, emission_rate(Building, BuildingEmissionRate), target_emission_rate(Building, BuildingTargetEmissionRate), BuildingEmissionRate <= BuildingTargetEmissionRate.
+r1: violation <= building(Building), primary_energy_rate(Building, BuildingPrimaryEnergyRate), primary_energy_rate_measured(Building, BuildingPrimaryEnergyRate), emission_rate(Building, BuildingEmissionRate), emission_rate_measured(Building, BuildingEmissionRate), target_primary_energy_rate(Building, BuildingTargetPrimaryEnergyRate), target_emission_rate(Building, BuildingTargetEmissionRate), not obligation_met(Building).

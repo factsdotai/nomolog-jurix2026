@@ -1,0 +1,1 @@
+if( and( exist( replacement_generation_system), replacement_generation_system( project, existing_system))), then( obligation( or( greater than equal( capacity( replacement_generation_system, new_capacity), capacity( existing_system, old_capacity)), and( smaller_claimed( replacement_generation_system), demonstrated_more_appropriate( replacement_generation_system)))))

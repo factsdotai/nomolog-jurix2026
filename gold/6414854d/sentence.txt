@@ -1,0 +1,3 @@
+Special safety features are not necessary if the ladder is not more than 6m long.
+
+provenance: CODE-ACCORD 45f0830 · example_id 6414854d-01f9-481f-a7f4-c4581e48d8b1 · UK_DocK_ProtectionFromFalling

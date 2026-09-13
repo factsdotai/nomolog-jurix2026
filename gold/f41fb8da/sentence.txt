@@ -1,0 +1,3 @@
+Windows, glass walls and glass doors into which there is a danger of collision must be marked in such a way that they can be easily noticed.
+
+provenance: CODE-ACCORD 45f0830 · example_id f41fb8da-16bd-4404-accb-e32727f3736a · Finnish_SafetyOfUse

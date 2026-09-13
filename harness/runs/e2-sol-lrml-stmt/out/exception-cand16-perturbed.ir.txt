@@ -1,0 +1,1 @@
+if( and( corridor_door( door), non_dwelling_building( building), landing_door( door, building))), then( obligation( or( not( swings_across_landing( door)), complies_para_1_21c( door))))

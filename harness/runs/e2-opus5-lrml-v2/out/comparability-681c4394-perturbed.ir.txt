@@ -1,0 +1,1 @@
+if( exist( appliance)), then( obligation( and( adjustable heat release rate( appliance), or( exist( adjustable damper), exist( thermostatic control)))))

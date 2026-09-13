@@ -1,0 +1,1 @@
+if( and( rooflight( rooflight), uvalue_calculated( rooflight))), then( obligation( uvalue_horizontal_basis( rooflight)))

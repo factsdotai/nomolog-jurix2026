@@ -1,0 +1,8 @@
+Cavity surfaces must meet the flame-spread class requirements of Table 9.1. Table 9.1
+does not apply to any of the following cavities: (a) a cavity in a wall that is fire
+resisting only because it is loadbearing; (b) a cavity in a wall that meets the
+conditions of Diagram 9.2; (c) a floor or roof cavity above a fire-resisting ceiling.
+
+provenance: CODE-ACCORD 45f0830 raw-text stage · Approved_Document_B_vol_2:4742 · pattern: scoping-list
+reconstructed from fragmented raw lines; original marker line:
+  9.10  Table 9.1 does not apply to any of the following cavities.

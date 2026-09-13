@@ -1,0 +1,95 @@
+{
+  "cases": [
+    {
+      "name": "clear_compliant",
+      "facts": [
+        "masonry_wall_insulation(i1).",
+        "depth_below_floor_structure(i1, 250).",
+        "floor_insulation_depth(i1, 200).",
+        "dpc_present(i1).",
+        "extends_below_dpc(i1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    },
+    {
+      "name": "clear_violation_too_shallow",
+      "facts": [
+        "masonry_wall_insulation(i1).",
+        "depth_below_floor_structure(i1, 180).",
+        "floor_insulation_depth(i1, 150).",
+        "dpc_present(i1).",
+        "extends_below_dpc(i1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": true
+      }
+    },
+    {
+      "name": "boundary_215_and_equal_floor_depth",
+      "facts": [
+        "masonry_wall_insulation(i1).",
+        "depth_below_floor_structure(i1, 215).",
+        "floor_insulation_depth(i1, 215).",
+        "dpc_present(i1).",
+        "extends_below_dpc(i1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    },
+    {
+      "name": "violation_dpc_present_not_extended_below",
+      "facts": [
+        "masonry_wall_insulation(i1).",
+        "depth_below_floor_structure(i1, 250).",
+        "floor_insulation_depth(i1, 200).",
+        "dpc_present(i1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": true
+      }
+    },
+    {
+      "name": "compliant_no_dpc_where_applicable",
+      "facts": [
+        "masonry_wall_insulation(i1).",
+        "depth_below_floor_structure(i1, 250).",
+        "floor_insulation_depth(i1, 200)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    },
+    {
+      "name": "violation_short_of_floor_insulation_depth",
+      "facts": [
+        "masonry_wall_insulation(i1).",
+        "depth_below_floor_structure(i1, 220).",
+        "floor_insulation_depth(i1, 300).",
+        "extends_below_dpc(i1).",
+        "dpc_present(i1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": true
+      }
+    },
+    {
+      "name": "not_applicable_timber_frame",
+      "facts": [
+        "timber_frame_wall(w1)."
+      ],
+      "expect": {
+        "applies": false,
+        "violation": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+if( and( passageway( p1), level_change_feature( f1, p1))), then( obligation( clearly_indicated( f1)))

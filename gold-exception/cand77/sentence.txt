@@ -1,0 +1,6 @@
+In a building designed for phased evacuation, at each storey except a top storey,
+stairs should be approached through a protected lobby or protected corridor.
+
+provenance: CODE-ACCORD 45f0830 raw-text stage · Approved_Document_B_vol_2:1722 · pattern: domain-restriction
+reconstructed from fragmented raw lines; original marker line:
+  At each storey except a top storey, stairs should be approached through a protected lobby or

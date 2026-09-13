@@ -1,0 +1,58 @@
+{
+  "cases": [
+    {
+      "name": "clear_compliant",
+      "facts": [
+        "extension_to_historic_dwelling(e1).",
+        "meets_ventilation_standards(e1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    },
+    {
+      "name": "clear_violation",
+      "facts": [
+        "extension_to_historic_dwelling(e1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": true
+      }
+    },
+    {
+      "name": "exception_appearance",
+      "facts": [
+        "extension_to_historic_dwelling(e1).",
+        "appearance_match_needed(e1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    },
+    {
+      "name": "not_applicable_modern_dwelling",
+      "facts": [
+        "extension_to_modern_dwelling(e1)."
+      ],
+      "expect": {
+        "applies": false,
+        "violation": false
+      }
+    },
+    {
+      "name": "distractor_exception_plus_compliance",
+      "facts": [
+        "extension_to_historic_dwelling(e1).",
+        "meets_ventilation_standards(e1).",
+        "appearance_match_needed(e1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+r1: if( and( exist( extension), extension_to_historic_dwelling( extension))), then( obligation( meets_ventilation_standards( extension)))
+r2: if( and( exist( extension), extension_to_historic_dwelling( extension), appearance_match_needed( extension))), then( permission( exist( extension)))
+override( r2, r1)

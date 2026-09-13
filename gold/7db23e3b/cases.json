@@ -1,0 +1,63 @@
+{
+  "cases": [
+    {
+      "name": "clear_compliant",
+      "facts": [
+        "natural_vent_system(s1).",
+        "vent_valve(v1, s1).",
+        "easy_to_close(v1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    },
+    {
+      "name": "clear_violation_one_valve",
+      "facts": [
+        "natural_vent_system(s1).",
+        "vent_valve(v1, s1).",
+        "easy_to_close(v1).",
+        "vent_valve(v2, s1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": true
+      }
+    },
+    {
+      "name": "not_applicable_mechanical",
+      "facts": [
+        "mechanical_vent_system(s1).",
+        "vent_valve(v1, s1)."
+      ],
+      "expect": {
+        "applies": false,
+        "violation": false
+      }
+    },
+    {
+      "name": "no_valves_vacuous",
+      "facts": [
+        "natural_vent_system(s1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    },
+    {
+      "name": "distractor",
+      "facts": [
+        "natural_vent_system(s1).",
+        "vent_valve(v1, s1).",
+        "easy_to_close(v1).",
+        "window(w1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    }
+  ]
+}

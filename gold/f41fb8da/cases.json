@@ -1,0 +1,50 @@
+{
+  "cases": [
+    {
+      "name": "clear_compliant",
+      "facts": [
+        "glass_surface(g1).",
+        "collision_danger(g1).",
+        "marked_noticeably(g1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    },
+    {
+      "name": "clear_violation",
+      "facts": [
+        "glass_surface(g1).",
+        "collision_danger(g1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": true
+      }
+    },
+    {
+      "name": "not_applicable_no_danger",
+      "facts": [
+        "glass_surface(g1)."
+      ],
+      "expect": {
+        "applies": false,
+        "violation": false
+      }
+    },
+    {
+      "name": "distractor",
+      "facts": [
+        "glass_surface(g1).",
+        "collision_danger(g1).",
+        "marked_noticeably(g1).",
+        "glass_surface(g2)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    }
+  ]
+}

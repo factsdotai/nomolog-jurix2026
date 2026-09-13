@@ -1,0 +1,1 @@
+if( and( exist( compartment wall), compartment_wall_mid_span( compartment wall))), then( obligation( or( greater than equal( compartment wall. deflection allowance, 4 cm), and( justified_deflection_value( compartment wall, deflection value), greater than equal( compartment wall. deflection allowance, deflection value)))))

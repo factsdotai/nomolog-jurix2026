@@ -1,0 +1,72 @@
+{
+  "cases": [
+    {
+      "name": "clear_compliant",
+      "facts": [
+        "corner_door_pair(d1).",
+        "edge_corner_distance(d1, 900)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    },
+    {
+      "name": "clear_violation",
+      "facts": [
+        "corner_door_pair(d1).",
+        "edge_corner_distance(d1, 600)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": true
+      }
+    },
+    {
+      "name": "boundary_exactly_800",
+      "facts": [
+        "corner_door_pair(d1).",
+        "edge_corner_distance(d1, 800)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    },
+    {
+      "name": "exception_turning_circle",
+      "facts": [
+        "corner_door_pair(d1).",
+        "edge_corner_distance(d1, 600).",
+        "turning_circle_outside(d1, 1500)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    },
+    {
+      "name": "almost_met_small_circle",
+      "facts": [
+        "corner_door_pair(d1).",
+        "edge_corner_distance(d1, 600).",
+        "turning_circle_outside(d1, 1400)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": true
+      }
+    },
+    {
+      "name": "not_applicable",
+      "facts": [
+        "standalone_door(d1).",
+        "edge_corner_distance(d1, 600)."
+      ],
+      "expect": {
+        "applies": false,
+        "violation": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+if( and( fire_doorset( d), fusible_link( d))), then( prohibition( and( escape_opening( d), not( complies_c7( d)))))

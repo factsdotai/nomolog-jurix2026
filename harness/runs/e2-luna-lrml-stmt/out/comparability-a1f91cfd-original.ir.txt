@@ -1,0 +1,1 @@
+if( exist( multi_dwelling_building)), then( permission( average_target_rates as alternative to individual_target_rates))

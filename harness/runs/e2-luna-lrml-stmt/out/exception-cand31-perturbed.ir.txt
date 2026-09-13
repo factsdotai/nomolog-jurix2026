@@ -1,0 +1,1 @@
+if( and( exist( external_escape_stair), exist( element_near_route), within( element_near_route, 180 cm))), then( obligation( or( alternative_escape_routes_from_foot, fire_resisting_re30)))

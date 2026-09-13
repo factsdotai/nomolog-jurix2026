@@ -1,0 +1,4 @@
+slice,example_id,variant,arm,model,k,attempts,cases_passed,cases_total,suite_exact,failure_mode,ir_parses,ir_wellformed,ir_known_deontic,ir_unknown_fns,tags,notes
+comparability,0085ecdd,original,waist,anthropic:claude-haiku-4-5,30,1,5,6,0,verdict_mismatch,,,,,threshold|necessity,"one_of_two_sides_suffices: got (True,True)"
+comparability,0219127c,original,waist,anthropic:claude-haiku-4-5,30,1,3,6,0,runtime_reject,,,,,necessity,clear_violation_no_socket: encoding derives violation without applies (spec §5); socket_present_but_unsuitable: encoding derives violation without applies (spec §5); suitable_socket_but_far: encoding 
+comparability,02f5e3fb,original,waist,anthropic:claude-haiku-4-5,30,1,4,4,1,,,,,,necessity,

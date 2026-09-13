@@ -1,0 +1,1 @@
+if( and( compliance_checklist(c), checklist_part(p1, c), checklist_part(p2, c), checklist_part(p3, c))), then( obligation( and( completed(p1), completed(p2), completed(p3))))

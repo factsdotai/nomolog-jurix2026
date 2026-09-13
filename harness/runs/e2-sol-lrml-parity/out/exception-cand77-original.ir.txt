@@ -1,0 +1,1 @@
+if( and( exist( building), phased evacuation building( building), storey( storey, building))), then( obligation( or( top storey( storey), protected lobby( storey), protected corridor( storey))))

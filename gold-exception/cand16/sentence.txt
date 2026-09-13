@@ -1,0 +1,6 @@
+In buildings other than dwellings, provide doors that do not swing across landings,
+except where they comply with paragraph 1.21c.
+
+provenance: CODE-ACCORD 45f0830 raw-text stage · Approved_Document_K:1180 · pattern: cross-reference-exception
+reconstructed from fragmented raw lines; original marker line:
+  Doors that do not swing across landings, except where they comply with paragraph 1.21c.

@@ -1,0 +1,3 @@
+Where membranes are penetrated, careful detailing should be used to achieve a robust and durable seal at these penetrations.
+
+provenance: CODE-ACCORD 45f0830 · example_id 8fec1c4a-527e-49b6-9267-89ff700a9291 · UK_DocL_V1_ConsrvationOfFuelAndPower

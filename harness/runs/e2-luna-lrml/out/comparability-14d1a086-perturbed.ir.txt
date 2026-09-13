@@ -1,0 +1,1 @@
+if( exist( lifting_device)), then( obligation( for each( floor level, opposite_end_against_wall( lifting_device, floor level))))

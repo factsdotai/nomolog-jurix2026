@@ -1,0 +1,1 @@
+if( or( pressure_test(t1), test_failed(t1))), then( obligation( reported_to_bcb(t1)))

@@ -1,0 +1,75 @@
+{
+  "cases": [
+    {
+      "name": "clear_compliant",
+      "facts": [
+        "new_building(b1).",
+        "crawl_space(c1, b1).",
+        "avg_height(c1, 900)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    },
+    {
+      "name": "clear_violation",
+      "facts": [
+        "new_building(b1).",
+        "crawl_space(c1, b1).",
+        "avg_height(c1, 700)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": true
+      }
+    },
+    {
+      "name": "boundary_exactly_800",
+      "facts": [
+        "new_building(b1).",
+        "crawl_space(c1, b1).",
+        "avg_height(c1, 800)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    },
+    {
+      "name": "not_applicable_existing_building",
+      "facts": [
+        "existing_building(b1).",
+        "crawl_space(c1, b1).",
+        "avg_height(c1, 700)."
+      ],
+      "expect": {
+        "applies": false,
+        "violation": false
+      }
+    },
+    {
+      "name": "not_applicable_no_crawl_space",
+      "facts": [
+        "new_building(b1)."
+      ],
+      "expect": {
+        "applies": false,
+        "violation": false
+      }
+    },
+    {
+      "name": "distractor",
+      "facts": [
+        "new_building(b1).",
+        "crawl_space(c1, b1).",
+        "avg_height(c1, 900).",
+        "basement(x1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    }
+  ]
+}

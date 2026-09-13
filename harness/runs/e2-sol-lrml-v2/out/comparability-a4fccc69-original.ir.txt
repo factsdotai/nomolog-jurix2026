@@ -1,0 +1,1 @@
+if( and( exit_route( e, p), fire_wall( w), separated_part( p, w))), then( obligation( not( uses_fire_wall_door( e, w))))

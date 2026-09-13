@@ -1,0 +1,1 @@
+if( and( new_dwelling( D), not( or( and( connection_cost( D, Cost), greater than( Cost, 2000 GBP)), operator_declined( D))))), then( obligation( gigabit_connection( D)))

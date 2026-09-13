@@ -1,0 +1,1 @@
+if( and( exist( flat_storey), for each( flat_on_storey( flat, flat_storey), independent_alt_escape( flat)))), then( permission( not( comply with( travel_distance( flat_storey), max_travel_distance( flat_storey)))))

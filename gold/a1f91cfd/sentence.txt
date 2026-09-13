@@ -1,0 +1,3 @@
+For a building that contains more than one dwelling for example a block of flats or a terrace of houses an average target primary energy rate, target emission rate and target fabric energy efficiency rate may be calculated as an alternative to individual target rates for each dwelling.
+
+provenance: CODE-ACCORD 45f0830 · example_id a1f91cfd-21f8-49a4-8468-746f49f4848e · UK_DocL_V1_ConsrvationOfFuelAndPower

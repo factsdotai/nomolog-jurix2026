@@ -1,0 +1,63 @@
+{
+  "cases": [
+    {
+      "name": "clear_compliant_no_car_park",
+      "facts": [
+        "protected_stair(s1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    },
+    {
+      "name": "clear_violation",
+      "facts": [
+        "protected_stair(s1).",
+        "connects_to(s1, p1).",
+        "covered_car_park(p1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": true
+      }
+    },
+    {
+      "name": "exception_open_sided",
+      "facts": [
+        "protected_stair(s1).",
+        "connects_to(s1, p1).",
+        "covered_car_park(p1).",
+        "open_sided(p1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    },
+    {
+      "name": "not_applicable",
+      "facts": [
+        "lobby(l1).",
+        "connects_to(l1, p1).",
+        "covered_car_park(p1)."
+      ],
+      "expect": {
+        "applies": false,
+        "violation": false
+      }
+    },
+    {
+      "name": "distractor_connects_to_basement",
+      "facts": [
+        "protected_stair(s1).",
+        "connects_to(s1, b1).",
+        "basement(b1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    }
+  ]
+}

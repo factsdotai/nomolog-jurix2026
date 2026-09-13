@@ -1,0 +1,1 @@
+if( and( exist( outward opening door), corner_door_pair( outward opening door), less than equal( edge_corner_distance( outward opening door), 800 mm))), then( obligation( or( greater than equal( outward opening door. distance from corner, 800 mm), turning_circle_outside( outward opening door, 1500 mm))))

@@ -1,0 +1,3 @@
+r1: if( exist( ladder)), then( obligation( exist( ladder. special safety features)))
+r2: if( and( exist( ladder), less than equal( ladder. length, 6000 mm))), then( permission( not( exist( ladder. special safety features))))
+override( r2, r1)

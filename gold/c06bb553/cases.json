@@ -1,0 +1,50 @@
+{
+  "cases": [
+    {
+      "name": "clear_compliant",
+      "facts": [
+        "building(b1).",
+        "major_renovation(b1).",
+        "alt_systems_feasibility_considered(b1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    },
+    {
+      "name": "clear_violation",
+      "facts": [
+        "building(b1).",
+        "major_renovation(b1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": true
+      }
+    },
+    {
+      "name": "not_applicable_minor_works",
+      "facts": [
+        "building(b1)."
+      ],
+      "expect": {
+        "applies": false,
+        "violation": false
+      }
+    },
+    {
+      "name": "distractor",
+      "facts": [
+        "building(b1).",
+        "major_renovation(b1).",
+        "alt_systems_feasibility_considered(b1).",
+        "heat_pump(h1)."
+      ],
+      "expect": {
+        "applies": true,
+        "violation": false
+      }
+    }
+  ]
+}

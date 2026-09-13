@@ -1,0 +1,3 @@
+r1: if( and( building( b), fire_in_building( b), lift_used( l, b))), then( prohibition( lift_used( l, b)))
+r2: if( and( building( b), fire_in_building( b), lift_used( l, b), part_of_evacuation_plan( l), appropriately_sited( l), fire_safety_features( l))), then( permission( lift_used( l, b)))
+override( r2, r1)

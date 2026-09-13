@@ -1,0 +1,1 @@
+if( and( exist( glass surface), collision danger( glass surface))), then( obligation( marked noticeably( glass surface)))
